@@ -1,0 +1,63 @@
+:root{
+    --wheel-size: 630px;
+    --face-size: 300px;
+}
+
+@media (max-width: 760px) {
+    :root{ --wheel-size: 440px; --face-size: 190px; }
+    .wheel-item a{ font-size: 13px; padding: 9px 11px; }
+}
+
+.hero {
+    display: grid;
+    place-items: center;
+    margin: 20px 0 10px;
+}
+
+.wheel {
+    position: relative;
+    width: min(var(--wheel-size), 92vw);
+    aspect-ratio: 1 / 1;
+    overflow: visible;
+    font-size: 20px;
+    background-image: url("/images/home_background.png");
+    background-size: 100% 100%;
+    background-position: 0%;
+}
+
+.face {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+}
+
+.face img {
+    width: min(var(--face-size), 44vw);
+    height: auto;
+    display: block;
+}
+
+.wheel-item {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:
+    translate(-50%, -50%)
+    rotate(calc(var(--i) * (360deg / var(--n))))
+    translateX(calc((min(var(--wheel-size), 92vw) / 2) - 40px))
+    rotate(calc(var(--i) * (-360deg / var(--n))));
+    transform-origin: center;
+}
+
+.wheel-item a {
+    display: inline-block;
+    padding: 10px 12px;
+    color: #111;
+    white-space: nowrap;
+    transition: transform .12s ease, box-shadow .12s ease;
+}
+
+.wheel-item a:hover {
+    transform: translateY(-2px);
+}

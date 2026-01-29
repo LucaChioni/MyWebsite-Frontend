@@ -1,0 +1,100 @@
+/* ===== Variabili globali ===== */
+:root{
+    --maxw: 1000px;
+    --fade-in: 0.5s;
+    --fade-out: 0.1s;
+}
+
+/* ===== Font ===== */
+@font-face {
+    font-family: "PatrickHand";
+    src: url("/fonts/PatrickHand-Regular.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 760px) {
+    body{ padding: 0 4px; }
+    .title-description{ font-size: 13px; }
+    .tooltip{ font-size: 12px; }
+}
+
+/* ===== Body ===== */
+body {
+    font-family: "PatrickHand", Arial, sans-serif;
+    max-width: var(--maxw);
+    margin: 20px auto;
+    line-height: 1.6;
+    padding: 0 16px;
+    opacity: 0;
+    transition: opacity var(--fade-in) ease;
+}
+
+body.page-loaded {
+    opacity: 1;
+    transition: opacity var(--fade-in) ease;
+}
+
+body.page-leave {
+    opacity: 0;
+    transition: opacity var(--fade-out) ease;
+}
+
+.divider {
+    margin: 7px;
+}
+
+/* ===== Titoli ===== */
+.title {
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+}
+
+.title-description {
+    text-align: center;
+    font-size: 20px;
+}
+
+/* ===== Tooltip ===== */
+.tooltip-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.tooltip-info-icon {
+    width: 20px;
+}
+
+.tooltip {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    bottom: 130%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: none;
+    color: black;
+    font-size: 14px;
+    white-space: nowrap;
+    transition: opacity 0.2s ease;
+    z-index: 10;
+}
+
+.tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltip-icon-container:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}

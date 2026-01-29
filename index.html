@@ -2,36 +2,60 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8" />
-  <title>Il mio sito</title>
+  <title>Luca Chioni</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 40px auto;
-      line-height: 1.6;
-    }
-    h1 {
-      text-align: center;
-    }
-    .card {
-      border: 1px solid #ddd;
-      padding: 16px;
-      border-radius: 8px;
-    }
-  </style>
+  <link rel="icon" type="image/png" href="/images/icon.png">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/index.css">
 </head>
+
 <body>
-  <h1>Ciao, sono Luca 👋</h1>
-  <div class="card">
-    <p>Questo è il mio primo sito pubblicato online.</p>
-    <p>Posso scrivere una breve bio, mettere link ai miei progetti, contatti, ecc.</p>
+  <p class="title">Ciao, sono Luca</p>
+  <p class="title-description">
+    Attraverso questa incredibile interfaccia potrai accedere alle mie
+    <br />
+    esperienze lavorative, al mio percorso formativo, ai miei interessi
+    <br />
+    e altre cose personali...
+  </p>
+
+  <hr class="divider">
+
+  <div class="tooltip-container">
+    <div id="info_icon" class="tooltip-icon-container">
+      <img class="tooltip-info-icon" src="/images/info-icon.png" alt="i" />
+      <span class="tooltip">Attenzione: questa qua sotto non è una mia foto reale</span>
+    </div>
   </div>
 
-  <button id="ping">Chiama API</button>
-  <button id="db_check">Check db</button>
-  <pre id="out"></pre>
+  <div class="hero">
+    <div class="wheel" id="wheel" style="--n:6;">
+      <div class="face">
+        <img id="faceImg" src="/images/speaker/neutral.png" alt="Autoritratto"/>
+      </div>
 
-  <script src="app.js?v=1"></script>
+      <div class="wheel-item" style="--i:0;">
+        <a href="pages/interests.html" data-face="/images/speaker/happy.png">I miei interessi</a>
+      </div>
+      <div class="wheel-item" style="--i:1;">
+        <a href="pages/school.html" data-face="/images/speaker/high_disappointment.png">Percorso scolastico</a>
+      </div>
+      <div class="wheel-item" style="--i:2;">
+        <a href="pages/game_dev.html" data-face="/images/speaker/malinconic.png">Sviluppo videogiochi</a>
+      </div>
+      <div class="wheel-item" style="--i:3;">
+        <a href="pages/work.html" data-face="/images/speaker/tired.png">Esperienze lavorative</a>
+      </div>
+      <div class="wheel-item" style="--i:4;">
+        <a href="pages/secrets.html" data-face="/images/speaker/apatic.png">Obiettivi, idee e cose personali</a>
+      </div>
+      <div class="wheel-item" style="--i:5;">
+        <a href="pages/social_life.html" data-face="/images/speaker/social_skills.png">Vita sociale</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/index.js?v=1"></script>
+  <script src="/js/base.js?v=1"></script>
 </body>
 </html>
