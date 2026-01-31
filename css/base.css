@@ -3,6 +3,11 @@
     --maxw: 1000px;
     --fade-in: 0.5s;
     --fade-out: 0.1s;
+    --face-size: 300px;
+}
+
+@media (max-width: 760px) {
+    :root{ --face-size: 190px; }
 }
 
 /* ===== Font ===== */
@@ -13,22 +18,26 @@
     font-style: normal;
 }
 
-/* ===== Mobile ===== */
-@media (max-width: 760px) {
-    body{ padding: 0 4px; }
-    .title-description{ font-size: 13px; }
-    .tooltip{ font-size: 12px; }
-}
-
 /* ===== Body ===== */
 body {
     font-family: "PatrickHand", Arial, sans-serif;
+    font-size: 18px;
     max-width: var(--maxw);
-    margin: 20px auto;
+    margin: 0 auto;
     line-height: 1.6;
     padding: 0 16px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     opacity: 0;
     transition: opacity var(--fade-in) ease;
+}
+
+body > * {
+    width: 100%;
+    max-width: var(--maxw);
 }
 
 body.page-loaded {
@@ -42,19 +51,34 @@ body.page-leave {
 }
 
 .divider {
-    margin: 7px;
+    margin: 15px 0 7px 0;
 }
 
-/* ===== Titoli ===== */
+/* ===== Titles e text ===== */
 .title {
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     margin: 0;
 }
 
-.title-description {
+.sub-title {
     text-align: center;
-    font-size: 20px;
+    width: 100%;
+    max-width: 580px;
+}
+
+/* ===== Speaker image ===== */
+.face {
+    position: relative;
+    inset: 0;
+    display: grid;
+    place-items: center;
+}
+
+.face img {
+    width: min(var(--face-size), 44vw);
+    height: auto;
+    display: block;
 }
 
 /* ===== Tooltip ===== */
@@ -97,4 +121,32 @@ body.page-leave {
 .tooltip-icon-container:hover .tooltip {
     visibility: visible;
     opacity: 1;
+}
+
+/* ===== Links ===== */
+a {
+    display: inline-block;
+    padding: 10px 12px;
+    color: #111;
+    white-space: nowrap;
+    transition: transform .12s ease, box-shadow .12s ease;
+}
+
+a:hover {
+    transform: translateY(-2px);
+}
+
+/* ===== Rows and columns ===== */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
