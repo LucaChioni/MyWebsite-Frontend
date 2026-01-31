@@ -1,17 +1,13 @@
-const faceImg = document.getElementById("faceImg");
+// set speaker image according to the selected wheel item
 const wheel = document.getElementById("wheel");
 const info_icon = document.getElementById("info_icon");
-
-const DEFAULT_FACE = "/images/speaker/neutral.png";
-
-function setFace(face) {
-    if (faceImg && face) faceImg.src = face;
-}
-
 wheel.addEventListener("mouseover", (e) => {
     const link = e.target.closest("a[data-face]");
     if (!link) return;
     setFace(link.getAttribute("data-face"));
 });
+info_icon.addEventListener("mouseover", () => setFace(NEUTRAL_FACE));
 
-info_icon.addEventListener("mouseover", () => setFace(DEFAULT_FACE));
+// set default speaker image on load
+window.addEventListener("load", () => setFace(NEUTRAL_FACE));
+window.addEventListener("pageshow", () => setFace(NEUTRAL_FACE));

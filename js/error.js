@@ -1,12 +1,8 @@
-const faceImg = document.getElementById("faceImg");
+// set speaker image according to the selected answer
 const secretAccess = document.getElementById("secretAccess");
-
-const DEFAULT_FACE = "/images/speaker/suspicious.png";
-const APATIC_FACE = "/images/speaker/apatic.png";
-
-function setFace(face) {
-    if (faceImg && face) faceImg.src = face;
-}
-
 secretAccess.addEventListener("mouseover", () => setFace(APATIC_FACE));
-secretAccess.addEventListener("mouseleave", () => setFace(DEFAULT_FACE));
+secretAccess.addEventListener("mouseleave", () => setFace(SUSPICIOUS_FACE));
+
+// set default speaker image on load
+window.addEventListener("load", () => setFace(SUSPICIOUS_FACE));
+window.addEventListener("pageshow", () => setFace(SUSPICIOUS_FACE));
