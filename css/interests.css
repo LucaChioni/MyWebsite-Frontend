@@ -1,0 +1,3 @@
+body.happy::before {
+    background-image: url("/images/speaker/happy.png");
+}

@@ -1,0 +1,3 @@
+body.tired::before {
+    background-image: url("/images/speaker/tired.png");
+}

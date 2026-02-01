@@ -200,3 +200,17 @@ a:hover {
 .back-home:hover {
     transform: translateX(-6px);
 }
+
+/* ===== Pages background ===== */
+body.face-background::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("/images/speaker/neutral.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: min(var(--face-size), 44vw);
+    opacity: 0.1;
+    pointer-events: none;
+    z-index: -1;
+}
