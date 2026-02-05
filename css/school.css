@@ -1,3 +1,7 @@
-body.high-disappointment::before {
-    background-image: url("/images/speaker/high_disappointment.png");
+body.bg-high-disappointment::before {
+    background-image: url("/images/speaker/high_disappointment.png") !important;
+}
+
+.bg-malinconic::before {
+    background-image: url("/images/speaker/malinconic.png") !important;
 }
