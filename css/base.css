@@ -78,7 +78,6 @@ body.page-leave {
 .page-footer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     min-height: 10vh;
 }
@@ -108,7 +107,7 @@ body.page-leave {
     width: 90%;
     margin-top: 5px;
     margin-bottom: 5px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 /* ===== Speaker image ===== */
@@ -179,6 +178,16 @@ a {
 
 a:hover {
     transform: translateY(-2px);
+}
+
+.footer-icons {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.footer-link {
+    padding: 5px 10px 0 10px;
 }
 
 /* ===== Rows and columns ===== */

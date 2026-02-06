@@ -12,7 +12,7 @@ function setFace(face) {
 // fade-in / fade-out
 document.addEventListener("click", (e) => {
     const link = e.target.closest("a[href]");
-    if (!link) return;
+    if (!link || link.target === "_blank") return;
 
     e.preventDefault();
     document.body.classList.add("page-leave");
