@@ -11,7 +11,24 @@
 
 <body>
     <div class="page-header" style="min-height: 20vh; position: relative;">
-        <p class="title">Ciao, sono Luca</p>
+        <div class="col" style="flex: none;">
+            <p class="title">Ciao, sono Luca</p>
+            <div class="lang-switcher" id="langSwitcher" aria-label="Selettore lingua">
+                <button class="lang-current" aria-haspopup="listbox" aria-expanded="false">
+                    <img src="/images/icons/italy.png" alt="Italiano">
+                </button>
+                <ul class="lang-menu" style="margin: 0; border-top: 2px solid rgba(0, 0, 0, 0.6);" role="listbox">
+                    <li role="option" data-lang="it">
+                        <img src="/images/icons/italy.png" alt="">
+                        <span class="lang-selection-text">Italiano</span>
+                    </li>
+                    <li role="option" data-lang="en">
+                        <img src="/images/icons/england.png" alt="">
+                        <span class="lang-selection-text">English</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <p class="sub-title">
             Attraverso questa incredibile interfaccia potrai accedere alle mie esperienze
             lavorative, al mio percorso formativo e ad altre cose personali...
@@ -82,6 +99,7 @@
         <span>Email: luca.chioni46@gmail.com</span>
     </div>
 
+    <script src="/js/i18n.js?v=1"></script>
     <script src="/js/base.js?v=1"></script>
     <script src="/js/index.js?v=1"></script>
 </body>
