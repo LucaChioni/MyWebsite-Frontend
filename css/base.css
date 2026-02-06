@@ -4,7 +4,7 @@
     --fade-in: 0.5s;
     --fade-out: 0.1s;
     --face-size: 300px;
-    --background-color: white; /* #ebebeb */
+    --background-color: #ebebeb; /* #ebebeb */
 }
 
 @media (max-width: 760px) {
@@ -15,6 +15,7 @@
     .title{ font-size: 25px !important; }
     .tooltip{ font-size: 13px !important; }
     .back-home { width: 35px !important; height: 35px !important; }
+    .lang-selection-text { display: none !important; }
 }
 
 /* ===== Font ===== */
@@ -170,7 +171,7 @@ body.page-leave {
 /* ===== Links ===== */
 a {
     display: inline-block;
-    padding: 10px 12px;
+    padding: 5px 5px;
     color: #111;
     white-space: nowrap;
     transition: transform .12s ease, box-shadow .12s ease;
@@ -238,4 +239,63 @@ body.face-background::before {
     opacity: 0.1;
     pointer-events: none;
     z-index: -1;
+}
+
+/* selettore lingua */
+.lang-switcher {
+    margin-top: 5px;
+    position: absolute;
+    right: 0;
+    font-family: inherit;
+}
+
+.lang-current {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    background: none;
+    border: none;
+    padding: 4px;
+    font: inherit;
+    cursor: pointer;
+}
+
+.lang-current img {
+    width: 30px;
+    height: 20px;
+}
+
+.lang-menu {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    margin: 15px 0 0 0;
+    padding: 4px;
+    list-style: none;
+
+    display: none;
+}
+
+.lang-menu li {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    padding: 4px 0 4px 16px;
+    cursor: pointer;
+    font: inherit;
+}
+
+.lang-menu li img {
+    width: 30px;
+    height: 20px;
+}
+
+.lang-menu li:hover {
+    opacity: 0.7;
+}
+
+.lang-switcher.open .lang-menu {
+    display: block;
 }
