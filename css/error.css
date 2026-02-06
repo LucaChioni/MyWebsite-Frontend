@@ -1,5 +1,6 @@
 @media (max-width: 760px) {
-    .row { flex-direction: column; }
+    .answers-desktop { display: none !important; }
+    .answers-smartphone { display: flex !important; }
 }
 
 .col:first-child {
@@ -8,4 +9,8 @@
 
 .col:last-child {
     justify-content: flex-start;
+}
+
+.answers-smartphone {
+    display: none;
 }
