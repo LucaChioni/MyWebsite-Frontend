@@ -1,3 +1,5 @@
+import "./core.js";
+
 window.i18nRegister({
   it: {
     home_title: "Ciao, sono Luca",

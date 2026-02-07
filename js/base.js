@@ -1,10 +1,5 @@
-// speaker images
-const NEUTRAL_FACE = "/images/speaker/neutral.png";
-const SUSPICIOUS_FACE = "/images/speaker/suspicious.png";
-const APATIC_FACE = "/images/speaker/apatic.png";
-
 // set speaker image
-function setFace(face) {
+export function setFace(face) {
     const faceImg = document.getElementById("faceImg");
     if (faceImg && face) faceImg.src = face;
 }

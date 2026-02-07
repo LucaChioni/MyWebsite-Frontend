@@ -1,3 +1,10 @@
+import "./base.js";
+import { setFace } from "./base.js";
+import "./i18n/error.js";
+
+const SUSPICIOUS_FACE = "/images/speaker/suspicious.png";
+const APATIC_FACE = "/images/speaker/apatic.png";
+
 // set speaker image according to the selected answer
 const secretAccess = document.getElementById("secretAccess");
 secretAccess.addEventListener("mouseover", () => setFace(APATIC_FACE));

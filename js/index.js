@@ -1,3 +1,9 @@
+import "./base.js";
+import { setFace } from "./base.js";
+import "./i18n/index.js";
+
+const NEUTRAL_FACE = "/images/speaker/neutral.png";
+
 // set speaker image according to the selected wheel item
 const wheel = document.getElementById("wheel");
 const info_icon = document.getElementById("info_icon");

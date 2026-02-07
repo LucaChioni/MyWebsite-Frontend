@@ -1,5 +1,7 @@
+import "./base.js";
+import "./i18n/pages/school.js";
+
 const triggers = document.querySelectorAll(".bg-trigger");
-const bgCache = new Map();
 
 function setBgClass(bgClass) {
     document.body.classList.forEach(c => {
