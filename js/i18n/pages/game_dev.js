@@ -1,10 +1,10 @@
 import "../core.js";
 
 window.i18nRegister({
-  it: {
-    title_interests: "I miei interessi",
-  },
-  en: {
-    title_interests: "My interests",
-  },
+    it: {
+        game_dev_title: "Sviluppo videogiochi",
+    },
+    en: {
+        game_dev_title: "Game development",
+    },
 });

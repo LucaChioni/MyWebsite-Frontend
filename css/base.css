@@ -4,16 +4,22 @@
     --fade-in: 0.5s;
     --fade-out: 0.1s;
     --face-size: 300px;
+    --font-size-title: 35px;
+    --font-size-text: 20px;
+    --font-size-tooltip: 14px;
+    --font-size-title-small: 25px;
+    --font-size-text-small: 14px;
+    --font-size-tooltip-small: 13px;
     --background-color-rgb: 235, 235, 235; /* #ebebeb */
 }
 
 @media (max-width: 760px) {
     :root{ --face-size: 190px !important; }
-    p{ font-size: 14px !important; }
-    div{ font-size: 14px !important; }
-    a{ font-size: 14px !important; }
-    .title{ font-size: 25px !important; }
-    .tooltip{ font-size: 13px !important; }
+    p{ font-size: var(--font-size-text-small) !important; }
+    div{ font-size: var(--font-size-text-small) !important; }
+    a{ font-size: var(--font-size-text-small) !important; }
+    .title{ font-size: var(--font-size-title-small) !important; }
+    .tooltip{ font-size: var(--font-size-tooltip-small) !important; }
     .tooltip-container { margin-top: 6px !important; }
     .back-home { width: 35px !important; height: 35px !important; }
     .lang-selection-text { display: none !important; }
@@ -30,7 +36,7 @@
 /* ===== Body ===== */
 body {
     font-family: "PatrickHand", Arial, sans-serif;
-    font-size: 20px;
+    font-size: var(--font-size-text);
     max-width: var(--maxw);
     margin: 0 auto;
     padding: 0 16px;
@@ -93,7 +99,7 @@ body.page-leave {
 /* ===== Titles e text ===== */
 .title {
     text-align: center;
-    font-size: 35px;
+    font-size: var(--font-size-title);
     margin: 0;
 }
 
@@ -148,7 +154,7 @@ body.page-leave {
     transform: translateX(-50%);
     background: none;
     color: black;
-    font-size: 14px;
+    font-size: var(--font-size-tooltip);
     white-space: nowrap;
     transition: opacity 0.2s ease;
     z-index: 10;

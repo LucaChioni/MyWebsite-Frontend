@@ -7,9 +7,9 @@ export function setFace(face) {
 // fade-in / fade-out
 document.addEventListener("click", (e) => {
     const link = e.target.closest("a[href]");
-    if (!link || link.target === "_blank") return;
-
     e.preventDefault();
+    if (!link || link.target === "_blank" || e.target.className == "disabled") return;
+
     document.body.classList.add("page-leave");
     setTimeout(() => { window.location.href = link.href; }, 100);
 });

@@ -4,7 +4,7 @@
 
 @media (max-width: 760px) {
     :root{ --wheel-size: 440px; }
-    .wheel-item a{ font-size: 14px; }
+    .wheel-item a{ font-size: var(--font-size-tooltip); }
 }
 
 .hero {
@@ -17,7 +17,7 @@
     width: min(var(--wheel-size), 92vw);
     aspect-ratio: 1 / 1;
     overflow: visible;
-    font-size: 20px;
+    font-size: var(--font-size-text);
     background-image: url("/images/backgrounds/home_speaker.png");
     background-size: 100% 100%;
     background-position: 0%;
