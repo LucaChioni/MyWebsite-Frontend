@@ -12,11 +12,11 @@
 <body class="face-background tired">
     <div class="page-header">
         <div class="row">
-            <a href="/" class="back-home" aria-label="Torna alla pagina iniziale">
+            <a href="/" class="back-home">
                 <img src="/images/icons/back-arrow.png" alt="" />
             </a>
-            <p class="title">Le mie esperienze lavorative</p>
-            <div class="lang-switcher" id="langSwitcher" aria-label="Selettore lingua">
+            <p class="title" data-i18n="work_title"></p>
+            <div class="lang-switcher" id="langSwitcher">
                 <button class="lang-current" aria-haspopup="listbox" aria-expanded="false">
                     <img src="/images/icons/italy.png" alt="Italiano">
                 </button>
@@ -35,76 +35,18 @@
         <hr class="divider">
     </div>
     <div class="page-content">
-        <div class="text-paragraph">
-            Questa è una breve lista delle principali competenze sviluppate in ambito sviluppo web:<br />
-            <ul style="margin: 0;">
-                <li>Linguaggi di programmazione usati con frequenza: Python, Node.js, JavaScript, TypeScript</li>
-                <li>Linguaggi con conoscenza base / da rispolverare: Java, PHP, C++, C</li>
-                <li>Linguaggi per lo sviluppo web: HTML, CSS, Vue.js</li>
-                <li>Gestione di database: sempre usato Postgres in ambito lavorativo, a scuola utilizzavamo MySQL</li>
-                <li>Framework Odoo: sviluppo di moduli / creazione API</li>
-                <li>DevOps & ambienti di lavoro: Docker (conoscenza base), sistemi Linux, controllo versione con Git</li>
-            </ul><br />
-            Per quanto riguarda le esperienze lavorative, sono principalmente due: BNova e Sunlink. Qua sotto metto una breve descrizione di entrambe.<br />
-            <br />
-            <b><u>BNova Srl</u></b><br />
-            Qua ho fatto la mia prima esperienza lavorativa, subito dopo il diploma.<br />
-            Sono stato qua per 2 anni in totale, da Ottobre 2018 a Ottobre 2020.
-            I primi 6 mesi sono stati di stage e poi sono stato assunto con un contratto di apprendistato.
-            Sono rimasto finché non ho deciso di inseguire i miei sogni di game developer.<br />
-            BNova è un'azienda che si occupa principalmente di analisi dei dati e della loro rappresentazione.
-            In azienda io non mi occupavo proprio di questo, ma più della parte "tecnica":
-            sviluppo di applicazioni web, risoluzione di bug, test, documentazione e manuali d'uso di piccoli applicativi o di installazioni.<br />
-            Grazie a questa esperienza ho sviluppato molte competenze in ambito informatico e, più in generale,
-            sul lavorare in gruppo, gestirmi il carico di lavoro e rispettare le scadenze.<br />
-            In breve le attività / caratteristiche del lavoro svolto:<br />
-            <ul style="margin: 0;">
-                <li>Sviluppo front-end di applicazioni web (HTML, CSS, JavaScript, JQuery).</li>
-                <li>Sviluppo back-end di applicazioni web (linguaggio: Java; server: Apache Tomcat; database: PostgreSQL) su server Linux.</li>
-                <li>Identificazione dei problemi e bug fixing di errori riscontrati durante i test (principalmente di applicazioni web su server Linux).</li>
-                <li>Realizzazione di documenti tecnici per l'installazione di plug-in su applicazioni web.</li>
-                <li>Collaborazione alla redazione dei manuali d'uso delle applicazioni.</li>
-                <li>Conduzione di test (anche automatici), con relativa documentazione, per software di vario genere, applicazioni e siti web.</li>
-                <li>Sviluppo di software in Python con relativa redazione di documenti tecnici per descriverne il funzionamento.</li>
-            </ul>
-
-            <br />
-            <b><u>Sunlink Srl</u></b><br />
-            Dopo il fallimento del tentativo di diventare ricco e vivere di rendita tramite la pubblicazione di un videogioco,
-            sono andato a lavorare qua, a Sunlink. In totale ci sono stato 3 anni, da Febbraio 2023 a Marzo 2026.<br />
-            Sunlink è un'azienda che si occupa di monitoraggio ed efficientamento energetico.
-            In breve installa dei sensori per monitorare i consumi dei processi produttivi nelle aziende e poi mostra i dati in un'interfaccia web.
-            Tutto diventa molto interessante quando inizi a fare analisi per gestire i carichi di lavoro, utilizzare energia dal tuo impianto fotovoltaico,
-            trovare malfunzionamenti, inefficienze o sprechi.<br />
-            In azienda io mi occupavo principalmente dello sviluppo del back-end della web app e
-            dello sviluppo degli algoritmi per le elaborazioni dei dati raccolti dai sensori.<br />
-            In breve le attività / caratteristiche del lavoro svolto:<br />
-            <ul style="margin: 0;">
-                <li>Sviluppo back-end: utilizzo del framework Odoo per la gestione del database (Postgres), sviluppo di API in Python per la web app e altri servizi.</li>
-                <li>Sviluppo software in Node.js sui mini-PC installati nelle sedi monitorate per l'organizzazione, l'elaborazione e la trasformazione di grandi quantità di dati (tramite TimescaleDB).</li>
-                <li>Integrazione di sistemi eterogenei per la raccolta dati da dispositivi industriali tramite i protocolli OPC UA e modbus TCP/RTU (per PLC e meter) e servizi di terze parti tramite API (per inverter GoodWe, ZCS, ABB).</li>
-                <li>Sviluppo test automatici in Python e Node.js.</li>
-                <li>Supporto occasionale allo sviluppo front-end con Vue.js e TypeScript.</li>
-            </ul>
-            Prima della mia assunzione il software veniva gestito da altre due persone e sviluppato da aziende esterne.
-            Insieme a me, nel giro di pochi mesi, sono entrati altri tre sviluppatori.<br />
-            Ci siamo trovati subito molto bene insieme, ma comunque non è stato così scontato darsi una struttura e un'organizzazione per lo sviluppo.
-            Ci sono stati dei periodi un po' confusionari per via delle classiche dinamiche delle piccole startup:
-            carichi di lavoro mal gestiti, sviluppi "urgenti" con scadenze impossibili, idee confuse sulle direzioni da prendere nello sviluppo...<br />
-            Ma guardando al passato devo dire che abbiamo fatto un bel percorso.
-            Dà una certa soddisfazione vedere come ce la siamo cavata e, più in generale, il livello di efficienza raggiunto dal team in quei tre anni.<br />
-        </div>
+        <div class="text-paragraph" data-i18n="work_content"></div>
     </div>
     <div class="page-footer">
         <hr class="divider">
         <div class="row">
-            <a href="https://www.linkedin.com/in/lucachioni/" class="footer-link" aria-label="Profilo LinkedIn" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/lucachioni/" class="footer-link" target="_blank" rel="noopener noreferrer">
                 <img class="footer-icons" src="/images/icons/linkedin.png" alt="" />
             </a>
-            <a href="https://github.com/LucaChioni" class="footer-link" aria-label="Account GitHub" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/LucaChioni" class="footer-link" target="_blank" rel="noopener noreferrer">
                 <img class="footer-icons" src="/images/icons/github.png" alt="" />
             </a>
-            <a href="https://store.steampowered.com/app/2125300/Off_to_Sleep/" class="footer-link" aria-label="Off to Sleep" target="_blank" rel="noopener noreferrer">
+            <a href="https://store.steampowered.com/app/2125300/Off_to_Sleep/" class="footer-link" target="_blank" rel="noopener noreferrer">
                 <img class="footer-icons" src="/images/icons/steam.png" alt="" />
             </a>
         </div>

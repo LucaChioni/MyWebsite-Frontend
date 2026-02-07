@@ -1,10 +1,12 @@
 import "../core.js";
 
 window.i18nRegister({
-  it: {
-    title_interests: "I miei interessi",
-  },
-  en: {
-    title_interests: "My interests",
-  },
+    it: {
+        social_life_title: "La mia vita sociale",
+        social_life_content: "Non esiste",
+    },
+    en: {
+        social_life_title: "My social life",
+        social_life_content: "It doesn’t exist",
+    },
 });
