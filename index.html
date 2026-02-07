@@ -12,34 +12,29 @@
 <body>
     <div class="page-header" style="min-height: 20vh; position: relative;">
         <div class="col" style="flex: none;">
-            <p class="title">Ciao, sono Luca</p>
+            <p class="title" data-i18n="home_title"></p>
             <div class="lang-switcher" id="langSwitcher" aria-label="Selettore lingua">
                 <button class="lang-current" aria-haspopup="listbox" aria-expanded="false">
                     <img src="/images/icons/italy.png" alt="Italiano">
                 </button>
                 <ul class="lang-menu" style="margin: 0; border-top: 2px solid rgba(0, 0, 0, 0.6);" role="listbox">
-                    <li role="option" data-lang="it">
-                        <img src="/images/icons/italy.png" alt="">
-                        <span class="lang-selection-text">Italiano</span>
-                    </li>
                     <li role="option" data-lang="en">
                         <img src="/images/icons/england.png" alt="">
                         <span class="lang-selection-text">English</span>
                     </li>
+                    <li role="option" data-lang="it">
+                        <img src="/images/icons/italy.png" alt="">
+                        <span class="lang-selection-text">Italiano</span>
+                    </li>
                 </ul>
             </div>
         </div>
-        <p class="sub-title">
-            Attraverso questa incredibile interfaccia potrai accedere alle mie esperienze
-            lavorative, al mio percorso formativo e ad altre cose personali...
-        </p>
+        <p class="sub-title" data-i18n="home_subtitle"></p>
         <hr class="divider">
         <div class="tooltip-container">
             <div id="info_icon" class="tooltip-icon-container">
                 <img class="tooltip-info-icon" src="/images/icons/info-icon.png" alt="info" />
-                <span class="tooltip">
-                    Attenzione: questa qua sotto non è una mia foto reale
-                </span>
+                <span class="tooltip" data-i18n="home_tooltip"></span>
             </div>
         </div>
     </div>
@@ -51,34 +46,22 @@
                 </div>
 
                 <div class="wheel-item" style="--i:0;">
-                    <a href="pages/interests.html" data-face="/images/speaker/happy.png">
-                        I miei interessi
-                    </a>
+                    <a href="pages/interests.html" data-face="/images/speaker/happy.png" data-i18n="home_wheel_interests"></a>
                 </div>
                 <div class="wheel-item" style="--i:1;">
-                    <a href="pages/school.html" data-face="/images/speaker/high_disappointment.png">
-                        Percorso scolastico
-                    </a>
+                    <a href="pages/school.html" data-face="/images/speaker/high_disappointment.png" data-i18n="home_wheel_school"></a>
                 </div>
                 <div class="wheel-item" style="--i:2;">
-                    <a href="pages/game_dev.html" data-face="/images/speaker/malinconic.png">
-                        Sviluppo videogiochi
-                    </a>
+                    <a href="pages/game_dev.html" data-face="/images/speaker/malinconic.png" data-i18n="home_wheel_game_dev"></a>
                 </div>
                 <div class="wheel-item" style="--i:3;">
-                    <a href="pages/work.html" data-face="/images/speaker/tired.png">
-                        Esperienze lavorative
-                    </a>
+                    <a href="pages/work.html" data-face="/images/speaker/tired.png" data-i18n="home_wheel_work"></a>
                 </div>
                 <div class="wheel-item" style="--i:4;">
-                    <a href="pages/secrets.html" data-face="/images/speaker/apatic.png">
-                        Obiettivi, idee e cose personali
-                    </a>
+                    <a href="pages/secrets.html" data-face="/images/speaker/apatic.png" data-i18n="home_wheel_secrets"></a>
                 </div>
                 <div class="wheel-item" style="--i:5;">
-                    <a href="pages/social_life.html" data-face="/images/speaker/social_skills.png">
-                        Vita sociale
-                    </a>
+                    <a href="pages/social_life.html" data-face="/images/speaker/social_skills.png" data-i18n="home_wheel_social_life"></a>
                 </div>
             </div>
         </div>
@@ -99,7 +82,8 @@
         <span>Email: luca.chioni46@gmail.com</span>
     </div>
 
-    <script src="/js/i18n.js?v=1"></script>
+    <script src="/js/i18n/core.js?v=1"></script>
+    <script src="/js/i18n/index.js?v=1"></script>
     <script src="/js/base.js?v=1"></script>
     <script src="/js/index.js?v=1"></script>
 </body>

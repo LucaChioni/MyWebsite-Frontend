@@ -14,6 +14,7 @@
     a{ font-size: 14px !important; }
     .title{ font-size: 25px !important; }
     .tooltip{ font-size: 13px !important; }
+    .tooltip-container { margin-top: 6px !important; }
     .back-home { width: 35px !important; height: 35px !important; }
     .lang-selection-text { display: none !important; }
 }
@@ -21,9 +22,9 @@
 /* ===== Font ===== */
 @font-face {
     font-family: "PatrickHand";
-    src: url("/fonts/PatrickHand-Regular.ttf") format("truetype");
-    font-weight: 500;
+    src: url("/fonts/PatrickHand-Regular.woff2") format("woff2");
     font-style: normal;
+    font-weight: 400;
 }
 
 /* ===== Body ===== */
