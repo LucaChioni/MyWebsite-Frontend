@@ -7,9 +7,13 @@ export function setFace(face) {
 // fade-in / fade-out
 document.addEventListener("click", (e) => {
     const link = e.target.closest("a[href]");
-    e.preventDefault();
-    if (!link || link.target === "_blank" || e.target.className == "disabled") return;
+    if (!link || link.target === "_blank") return;
+    if (e.target.className == "disabled") {
+        e.preventDefault();
+        return;
+    }
 
+    e.preventDefault();
     document.body.classList.add("page-leave");
     setTimeout(() => { window.location.href = link.href; }, 100);
 });
