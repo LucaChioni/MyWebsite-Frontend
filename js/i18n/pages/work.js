@@ -6,12 +6,12 @@ window.i18nRegister({
         work_content: `
             Questa è una breve lista delle principali competenze sviluppate in ambito sviluppo web:<br />
             <ul style="margin: 0;">
-                <li>Linguaggi di programmazione usati con frequenza: Python, Node.js, JavaScript, TypeScript</li>
-                <li>Linguaggi con conoscenza base / da rispolverare: Java, PHP, C++, C</li>
-                <li>Linguaggi per lo sviluppo web: HTML, CSS, Vue.js</li>
-                <li>Gestione di database: sempre usato Postgres in ambito lavorativo, a scuola utilizzavamo MySQL</li>
-                <li>Framework Odoo: sviluppo di moduli / creazione API</li>
-                <li>DevOps & ambienti di lavoro: Docker (conoscenza base), sistemi Linux, controllo versione con Git</li>
+                <li>Linguaggi di programmazione usati con frequenza: Python, Node.js, JavaScript, TypeScript.</li>
+                <li>Linguaggi con conoscenza base / da rispolverare: Java, PHP, C++, C.</li>
+                <li>Linguaggi per lo sviluppo web: HTML, CSS, Vue.js.</li>
+                <li>Gestione di database: sempre usato Postgres in ambito lavorativo, a scuola utilizzavamo MySQL.</li>
+                <li>Framework Odoo: sviluppo di moduli / creazione API.</li>
+                <li>DevOps & ambienti di lavoro: Docker (conoscenza base), sistemi Linux, controllo versione con Git.</li>
             </ul><br />
             Per quanto riguarda le esperienze lavorative, sono principalmente due: BNova e Sunlink. Qua sotto metto una breve descrizione di entrambe.<br />
             <br />
@@ -116,9 +116,9 @@ window.i18nRegister({
             </ul>
             Before I was hired, the software was managed by two other people and developed by external companies.
             Together with me, within a few months, three other developers joined the team.<br />
-            We immediately got along very well, but it wasn't a given that we would find a structure and organization for development.
+            We immediately got along very well, but it wasn’t a given that we would find a structure and organization for development.
             There were some fairly chaotic periods due to the typical dynamics of small startups:
-            poorly managed workloads, "urgent" developments with impossible deadlines, and unclear ideas about development directions...<br />
+            poorly managed workloads, "urgent" developments with impossible deadlines and unclear ideas about development directions...<br />
             But looking back, I can say that we’ve come a long way.
             There’s a certain satisfaction in seeing how we handled it and, more generally, the level of efficiency the team achieved over those three years.<br />
         `,

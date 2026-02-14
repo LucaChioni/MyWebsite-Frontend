@@ -11,12 +11,12 @@ window.i18nRegister({
             Poi quei piccoli problemi sono diventati piano piano enormi.
             Soprattutto quando la spiegazione di tutte le mie difficoltà veniva attribuita al classico "è bravo, ma non si applica".<br />
             <br />
-            Il mio percorso scolastisco non è niente di incredibile, si incasina un po’ a un certo punto, ma poi si aggiusta sul finale.<br />
+            Il mio percorso scolastico non è niente di incredibile, si incasina un po’ a un certo punto, ma poi si aggiusta sul finale.<br />
             Non ho fatto l’università, quindi l’unica cosa che ha senso raccontare credo siano le superiori.<br />
             <br />
             <b><u>Liceo Scientifico Statale "Enrico Fermi", Massa</u></b><br />
-            Ho frequentato questa scuola fino alla classe 4^, anno in cui sono stato bocciato.
-            Poi ho cambiato il corso di studi partendo dalla classe 3^ di un istituto tecnico di cui parlerò dopo.
+            Ho frequentato questa scuola fino alla classe quarta, anno in cui sono stato bocciato.
+            Poi ho cambiato il corso di studi partendo dalla classe terza di un istituto tecnico di cui parlerò dopo.
             Con questa piccola mossa ho perso in totale due anni, che si potrebbero ridurre a uno in "termini assoluti" dato che ho
             iniziato la scuola con un anno di anticipo (grazie mamma).<br />
             Qualcuno potrebbe chiedersi "Ma scusa, perché hai scelto un liceo? Allora non sei solo dislessico, sei anche stupido".<br />
@@ -102,7 +102,7 @@ window.i18nRegister({
             <ul style="margin: 0;">
                 <li>Computer components and their functions.</li>
                 <li>Number systems.</li>
-                <li>Process, memory, and file system management.</li>
+                <li>Process, memory and file system management.</li>
                 <li>Low-level programming (Assembly).</li>
                 <li>Process management and parallel programming (using C).</li>
                 <li>Network architectures and protocols.</li>
