@@ -18,9 +18,7 @@ const observer = new IntersectionObserver(
             }
         });
     },
-    {
-        threshold: 0.4
-    }
+    { threshold: 0 }
 );
 
 triggers.forEach(t => observer.observe(t));
