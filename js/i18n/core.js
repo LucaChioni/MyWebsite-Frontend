@@ -1,79 +1,75 @@
-(() => {
-    const STORAGE_KEY = "preferred_language";
+const STORAGE_KEY = "preferred_language";
+const MESSAGES = { it: {}, en: {} };
 
-    const MESSAGES = { it: {}, en: {} };
+function merge(target, src) {
+    Object.keys(src || {}).forEach((k) => (target[k] = src[k]));
+}
 
-    function merge(target, src) {
-        Object.keys(src || {}).forEach((k) => (target[k] = src[k]));
-    }
+window.i18nRegister = function i18nRegister(newMsgs) {
+    if (!newMsgs) return;
+    if (newMsgs.it) merge(MESSAGES.it, newMsgs.it);
+    if (newMsgs.en) merge(MESSAGES.en, newMsgs.en);
+};
 
-    window.i18nRegister = function i18nRegister(newMsgs) {
-        if (!newMsgs) return;
-        if (newMsgs.it) merge(MESSAGES.it, newMsgs.it);
-        if (newMsgs.en) merge(MESSAGES.en, newMsgs.en);
-    };
+function getLang() {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved === "it" || saved === "en") return saved;
+    const navLang = (navigator.language || "en").toLowerCase().slice(0, 2);
+    return navLang.length > 0 ? navLang : "en";
+}
 
-    function getInitialLang() {
-        const saved = localStorage.getItem(STORAGE_KEY);
-        if (saved === "it" || saved === "en") return saved;
-        const nav = (navigator.language || "en").toLowerCase();
-        return nav.startsWith("it") ? "it" : "en";
-    }
+function applyLang(lang) {
+    const dict = MESSAGES[lang] || MESSAGES.en;
+    document.documentElement.lang = lang;
 
-    function applyLang(lang) {
-        const dict = MESSAGES[lang] || MESSAGES.en;
+    document.querySelectorAll("[data-i18n]").forEach((el) => {
+        const key = el.getAttribute("data-i18n");
+        if (dict[key] != null) el.innerHTML = dict[key];
+    });
 
-        document.documentElement.lang = lang;
+    const currentBtn = document.querySelector("#langSwitcher .lang-current");
+    const selected = document.querySelector(`#langSwitcher [data-lang="${lang}"]`);
+    if (currentBtn && selected) currentBtn.innerHTML = selected.innerHTML;
+}
 
-        document.querySelectorAll("[data-i18n]").forEach((el) => {
-            const key = el.getAttribute("data-i18n");
-            if (dict[key] != null) el.innerHTML = dict[key];
-        });
+window.setLang = function setLang(lang) {
+    const safe = (lang === "it" || lang === "en") ? lang : "en";
+    localStorage.setItem(STORAGE_KEY, safe);
+    applyLang(safe);
+};
 
-        const currentBtn = document.querySelector("#langSwitcher .lang-current");
-        const selected = document.querySelector(`#langSwitcher [data-lang="${lang}"]`);
-        if (currentBtn && selected) currentBtn.innerHTML = selected.innerHTML;
-    }
+document.addEventListener("DOMContentLoaded", () => {
+    applyLang(getLang());
 
-    window.setLang = function setLang(lang) {
-        const safe = (lang === "it" || lang === "en") ? lang : "en";
-        localStorage.setItem(STORAGE_KEY, safe);
-        applyLang(safe);
-    };
+    const switcher = document.getElementById("langSwitcher");
+    if (!switcher) return;
 
-    document.addEventListener("DOMContentLoaded", () => {
-        const initial = getInitialLang();
-        applyLang(initial);
+    const currentBtn = switcher.querySelector(".lang-current");
+    const menu = switcher.querySelector(".lang-menu");
+    if (!currentBtn || !menu) return;
 
-        const switcher = document.getElementById("langSwitcher");
-        if (!switcher) return;
+    currentBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const open = switcher.classList.toggle("open");
+        currentBtn.setAttribute("aria-expanded", open ? "true" : "false");
+    });
 
-        const currentBtn = switcher.querySelector(".lang-current");
-        const menu = switcher.querySelector(".lang-menu");
-        if (!currentBtn || !menu) return;
-
-        currentBtn.addEventListener("click", (e) => {
+    menu.querySelectorAll("[data-lang]").forEach((item) => {
+        item.addEventListener("click", (e) => {
             e.stopPropagation();
-            const open = switcher.classList.toggle("open");
-            currentBtn.setAttribute("aria-expanded", open ? "true" : "false");
-        });
-
-        menu.querySelectorAll("[data-lang]").forEach((item) => {
-            item.addEventListener("click", (e) => {
-                e.stopPropagation();
-                window.setLang(item.dataset.lang);
-                switcher.classList.remove("open");
-                currentBtn.setAttribute("aria-expanded", "false");
-            });
-        });
-
-        document.addEventListener("click", () => {
+            window.setLang(item.dataset.lang);
             switcher.classList.remove("open");
             currentBtn.setAttribute("aria-expanded", "false");
         });
     });
-})();
+
+    document.addEventListener("click", () => {
+        switcher.classList.remove("open");
+        currentBtn.setAttribute("aria-expanded", "false");
+    });
+});
 
 export function t(key) {
-    return key;
+    const dict = MESSAGES[getLang()] || MESSAGES.en;
+    return dict[key] ?? key;
 }

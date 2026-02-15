@@ -55,7 +55,7 @@ window.i18nRegister({
                 <li>Collaborazione con una traduttrice (Sara Doneddu) per la localizzazione dei testi del videogioco in lingua inglese.</li>
             </ul>
             <br />
-            Se volete vedere il codice (molto disorganizzato):
+            Se volete vedere il codice (molto incasinato):
             <b><a href="https://github.com/LucaChioni/OffToSleep" target="_blank" rel="noopener noreferrer">Progetto GitHub</a></b>.<br />
             Su GitHub non ho messo le risorse audio e video, se lanciate il codice è normale che non parta.<br />
         `,
@@ -114,7 +114,7 @@ window.i18nRegister({
                 <li>Collaboration with a translator (Sara Doneddu) for English localization of the game’s texts.</li>
             </ul>
             <br />
-            If you want to see the code (very disorganized):
+            If you want to see the (very messy) code:
             <b><a href="https://github.com/LucaChioni/OffToSleep" target="_blank" rel="noopener noreferrer">GitHub Project</a></b>.<br />
             On GitHub I didn’t upload the audio and video assets, so if you run the code it’s normal that it won’t start.<br />
         `,
