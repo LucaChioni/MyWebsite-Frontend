@@ -4,6 +4,7 @@ window.i18nRegister({
     it: {
         school_title: "Il mio percorso scolastico",
         school_content: `
+            <section class="bg-trigger" data-bg="bg-high-disappointment"></section>
             Se riecsi a leggere quetsa farse sezna porbelmi sei diselsscio.<br />
             Oppure leggi tanto e sei abituato a completare le parole senza focalizzarti sulle singole lettere.
             Io non leggo molto, eppure ci potrei leggere un libro in quel modo.
@@ -52,6 +53,7 @@ window.i18nRegister({
                 <li>Progettazione di reti.</li>
                 <li>Generalità sulla sicurezza e crittografia.</li>
             </ul>
+            <section class="bg-trigger" data-bg="bg-malinconic"></section>
             Durante questi anni ci sono state anche diverse attività di alternanza scuola-lavoro, come uno stage di due settimane presso il CNR di Pisa
             e visite a qualche azienda informatica della zona. Una di queste è stata BNova, la prima azienda in cui ho lavorato subito dopo il diploma.
         `,
@@ -59,6 +61,7 @@ window.i18nRegister({
     en: {
         school_title: "My educational journey",
         school_content: `
+            <section class="bg-trigger" data-bg="bg-high-disappointment"></section>
             If you can raed this sentnece whtiout any porbelms you are dyxsleic.<br />
             Or maybe you just read a lot and you’re used to completing words without focusing on individual letters.
             I don’t read much, yet I could probably read an entire book written like this.
@@ -109,6 +112,7 @@ window.i18nRegister({
                 <li>Network design.</li>
                 <li>Basic concepts of security and cryptography.</li>
             </ul>
+            <section class="bg-trigger" data-bg="bg-malinconic"></section>
             During these years there were also several school-work alternation activities,
             such as a two-week internship at the CNR in Pisa and visits to some local IT companies.
             One of these was BNova, the first company I worked for right after graduating.
