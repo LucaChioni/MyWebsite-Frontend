@@ -14,7 +14,7 @@ window.i18nRegister({
         secrets_subtitle: "This area is only accessible via password",
         secrets_send: "Enter",
         secrets_error_answer: "Request failed",
-        secrets_access_allowed: "Access successful, but I haven't done this section yet",
+        secrets_access_allowed: "Access succeeded, but I haven't done this section yet",
         secrets_access_denied: "Access denied, the password is secret",
     },
 });

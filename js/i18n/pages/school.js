@@ -53,7 +53,7 @@ window.i18nRegister({
                 <li>Generalità sulla sicurezza e crittografia.</li>
             </ul>
             Durante questi anni ci sono state anche diverse attività di alternanza scuola-lavoro, come uno stage di due settimane presso il CNR di Pisa
-            e visite a qualche azienda informatica della zona. Una di queste è stata Bnova, la prima azienda in cui ho lavorato subito dopo il diploma.
+            e visite a qualche azienda informatica della zona. Una di queste è stata BNova, la prima azienda in cui ho lavorato subito dopo il diploma.
         `,
     },
     en: {

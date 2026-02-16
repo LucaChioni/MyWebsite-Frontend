@@ -34,10 +34,10 @@ window.i18nRegister({
                 <li>Sviluppo di software in Python con relativa redazione di documenti tecnici per descriverne il funzionamento.</li>
             </ul>
             Grazie a questa esperienza ho sviluppato molte competenze in ambito informatico e, più in generale,
-            sul lavorare in gruppo, gestirmi il carico di lavoro e rispettare le scadenze.<br />
+            nel lavorare in gruppo, gestirmi il carico di lavoro e rispettare le scadenze.<br />
             <br />
             <b><u>Sunlink Srl</u></b><br />
-            Dopo il fallimento del tentativo di diventare ricco e vivere di rendita tramite la pubblicazione di un videogioco,
+            Dopo il fallimento nel tentativo di diventare ricco e vivere di rendita tramite la pubblicazione di un videogioco,
             sono andato a lavorare qua, a Sunlink. In totale ci sono stato 3 anni, da Febbraio 2023 a Marzo 2026.<br />
             Sunlink è un’azienda che si occupa di monitoraggio ed efficientamento energetico.
             In breve installa dei sensori per monitorare i consumi dei processi produttivi nelle aziende e poi mostra i dati in un’interfaccia web.

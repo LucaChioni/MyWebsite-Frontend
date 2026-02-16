@@ -1,8 +1,8 @@
-import "./base.js";
-import "./i18n/pages/secrets.js";
-import { t } from "./i18n/core.js";
+import "../base.js";
+import "../i18n/pages/secrets.js";
+import { t } from "../i18n/core.js";
 
-const TIMEOUT = 1000
+const TIMEOUT = 500
 const form = document.getElementById("secret-form");
 const apiKeyInput = document.getElementById("api-key");
 const responseContainer = document.getElementById("response-container");

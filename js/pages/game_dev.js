@@ -1,5 +1,5 @@
-import "./base.js";
-import "./i18n/pages/game_dev.js";
+import "../base.js";
+import "../i18n/pages/game_dev.js";
 
 const triggers = document.querySelectorAll(".vt-trigger");
 const videoTrailer = document.getElementById("video-trailer-container");

@@ -28,7 +28,7 @@ window.i18nRegister({
             È anche il progetto che ho portato come tesi all’esame di stato di quinta superiore. All’epoca era molto peggio di com’è adesso. Ripensandoci
             provo un po’ di vergogna per averlo mostrato con tanta fierezza di fronte a tutta la commissione. Chissà che pensavano...<br />
             <br />
-            Comunque, uscito da scuola nel 2018, ho continuato a lavorarci in ogni momento libero. Avevo iniziato a lavorare in Bnova come
+            Comunque, uscito da scuola nel 2018, ho continuato a lavorarci in ogni momento libero. Avevo iniziato a lavorare in BNova come
             sviluppatore web, ma quando tornavo a casa dopo il lavoro ero di nuovo uno sviluppatore di videogiochi.<br />
             Questo è durato finché a un certo punto, nel 2020, ho deciso di occuparmene "a tempo pieno". Mi sono licenziato dal “lavoro vero” e mi ci
             sono immerso completamente. Per fortuna vivevo ancora con i miei genitori, quindi non avevo ancora grandi pensieri.<br />

@@ -1,5 +1,5 @@
-import "./base.js";
-import "./i18n/pages/school.js";
+import "../base.js";
+import "../i18n/pages/school.js";
 
 const triggers = document.querySelectorAll(".bg-trigger");
 
