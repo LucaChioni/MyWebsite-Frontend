@@ -17,7 +17,7 @@ window.i18nRegister({
             <br />
             <b><u>BNova Srl</u></b><br />
             Qua ho fatto la mia prima esperienza lavorativa, subito dopo il diploma.<br />
-            Sono stato qua per 2 anni in totale, da Ottobre 2018 a Ottobre 2020.
+            Sono stato qua per due anni in totale, da Ottobre 2018 a Ottobre 2020.
             I primi sei mesi sono stati di stage e poi sono stato assunto con un contratto di apprendistato.
             Sono rimasto finché non ho deciso di inseguire i miei sogni di game developer.<br />
             BNova è un’azienda che si occupa principalmente di analisi dei dati e della loro rappresentazione.
@@ -38,7 +38,7 @@ window.i18nRegister({
             <br />
             <b><u>Sunlink Srl</u></b><br />
             Dopo il fallimento nel tentativo di diventare ricco e vivere di rendita tramite la pubblicazione di un videogioco,
-            sono andato a lavorare qua, a Sunlink. In totale ci sono stato 3 anni, da Febbraio 2023 a Marzo 2026.<br />
+            sono andato a lavorare qua, a Sunlink. Ci sono stato per poco più di tre anni, da Febbraio 2023 ad Aprile 2026.<br />
             Sunlink è un’azienda che si occupa di monitoraggio ed efficientamento energetico.
             In breve installa dei sensori per monitorare i consumi dei processi produttivi nelle aziende e poi mostra i dati in un’interfaccia web.
             Tutto diventa molto interessante quando inizi a fare analisi per gestire i carichi di lavoro, utilizzare energia da un impianto fotovoltaico,
@@ -49,7 +49,7 @@ window.i18nRegister({
             <ul style="margin: 0;">
                 <li>Sviluppo back-end: utilizzo del framework Odoo per la gestione del database (Postgres), sviluppo di API in Python per la web app e altri servizi.</li>
                 <li>Sviluppo software in Node.js sui mini-PC installati nelle sedi monitorate per l’organizzazione, l’elaborazione e la trasformazione di grandi quantità di dati (tramite TimescaleDB).</li>
-                <li>Integrazione di sistemi eterogenei per la raccolta dati da dispositivi industriali tramite i protocolli OPC UA e modbus TCP/RTU (per PLC e meter) e servizi di terze parti tramite API (per inverter GoodWe, ZCS, ABB).</li>
+                <li>Integrazione di sistemi eterogenei per la raccolta dati da dispositivi industriali tramite i protocolli OPC UA e modbus TCP/RTU (per PLC e meter) e servizi di terze parti tramite API (per inverter GoodWe, ZCS, ABB e SolarEdge).</li>
                 <li>Sviluppo test automatici in Python e Node.js.</li>
                 <li>Supporto occasionale allo sviluppo front-end con Vue.js e TypeScript.</li>
             </ul>
@@ -78,7 +78,7 @@ window.i18nRegister({
             <br />
             <b><u>BNova Srl</u></b><br />
             This is where I had my first work experience, right after graduating.<br />
-            I worked here for a total of 2 years, from October 2018 to October 2020.
+            I worked here for a total of two years, from October 2018 to October 2020.
             The first six months were an internship, after which I was hired with an apprenticeship contract.
             I stayed here until I decided to pursue my dream of becoming a game developer.<br />
             BNova is a company mainly focused on data analysis and data visualization.
@@ -99,7 +99,7 @@ window.i18nRegister({
             <br />
             <b><u>Sunlink Srl</u></b><br />
             After my failed attempt to get rich and live of passive income by publishing a video game,
-            I went to work here, at Sunlink. I worked there for a total of 3 years, from February 2023 to March 2026.<br />
+            I went to work here, at Sunlink. I stayed there for a little over three years, from February 2023 to April 2026.<br />
             Sunlink is a company that deals with energy monitoring and efficiency.
             In short, it installs sensors to monitor energy consumption in industrial processes and then displays the data in a web interface.
             Things get really interesting when you start analyzing the data to manage workloads, use energy from a photovoltaic system,
@@ -110,7 +110,7 @@ window.i18nRegister({
             <ul style="margin: 0;">
                 <li>Back-end development: use of the Odoo framework for database management (Postgres), development of APIs in Python for the web app and other services.</li>
                 <li>Software development in Node.js on mini-PCs installed at monitored sites for organizing, processing and transforming large amounts of data (via TimescaleDB).</li>
-                <li>Integration of heterogeneous systems for data collection from industrial devices via OPC UA and Modbus TCP/RTU protocols (for PLCs and meters), as well as third-party services via APIs (for GoodWe, ZCS, ABB inverters).</li>
+                <li>Integration of heterogeneous systems for data collection from industrial devices via OPC UA and Modbus TCP/RTU protocols (for PLCs and meters), as well as third-party services via APIs (for GoodWe, ZCS, ABB and SolarEdge inverters).</li>
                 <li>Development of automated tests in Python and Node.js.</li>
                 <li>Occasional support for front-end development with Vue.js and TypeScript.</li>
             </ul>
