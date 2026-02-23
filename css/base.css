@@ -88,6 +88,7 @@
     .answers-desktop { display: none !important; }
     .answers-smartphone { display: flex !important; }
     .game1-screen img { min-width: 262px !important; }
+    .divider { z-index: 0 !important; }
 }
 
 /* ===== Font ===== */
@@ -158,6 +159,7 @@ body.page-leave {
 .divider {
     width: 100%;
     margin: 12px 0 0 0;
+    z-index: 1;
 }
 
 /* ===== Titles e text ===== */
