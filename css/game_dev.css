@@ -2,20 +2,15 @@ body.malinconic::before {
     background-image: url("/images/speaker/malinconic.png");
 }
 
-@media (max-width: 760px) {
-    .video-trailer { width: 320px !important; height: 180px !important; }
-}
-
 .video-trailer {
-    width: 560px;
-    height: 315px;
+    width: var(--video-trailer-width);
+    height: var(--video-trailer-height);
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
 }
 
-.page-content img {
-    min-width: 262px;
+.game1-screen img {
     width: 100%;
     height: auto;
     flex: 1;

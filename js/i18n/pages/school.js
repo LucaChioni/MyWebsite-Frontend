@@ -53,9 +53,9 @@ window.i18nRegister({
                 <li>Progettazione di reti.</li>
                 <li>Generalità sulla sicurezza e crittografia.</li>
             </ul>
-            <section class="bg-trigger" data-bg="bg-malinconic"></section>
             Durante questi anni ci sono state anche diverse attività di alternanza scuola-lavoro, come uno stage di due settimane presso il CNR di Pisa
             e visite a qualche azienda informatica della zona. Una di queste è stata BNova, la prima azienda in cui ho lavorato subito dopo il diploma.
+            <section class="bg-trigger" data-bg="bg-malinconic"></section>
         `,
     },
     en: {
@@ -112,10 +112,10 @@ window.i18nRegister({
                 <li>Network design.</li>
                 <li>Basic concepts of security and cryptography.</li>
             </ul>
-            <section class="bg-trigger" data-bg="bg-malinconic"></section>
             During these years there were also several school-work alternation activities,
             such as a two-week internship at the CNR in Pisa and visits to some local IT companies.
             One of these was BNova, the first company I worked for right after graduating.
+            <section class="bg-trigger" data-bg="bg-malinconic"></section>
         `,
     },
 });

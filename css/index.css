@@ -1,12 +1,3 @@
-:root{
-    --wheel-size: 630px;
-}
-
-@media (max-width: 760px) {
-    :root{ --wheel-size: 440px; }
-    .wheel-item a{ font-size: var(--font-size-tooltip); }
-}
-
 .hero {
     display: grid;
     place-items: center;

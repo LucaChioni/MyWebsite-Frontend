@@ -1,28 +1,93 @@
 /* ===== Variabili globali ===== */
-:root{
-    --maxw: 1000px;
+:root {
     --fade-in: 0.5s;
     --fade-out: 0.1s;
+    --background-color-rgb: 235, 235, 235; /* #ebebeb */
+
+    --maxw: 1000px;
+    --wheel-size: 630px;
     --face-size: 300px;
+    --back-home-size: 50px;
+    --tooltip-info-icon-size: 20px;
+    --footer-icons-size: 25px;
+    --lang-flags-width: 30px;
+    --lang-flags-height: 20px;
+    --sub-title-max-width: 580px;
+    --video-trailer-width: 560px;
+    --video-trailer-height: 315px;
+
     --font-size-title: 35px;
     --font-size-text: 20px;
     --font-size-tooltip: 14px;
-    --font-size-title-small: 25px;
-    --font-size-text-small: 14px;
-    --font-size-tooltip-small: 13px;
-    --background-color-rgb: 235, 235, 235; /* #ebebeb */
+
+    --tooltip-margin-top: 7px;
 }
 
+@media (min-aspect-ratio: 1/1) and (max-height: 850px) {
+    :root{
+        --maxw: 667px;
+        --wheel-size: 420px;
+        --face-size: 200px;
+        --back-home-size: 33px;
+        --tooltip-info-icon-size: 13px;
+        --footer-icons-size: 17px;
+        --lang-flags-width: 20px;
+        --lang-flags-height: 13px;
+        --sub-title-max-width: 387px;
+        --video-trailer-width: 373px;
+        --video-trailer-height: 210px;
+
+        --font-size-title: 23px;
+        --font-size-text: 13px;
+        --font-size-tooltip: 9px;
+
+        --tooltip-margin-top: 5px;
+    }
+}
+
+@media (min-aspect-ratio: 1/1) and (min-height: 2700px) {
+    :root{
+        --maxw: 1430px;
+    }
+}
+
+@media (min-aspect-ratio: 1/1) and (min-height: 3500px) {
+    :root{
+        --maxw: 2000px;
+    }
+}
+
+@media (min-aspect-ratio: 1/1) and (min-height: 5000px) {
+    :root{
+        --maxw: 3300px;
+    }
+}
+
+/* Phone */
 @media (max-width: 760px) {
-    :root{ --face-size: 190px !important; }
-    p{ font-size: var(--font-size-text-small) !important; }
-    div{ font-size: var(--font-size-text-small) !important; }
-    a{ font-size: var(--font-size-text-small) !important; }
-    .title{ font-size: var(--font-size-title-small) !important; }
-    .tooltip{ font-size: var(--font-size-tooltip-small) !important; }
-    .tooltip-container { margin-top: 6px !important; }
-    .back-home { width: 35px !important; height: 35px !important; }
+    :root{
+        --maxw: 1000px;
+        --wheel-size: 440px;
+        --face-size: 190px;
+        --back-home-size: 35px;
+        --tooltip-info-icon-size: 20px;
+        --footer-icons-size: 25px;
+        --lang-flags-width: 45px;
+        --lang-flags-height: 30px;
+        --sub-title-max-width: 580px;
+        --video-trailer-width: 320px;
+        --video-trailer-height: 180px;
+
+        --font-size-title: 25px;
+        --font-size-text: 14px;
+        --font-size-tooltip: 13px;
+
+        --tooltip-margin-top: 6px;
+    }
     .lang-selection-text { display: none !important; }
+    .answers-desktop { display: none !important; }
+    .answers-smartphone { display: flex !important; }
+    .game1-screen img { min-width: 262px !important; }
 }
 
 /* ===== Font ===== */
@@ -93,7 +158,6 @@ body.page-leave {
 .divider {
     width: 100%;
     margin: 12px 0 0 0;
-    z-index: 1;
 }
 
 /* ===== Titles e text ===== */
@@ -106,7 +170,7 @@ body.page-leave {
 .sub-title {
     text-align: center;
     width: 100%;
-    max-width: 580px;
+    max-width: var(--sub-title-max-width);
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -138,11 +202,11 @@ body.page-leave {
     position: relative;
     display: flex;
     justify-content: center;
-    margin-top: 7px;
+    margin-top: var(--tooltip-margin-top);
 }
 
 .tooltip-info-icon {
-    width: 20px;
+    width: var(--tooltip-info-icon-size);
 }
 
 .tooltip {
@@ -190,8 +254,8 @@ a:hover {
 }
 
 .footer-icons {
-    width: 25px;
-    height: 25px;
+    width: var(--footer-icons-size);
+    height: var(--footer-icons-size);
     cursor: pointer;
 }
 
@@ -219,8 +283,8 @@ a:hover {
 .back-home {
     position: absolute;
     left: 0;
-    width: 50px;
-    height: 50px;
+    width: var(--back-home-size);
+    height: var(--back-home-size);
     cursor: pointer;
     transition: transform 0.15s ease, opacity 0.15s ease;
 }
@@ -269,8 +333,8 @@ body.face-background::before {
 }
 
 .lang-current img {
-    width: 30px;
-    height: 20px;
+    width: var(--lang-flags-width);
+    height: var(--lang-flags-height);
 }
 
 .lang-menu {
@@ -282,6 +346,7 @@ body.face-background::before {
     list-style: none;
     background-color: rgba(var(--background-color-rgb), 0.8);
     display: none;
+    z-index: 1;
 }
 
 .lang-menu li {
@@ -294,8 +359,8 @@ body.face-background::before {
 }
 
 .lang-menu li img {
-    width: 30px;
-    height: 20px;
+    width: var(--lang-flags-width);
+    height: var(--lang-flags-height);
 }
 
 .lang-menu li:hover {
