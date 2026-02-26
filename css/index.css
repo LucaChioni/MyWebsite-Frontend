@@ -25,7 +25,7 @@
     transform:
     translate(-50%, -50%)
     rotate(calc(var(--i) * (360deg / var(--n))))
-    translateX(calc((min(var(--wheel-size), 92vw) / 2) - 45px))
+    translateX(calc((min(var(--wheel-size), 92vw) / 2) - var(--wheel-menu-items-distance)))
     rotate(calc(var(--i) * (-360deg / var(--n))));
     transform-origin: center;
 }
