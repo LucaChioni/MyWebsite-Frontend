@@ -13,9 +13,10 @@ window.i18nRegister({
                 <li>Framework Odoo: sviluppo di moduli / creazione API.</li>
                 <li>DevOps & ambienti di lavoro: Docker (conoscenza base), sistemi Linux, controllo versione con Git.</li>
             </ul><br />
-            Per quanto riguarda le esperienze lavorative, sono principalmente due: BNova e Sunlink. Qua sotto metto una breve descrizione di entrambe.<br />
+            Per quanto riguarda le esperienze lavorative, sono principalmente due: <a href="https://www.bnova.it/" target="_blank" rel="noopener noreferrer">BNova</a> e <a href="https://sunlink.it/" target="_blank" rel="noopener noreferrer">Sunlink</a>.<br />
+            Qua sotto metto una breve descrizione di entrambe.<br />
             <br />
-            <b><u>BNova Srl</u></b><br />
+            <b><a href="https://www.bnova.it/" target="_blank" rel="noopener noreferrer"><img class="work-logo" src="/images/work/BNova-Logo.png" alt=""> BNova Srl</a></b><br />
             Qua ho fatto la mia prima esperienza lavorativa, subito dopo il diploma.<br />
             Sono stato qua per due anni in totale, da Ottobre 2018 a Ottobre 2020.
             I primi sei mesi sono stati di stage e poi sono stato assunto con un contratto di apprendistato.
@@ -36,11 +37,11 @@ window.i18nRegister({
             Grazie a questa esperienza ho sviluppato molte competenze in ambito informatico e, più in generale,
             nel lavorare in gruppo, gestirmi il carico di lavoro e rispettare le scadenze.<br />
             <br />
-            <b><u>Sunlink Srl</u></b><br />
+            <b><a href="https://sunlink.it/" target="_blank" rel="noopener noreferrer"><img class="work-logo" src="/images/work/Sunlink-Logo.png" alt=""> Sunlink Srl</a></b><br />
             Dopo il fallimento nel tentativo di diventare ricco e vivere di rendita tramite la pubblicazione di un videogioco,
             sono andato a lavorare qua, a Sunlink. Ci sono stato per poco più di tre anni, da Febbraio 2023 ad Aprile 2026.<br />
-            Sunlink è un’azienda che si occupa di monitoraggio ed efficientamento energetico.
-            In breve installa dei sensori per monitorare i consumi dei processi produttivi nelle aziende e poi mostra i dati in un’interfaccia web.
+            Sunlink è un’azienda specializzata nel monitoraggio ed efficientamento energetico.
+            Si occupa dell’installazione di sensori per la rilevazione dei consumi dei processi produttivi aziendali e della successiva visualizzazione e analisi dei dati attraverso un’interfaccia web dedicata.
             Tutto diventa molto interessante quando inizi a fare analisi per gestire i carichi di lavoro, utilizzare energia da un impianto fotovoltaico,
             trovare malfunzionamenti, inefficienze o sprechi.<br />
             In azienda io mi occupavo principalmente dello sviluppo del back-end della web app e
@@ -74,9 +75,10 @@ window.i18nRegister({
                 <li>Odoo framework: module development / API creation</li>
                 <li>DevOps & work environments: Docker (basic knowledge), Linux systems, version control with Git</li>
             </ul><br />
-            My work experiences are mainly two: BNova and Sunlink. Below is a brief description of both.<br />
+            My work experiences are mainly two: <a href="https://www.bnova.it/" target="_blank" rel="noopener noreferrer">BNova</a> and <a href="https://sunlink.it/" target="_blank" rel="noopener noreferrer">Sunlink</a>.<br />
+            Below is a brief description of both.<br />
             <br />
-            <b><u>BNova Srl</u></b><br />
+            <b><a href="https://www.bnova.it/" target="_blank" rel="noopener noreferrer"><img class="work-logo" src="/images/work/BNova-Logo.png" alt=""> BNova Srl</a></b><br />
             This is where I had my first work experience, right after graduating.<br />
             I worked here for a total of two years, from October 2018 to October 2020.
             The first six months were an internship, after which I was hired with an apprenticeship contract.
@@ -97,11 +99,11 @@ window.i18nRegister({
             Thanks to this experience I developed many IT-related skills and, more generally,
             learned how to work in a team, manage my workload and meet deadlines.<br />
             <br />
-            <b><u>Sunlink Srl</u></b><br />
+            <b><a href="https://sunlink.it/" target="_blank" rel="noopener noreferrer"><img class="work-logo" src="/images/work/Sunlink-Logo.png" alt=""> Sunlink Srl</a></b><br />
             After my failed attempt to get rich and live of passive income by publishing a video game,
             I went to work here, at Sunlink. I stayed there for a little over three years, from February 2023 to April 2026.<br />
-            Sunlink is a company that deals with energy monitoring and efficiency.
-            In short, it installs sensors to monitor energy consumption in industrial processes and then displays the data in a web interface.
+            Sunlink is a company specialized in energy monitoring and efficiency optimization.
+            It installs sensors to measure the energy consumption of industrial production processes and provides data visualization and analysis through a dedicated web interface.
             Things get really interesting when you start analyzing the data to manage workloads, use energy from a photovoltaic system,
             and identify malfunctions, inefficiencies or waste.<br />
             At the company I mainly worked on back-end development of the web app and

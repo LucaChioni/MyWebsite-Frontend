@@ -1,3 +1,8 @@
 body.tired::before {
     background-image: url("/images/speaker/tired.png");
 }
+
+.work-logo {
+    width: var(--work-logo-size);
+    height: var(--work-logo-size);
+}

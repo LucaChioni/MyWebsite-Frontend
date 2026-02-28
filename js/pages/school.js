@@ -9,9 +9,12 @@ function setBgClass(bgClass) {
 }
 
 const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) setBgClass(entry.target.dataset.bg);
-    });
+    for (const entry of entries) {
+        if (entry.isIntersecting) {
+            setBgClass(entry.target.dataset.bg);
+            break;
+        }
+    };
 }, { threshold: 0 });
 
 function observeTriggers(root = document) {

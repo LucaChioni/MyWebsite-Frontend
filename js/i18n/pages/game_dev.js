@@ -9,7 +9,7 @@ window.i18nRegister({
             Ero in terza superiore e avevo appena scoperto le logiche della programmazione con il C++, quindi ho usato quel linguaggio per creare
             una piccola avventura a linea di comando.<br />
             Non è un granché a livello di comandi e neanche a livello di tutto il resto... qua sotto metto delle schermate per darvi un’idea:<br />
-            <div class="row" style="flex-wrap: wrap;">
+            <div class="row game1-screen" style="flex-wrap: wrap;">
                 <img src="/images/game_dev/g1-dream.png" alt="">
                 <img src="/images/game_dev/g1-combat.png" alt="">
                 <img src="/images/game_dev/g1-enigma.png" alt="">
@@ -17,7 +17,7 @@ window.i18nRegister({
             Il giocatore controlla il carattere “O” (prima immagine) e affronta una breve avventura sconfiggendo nemici in combattimenti a turni (seconda
             immagine) e risolvendo piccoli enigmi ambientali (terza immagine).<br />
             Se volete piangere sangue e strapparvi gli occhi, potete vedere come l’ho scritto da qui:
-            <b><a href="https://github.com/LucaChioni/MyFirstGame" target="_blank" rel="noopener noreferrer">Progetto GitHub</a></b>.<br />
+            <b><a href="https://github.com/LucaChioni/MyFirstGame" target="_blank" rel="noopener noreferrer">GitHub - Primo Gioco</a></b>.<br />
             <br />
             Andando avanti col percorso di studi ho imparato molto di più sul mondo dell’informatica, ho iniziato a scoprire cose incredibili,
             mi sono reso conto che potevo creare da zero qualunque cosa.<br />
@@ -39,9 +39,13 @@ window.i18nRegister({
             risposto e ancora meno l’hanno provato. Quelli che l’hanno provato non l’hanno apprezzato granché.<br />
             Questa è la ragione per cui non l’ho messo nelle esperienze lavorative: perché non è mai diventato un “lavoro”.<br />
             Ci sono rimasto un po’ male ovviamente, ma è chiaro che non è un granché. Un po’ me lo aspettavo, quindi non è stato un grande dramma alla fine.<br />
-            <br />
+            <div class="row">
+                <hr class="col divider-secondary">
+                <img src="/images/game_dev/impo.png" class="game-dev-impo-image" alt=""><br />
+                <hr class="col divider-secondary">
+            </div>
             Comunque sono molto felice di essere riuscito a concluderlo e a pubblicarlo. In totale ci ho messo sei anni a finirlo e mi è capitato
-            spesso durante questo periodo di voler mollare tutto perché pensavo di non farcela, che sarebbe stato impossibile o altre cose così...<br />
+            spesso durante questo periodo di voler mollare tutto perché pensavo di non farcela, che sarebbe stato impossibile o altre cose così.
             Tutto questo mi ha insegnato molto su cosa significhi portare a termine un progetto complesso: organizzazione, costanza, gestione delle
             difficoltà e produttività nel lungo periodo.<br />
             <br />
@@ -56,7 +60,7 @@ window.i18nRegister({
             </ul>
             <br />
             Se volete vedere il codice (molto incasinato):
-            <b><a href="https://github.com/LucaChioni/OffToSleep" target="_blank" rel="noopener noreferrer">Progetto GitHub</a></b>.<br />
+            <b><a href="https://github.com/LucaChioni/OffToSleep" target="_blank" rel="noopener noreferrer">GitHub - Off to Sleep</a></b>.<br />
             Su GitHub non ho messo le risorse audio e video, se lanciate il codice è normale che non parta.<br />
             <section class="vt-trigger"></section>
         `,
@@ -69,7 +73,7 @@ window.i18nRegister({
             I was in my third year of high school and had just discovered programming logic with C++, so I used that language to create
             a small command-line adventure.<br />
             It’s not great in terms of commands, nor in terms of everything else... below I’ve included some screenshots to give an idea:<br />
-            <div class="row" style="flex-wrap: wrap;">
+            <div class="row game1-screen" style="flex-wrap: wrap;">
                 <img src="/images/game_dev/g1-dream.png" alt="">
                 <img src="/images/game_dev/g1-combat.png" alt="">
                 <img src="/images/game_dev/g1-enigma.png" alt="">
@@ -77,7 +81,7 @@ window.i18nRegister({
             The player controls the character “O” (first image) and goes through a short adventure by defeating enemies in turn-based combat (second
             image) and solving small environmental puzzles (third image).<br />
             If you want to cry blood and tear your eyes out, you can see how I wrote it here:
-            <b><a href="https://github.com/LucaChioni/MyFirstGame" target="_blank" rel="noopener noreferrer">GitHub Project</a></b>.<br />
+            <b><a href="https://github.com/LucaChioni/MyFirstGame" target="_blank" rel="noopener noreferrer">GitHub - First Game</a></b>.<br />
             <br />
             As I progressed through my studies, I learned much more about the world of computer science, I started discovering incredible things,
             and I realized I could create anything from scratch.<br />
@@ -99,9 +103,13 @@ window.i18nRegister({
             and even fewer actually tried it. Those who tried it didn’t appreciate it much.<br />
             That’s the reason why I didn’t include it in my work experiences: because it never really became a “job”.<br />
             I was obviously a bit disappointed, but it’s clear that it’s not that great. I kind of expected it, so in the end it wasn’t a huge drama.<br />
-            <br />
+            <div class="row">
+                <hr class="col divider-secondary">
+                <img src="/images/game_dev/impo.png" class="game-dev-impo-image" alt=""><br />
+                <hr class="col divider-secondary">
+            </div>
             Still, I’m very happy that I managed to finish and publish it. It took me six years in total to complete,
-            and during that time I often felt like giving up because I thought I wouldn’t make it, that it would be impossible, or things like that...<br />
+            and during that time I often felt like giving up because I thought I wouldn’t make it, that it would be impossible, or things like that.
             All of this taught me a lot about what it means to complete a complex project: organization, consistency,
             dealing with difficulties and long-term productivity.<br />
             <br />
@@ -116,7 +124,7 @@ window.i18nRegister({
             </ul>
             <br />
             If you want to see the (very messy) code:
-            <b><a href="https://github.com/LucaChioni/OffToSleep" target="_blank" rel="noopener noreferrer">GitHub Project</a></b>.<br />
+            <b><a href="https://github.com/LucaChioni/OffToSleep" target="_blank" rel="noopener noreferrer">GitHub - Off to Sleep</a></b>.<br />
             On GitHub I didn’t upload the audio and video assets, so if you run the code it’s normal that it won’t start.<br />
             <section class="vt-trigger"></section>
         `,

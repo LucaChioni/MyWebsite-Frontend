@@ -30,6 +30,8 @@
     --base-secret-input-border-radius: 2px;
     --base-secret-input-padding-top-bottom: 2px;
     --base-secret-input-padding-left-right: 8px;
+    --base-work-logo-size: 20px;
+    --base-game-dev-impo-image-size: 50px;
 
     --ui-scale: 1;
 
@@ -59,6 +61,8 @@
     --secret-input-border-radius: calc(var(--base-secret-input-border-radius) * var(--ui-scale));
     --secret-input-padding-top-bottom: calc(var(--base-secret-input-padding-top-bottom) * var(--ui-scale));
     --secret-input-padding-left-right: calc(var(--base-secret-input-padding-left-right) * var(--ui-scale));
+    --work-logo-size: calc(var(--base-work-logo-size) * var(--ui-scale));
+    --game-dev-impo-image-size: calc(var(--base-game-dev-impo-image-size) * var(--ui-scale));
 }
 
 @media (min-aspect-ratio: 1/1) and (max-height: 750px) {
@@ -175,6 +179,10 @@ body.page-leave {
     margin-top: var(--divider-margin-top);
     margin-bottom: 0px;
     z-index: 1;
+}
+
+.divider-secondary {
+    width: 100%;
 }
 
 /* ===== Titles e text ===== */

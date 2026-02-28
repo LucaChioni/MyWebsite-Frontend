@@ -15,7 +15,7 @@ window.i18nRegister({
             Il mio percorso scolastico non è niente di incredibile, si incasina un po’ a un certo punto, ma poi si aggiusta sul finale.<br />
             Non ho fatto l’università, quindi l’unica cosa che ha senso raccontare credo siano le superiori.<br />
             <br />
-            <b><u>Liceo Scientifico Statale "Enrico Fermi", Massa</u></b><br />
+            <b><a href="https://www.liceofermimassa.edu.it/" target="_blank" rel="noopener noreferrer">Liceo Scientifico Statale "Enrico Fermi", Massa</a></b><br />
             Ho frequentato questa scuola fino alla classe quarta, anno in cui sono stato bocciato.
             Poi ho cambiato il corso di studi partendo dalla classe terza di un istituto tecnico di cui parlerò dopo.
             Con questa piccola mossa ho perso in totale due anni, che si potrebbero ridurre a uno in "termini assoluti" dato che ho
@@ -26,7 +26,7 @@ window.i18nRegister({
             Mi ricordo che mi piaceva un sacco filosofia e mi perdevo spesso a pensare a ciò che scoprivo studiandola.<br />
             Nell’anno in cui sono stato bocciato le uniche materie in cui andavo bene erano matematica e scienze. Il resto insufficiente.<br />
             <br />
-            <b><u>Istituto di Istruzione Superiore A. Meucci, Massa</u></b><br />
+            <b><a href="https://iismeuccimassa.edu.it/" target="_blank" rel="noopener noreferrer">Istituto di Istruzione Superiore A. Meucci, Massa</a></b><br />
             In questo istituto ho affrontato il corso a indirizzo informatico.<br />
             Ho bellissimi ricordi di questo periodo. Di sicuro era una scuola più facile rispetto al liceo. All’improvviso ero diventato di nuovo "bravo a scuola".
             Ho continuato a studiare con lo stesso impegno e continuità che avevo al liceo. Mi "applicavo" allo stesso modo, però i voti erano più alti.
@@ -72,7 +72,7 @@ window.i18nRegister({
             My school career is anything special, it gets a bit messy at some point, but then it sort of fixes itself in the end.<br />
             I didn’t go to university, so the only thing that really makes sense to talk about is high school.<br />
             <br />
-            <b><u>Liceo Scientifico Statale "Enrico Fermi", Massa</u></b><br />
+            <b><a href="https://www.liceofermimassa.edu.it/" target="_blank" rel="noopener noreferrer">Liceo Scientifico Statale "Enrico Fermi", Massa</a></b><br />
             I attended this school up to the 4th year, which is when I was held back.
             I then changed my course of study, starting again from the 3rd year at a technical institute, which I’ll talk about later.
             With this small move, I lost a total of two years, which could be considered just one in "absolute terms", since I
@@ -83,7 +83,7 @@ window.i18nRegister({
             What I do remember is that I really loved philosophy and often got lost thinking about what I discovered while studying it.<br />
             In the year I was held back, the only subjects I did well in were math and science. Everything else was insufficient.<br />
             <br />
-            <b><u>Istituto di Istruzione Superiore A. Meucci, Massa</u></b><br />
+            <b><a href="https://iismeuccimassa.edu.it/" target="_blank" rel="noopener noreferrer">Istituto di Istruzione Superiore A. Meucci, Massa</a></b><br />
             At this institute I followed a computer science-oriented program.<br />
             I have very fond memories of this period. It was definitely an easier school compared to the scientific high school.
             All of a sudden, I was "good at school" again.
