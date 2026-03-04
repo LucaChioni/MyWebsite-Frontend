@@ -16,6 +16,7 @@
     --base-video-trailer-width: 560px;
     --base-video-trailer-height: 315px;
     --base-font-size-title: 35px;
+    --base-font-size-content-subtitle: 26px;
     --base-font-size-text: 20px;
     --base-font-size-tooltip: 14px;
     --base-wheel-menu-items-distance: 45px;
@@ -48,6 +49,7 @@
     --video-trailer-height: calc(var(--base-video-trailer-height) * var(--ui-scale));
     --font-size-title: calc(var(--base-font-size-title) * var(--ui-scale));
     --font-size-text: calc(var(--base-font-size-text) * var(--ui-scale));
+    --font-size-content-subtitle: calc(var(--base-font-size-content-subtitle) * var(--ui-scale));
     --font-size-tooltip: calc(var(--base-font-size-tooltip) * var(--ui-scale));
     --wheel-menu-items-distance: calc(var(--base-wheel-menu-items-distance) * var(--ui-scale));
     --divider-margin-top: calc(var(--base-divider-margin-top) * var(--ui-scale));
@@ -98,9 +100,11 @@
         --video-trailer-height: 180px;
         --font-size-title: 25px;
         --font-size-text: 14px;
+        --font-size-content-subtitle: 18px;
         --font-size-tooltip: 13px;
         --tooltip-margin-top: 6px;
         --lang-switcher-margin-top: 5px;
+        --work-logo-size: 16px;
     }
     .lang-selection-text { display: none !important; }
     .answers-desktop { display: none !important; }
@@ -198,6 +202,10 @@ body.page-leave {
     max-width: var(--sub-title-max-width);
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.content-subtitle {
+    font-size: var(--font-size-content-subtitle);
 }
 
 .text-paragraph {
