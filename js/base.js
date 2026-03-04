@@ -23,7 +23,3 @@ function showPage() {
 }
 window.addEventListener("load", showPage);
 window.addEventListener("pageshow", showPage);
-
-fetch('/pages/components/footer.html').then(res => res.text()).then(data => {
-    document.getElementById('footer-container').innerHTML = data;
-});
