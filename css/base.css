@@ -4,7 +4,7 @@
     --fade-out: 0.1s;
     --background-color-rgb: 235, 235, 235; /* #ebebeb */
 
-    --base-maxw: 1000px;
+    --base-maxw: 1100px;
     --base-wheel-size: 630px;
     --base-face-size: 300px;
     --base-back-home-size: 50px;
@@ -33,6 +33,12 @@
     --base-secret-input-padding-left-right: 8px;
     --base-work-logo-size: 20px;
     --base-game-dev-impo-image-size: 50px;
+    --base-interests-images-height: 420px;
+    --base-interests-images-width: 650px;
+    --base-interests-images-full-width: 1000px;
+    --base-interests-to-the-moon-description-margin-top: -50px;
+    --base-interests-to-the-moon-description-margin-bottom: -35px;
+    --base-interests-matrix-description-margin-top: -220px;
 
     --ui-scale: 1;
 
@@ -65,6 +71,12 @@
     --secret-input-padding-left-right: calc(var(--base-secret-input-padding-left-right) * var(--ui-scale));
     --work-logo-size: calc(var(--base-work-logo-size) * var(--ui-scale));
     --game-dev-impo-image-size: calc(var(--base-game-dev-impo-image-size) * var(--ui-scale));
+    --interests-images-height: calc(var(--base-interests-images-height) * var(--ui-scale));
+    --interests-images-width: calc(var(--base-interests-images-width) * var(--ui-scale));
+    --interests-images-full-width: calc(var(--base-interests-images-full-width) * var(--ui-scale));
+    --interests-to-the-moon-description-margin-top: calc(var(--base-interests-to-the-moon-description-margin-top) * var(--ui-scale));
+    --interests-to-the-moon-description-margin-bottom: calc(var(--base-interests-to-the-moon-description-margin-bottom) * var(--ui-scale));
+    --interests-matrix-description-margin-top: calc(var(--base-interests-matrix-description-margin-top) * var(--ui-scale));
 }
 
 @media (min-aspect-ratio: 1/1) and (max-height: 750px) {
@@ -105,6 +117,13 @@
         --tooltip-margin-top: 6px;
         --lang-switcher-margin-top: 5px;
         --work-logo-size: 16px;
+
+        --interests-images-height: 294px;
+        --interests-images-width: 455px;
+        --interests-images-full-width: 700px;
+        --interests-to-the-moon-description-margin-top: -35px;
+        --interests-to-the-moon-description-margin-bottom: -24px;
+        --interests-matrix-description-margin-top: -130px;
     }
     .lang-selection-text { display: none !important; }
     .answers-desktop { display: none !important; }
@@ -301,7 +320,6 @@ a:hover {
 
 /* ===== Rows and columns ===== */
 .row {
-    /* position: relative; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -313,6 +331,90 @@ a:hover {
     justify-content: center;
     align-items: center;
     flex: 1;
+}
+
+.col-70 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.col-60 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.col-55 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+}
+
+.col-50 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.col-45 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+
+.col-40 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.col-35 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+}
+
+.col-30 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.col-25 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.col-20 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.col-10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+.col-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
 }
 
 /* ===== Back home ===== */

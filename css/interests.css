@@ -1,3 +1,34 @@
 body.happy::before {
     background-image: url("/images/speaker/happy.png");
 }
+
+.interests-images {
+    z-index: -1;
+}
+
+.interests-images-height {
+    width: auto;
+    height: var(--interests-images-height);
+}
+
+.interests-images-width {
+    width: var(--interests-images-width);
+    height: auto;
+}
+
+.interests-images-full-width {
+    width: var(--interests-images-full-width);
+    height: auto;
+    transform: scale(1.07);
+    z-index: -1;
+}
+
+.margins-to-the-moon-description {
+    margin-top: var(--interests-to-the-moon-description-margin-top);
+    margin-bottom: var(--interests-to-the-moon-description-margin-bottom);
+}
+
+.margins-matrix-description {
+    margin-top: var(--interests-matrix-description-margin-top);
+    margin-bottom: 0;
+}
