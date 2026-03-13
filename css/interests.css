@@ -2,6 +2,12 @@ body.happy::before {
     background-image: url("/images/speaker/happy.png");
 }
 
+.music-toggle {
+    width: var(--interests-music-toggle-size);
+    height: auto;
+    cursor: pointer;
+}
+
 .interests-images {
     z-index: -1;
 }

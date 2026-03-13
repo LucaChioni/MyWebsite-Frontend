@@ -33,12 +33,13 @@
     --base-secret-input-padding-left-right: 8px;
     --base-work-logo-size: 20px;
     --base-game-dev-impo-image-size: 50px;
-    --base-interests-images-height: 420px;
+    --base-interests-images-height: 430px;
     --base-interests-images-width: 650px;
     --base-interests-images-full-width: 1000px;
     --base-interests-to-the-moon-description-margin-top: -50px;
     --base-interests-to-the-moon-description-margin-bottom: -35px;
     --base-interests-matrix-description-margin-top: -220px;
+    --base-interests-music-toggle-size: 100px;
 
     --ui-scale: 1;
 
@@ -77,6 +78,7 @@
     --interests-to-the-moon-description-margin-top: calc(var(--base-interests-to-the-moon-description-margin-top) * var(--ui-scale));
     --interests-to-the-moon-description-margin-bottom: calc(var(--base-interests-to-the-moon-description-margin-bottom) * var(--ui-scale));
     --interests-matrix-description-margin-top: calc(var(--base-interests-matrix-description-margin-top) * var(--ui-scale));
+    --interests-music-toggle-size: calc(var(--base-interests-music-toggle-size) * var(--ui-scale));
 }
 
 @media (min-aspect-ratio: 1/1) and (max-height: 750px) {
@@ -319,6 +321,13 @@ a:hover {
 }
 
 /* ===== Rows and columns ===== */
+.row-justify-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .row {
     display: flex;
     align-items: center;
