@@ -148,17 +148,17 @@ window.i18nRegister({
     en: {
         interests_title: "My interests",
         interests_intro: `
-            In this section I eventually decided to talk about the video games, books, and movies / series that marked me the most and that I consider
+            In this section I decided to talk about the video games, books, and movies / series that marked me the most and that I consider
             “my favorites”. I wanted to talk about many more things, but putting certain works and topics on the same level as the fact that I like F1 or
-            playing tennis didn’t seem very sensible. So here is the list of the most incredible things I have ever played / watched / read:<br />
+            playing tennis didn’t seem to make sense to me. So here is the list of the most incredible things I have ever played / watched / read:<br />
         `,
         interests_the_last_of_us_title: `The Last of Us`,
         interests_the_last_of_us_description: `
             In a zombie apocalypse, Ellie carries in her DNA the cure for humanity’s salvation. Joel is a weapons smuggler. Years earlier he lost his
             daughter and, with her, any kind of hope or ambition for the future. He ends up having to “smuggle” Ellie to a
             group of people who are studying a cure.<br />
-            The journey is long and “when you cross the country with someone”, your job as a smuggler slowly starts to
-            take a back seat. Saving humanity is no longer absolutely necessary; in fact, humanity itself becomes the enemy you need to protect yourself from.<br />
+            The journey is long and “when you cross the country with someone”, your job as a smuggler slowly starts to take a back seat.
+            Saving humanity is no longer necessary, in fact, humanity itself becomes the enemy you need to protect yourself from.<br />
             Ellie is the salvation, but yours, not the world’s. And what the world wants no longer matters to you.
         `,
         interests_outer_wilds_title: `Outer Wilds`,
@@ -178,7 +178,7 @@ window.i18nRegister({
             work of the two doctors, who are forced to enter his memories, traveling backwards from old age to childhood in order
             to reconstruct the events of his life and understand the origin of that desire.<br />
             It’s difficult to explain in words the emotion it makes you feel. The game shows you the life of a man: his moments of growth, his
-            disappointments, his regrets, and his happiest moments. The Moon is not a random place; it is a promise that had been made,
+            disappointments, his regrets, and his happiest moments. The Moon is not a random place, it is a promise that had been made,
             but forgotten. In the end, a part of him remembers and is trying in every possible way to make up for it.
         `,
         interests_soma_description: `Soma`,
@@ -190,8 +190,8 @@ window.i18nRegister({
         `,
         interests_soma_description_2: `
             The game keeps “hitting” you with more questions and doubts, not answers.<br />
-            It belongs to the horror genre, but the disturbance and fear come less from the “monsters”
-            and more from the sense of disorientation and isolation born from constant reflections on consciousness,
+            It belongs to the horror genre, but the disturbance and fear come not so much from the “monsters”
+            as from the sense of disorientation and isolation born from constant reflections on consciousness,
             identity, and what it means to be “human”.<br />
         `,
         interests_expedition_33_title: `Expedition 33`,
@@ -199,13 +199,13 @@ window.i18nRegister({
             Every year a mysterious entity called the “Paintress” paints a number on a huge monolith. Everyone who has reached that age dies.
             Now she has written 33. You will be part of Expedition 33: people doomed to disappear within the year who decide to set out to stop her
             and break the cycle.<br />
-            The Paintress is presented as the enemy, but she does not destroy cities or invade territories; she simply writes a number.
+            The Paintress is presented as the enemy, but she does not destroy cities or invade territories, she simply writes a number.
             And she does it as if she were carrying out something inevitable, as if she were following a rule she did not choose.
             A rule that slowly disrupts everything.<br />
             You leave to stop her, but what you are trying to stop is an inevitable evolution, something that belongs to the very order of things.
             There are no real “villains”. The Paintress herself appears helpless, almost like a crying child. What you fight is not an external monster,
             but the awareness that you must accept change and leave behind what once made you happy.<br />
-            Facing her gaze at the moment you abandon her is the hardest thing.
+            Facing his gaze at the moment you abandon him is the hardest thing.
         `,
         interests_il_fu_mattia_pascal: `
             <b><u><span class="content-subtitle">The Late Mattia Pascal</span></u></b><br />
@@ -221,7 +221,7 @@ window.i18nRegister({
             when you remove external stimuli, when no one looks at you and nothing influences you, who are you? We are always children of a context,
             defined by the gaze of others. But in the darkness, when you are “yourself” alone without influences, you risk remaining no one.<br />
             We assume a form and create thoughts when we come into contact with what is outside of us. If we had never perceived anything
-            around us, what thoughts could we produce? We are not something that can exist independently from context; rather, we are part of it.
+            around us, what thoughts could we produce? We are not something that can exist independently from context, rather, we are part of it.
             We cannot “free” ourselves from it.<br />
             In the end, when he decides to return to his town he discovers that his place has been taken and his wife has already rebuilt her life.
             And so he remains suspended: no longer Mattia Pascal, no longer Adriano Meis. An individual outside his context who is defined by what
@@ -247,15 +247,15 @@ window.i18nRegister({
             <b><u><span class="content-subtitle">Flatland</span></u></b><br />
             The story is told in the first person by a resident of a two-dimensional world: Flatland.<br />
             In this world there are only length and width, not height. The inhabitants are geometric figures: lines, triangles, squares,
-            polygons, and circles.<br />
+            polygons and circles.<br />
             The protagonist is a Square who lives a normal life until one night he receives a visit from a Sphere, a being from the
             three-dimensional world, who tries to explain the true structure of the universe. At first the Square cannot even conceive
-            the idea of a third dimension — it seems absurd — but then the Sphere takes him “outside” the plane and shows him that the
+            the idea of a third dimension, it seems absurd, but then the Sphere takes him “outside” the plane and shows him that the
             world is not flat and that much more exists beyond what he has always experienced.<br />
             The Square is completely shocked: everything he considered absolute is only a limited portion of reality. But this is not enough
-            for him; now he aspires to know the Realm of the Fourth Dimension and then the Fifth and so on. The Sphere, angered and almost offended,
+            for him, now he aspires to know the Realm of the Fourth Dimension and then the Fifth and so on. The Sphere, angered and almost offended,
             abruptly sends him back home and disappears.<br />
-            The Square has seen proof with his own eyes that he is a limited entity; the Sphere has not. The Sphere, having never seen the
+            The Square has seen proof with his own eyes that he is a limited entity, the Sphere has not. The Sphere, having never seen the
             fourth dimension, still believes it is absurd and refuses even to imagine it.<br />
         `,
         interests_matrix: `
@@ -266,30 +266,29 @@ window.i18nRegister({
             Our eyes capture light and then “convert” it into some kind of nerve signal that is sent to the brain. What we do with that signal
             is reconstruct what is outside.<br />
             We are literally imagining what is outside. Understanding where to place the boundary between these images and those we
-            <i>imagine</i> to exist only “inside” is possible only if we had an objective point of view — which we do not have.
+            <i>imagine</i> to exist only “inside” is possible only if we had an objective point of view, which we do not have.
         `,
         interests_the_office: `
             <b><u><span class="content-subtitle">The Office</span></u></b><br />
             A mediocre life, a mediocre job, with mediocre people. The average expectation of someone who should consider themselves happy.<br />
             The company is on the verge of failure because technology keeps moving forward and what used to be necessary will soon no longer be.
-            Putting in effort seems pointless; there is no real perspective.<br />
             It represents well several “personalities” that emerge within workplace dynamics: those who, despite everything, believe they are
-            “important” and think they are doing a great job even though it is obvious their profession is slowly becoming useless. Those who
-            want to be liked and respected by everyone but are the first to disrespect others.<br />
-            And then those who are aware of how ridiculous that lifestyle is, know they are becoming part of it, and have resigned themselves to it.
+            “important” and think they are doing a great job even though it is obvious their profession is slowly becoming useless.<br />
+            Those who want to be liked and respected by everyone but are the first to disrespect others.<br />
+            And then the one who is aware of how ridiculous that lifestyle is, knows he is becoming part of it, and has resigned himself to it.
         `,
         interests_true_detective: `
             <b><u><span class="content-subtitle">True Detective</span></u></b><br />
             It is difficult to believe that within us there is something supernatural and independent from matter, like a soul or something
-            similar. It is more logical to think that we are made of matter — and specifically of the particular “configuration” of matter
+            similar. It is more logical to think that we are made of matter, and specifically of the particular “configuration” of matter
             that composes us. And the matter that composes us exists only now that we exist.<br />
             The only moment in which we can live is the one in which our configuration exists. The only possible experience for us is the life
-            we are living. “Time is a flat circle,” the series claims — when it ends, it begins again.<br />
+            we are living. “Time is a flat circle,” the series claims: when it ends, it begins again.<br />
             This concept is based on a view of time as a real physical dimension. Time exists all at once and “forever”, like a single block.
             We simply “read” it as if it were flowing.<br />
             If that were true, then we would also exist forever, but only at the points where our configuration of matter is present.
             “Time is a flat circle” means that our life is the only one we can live and it is destined to repeat infinitely,
-            because that is where our matter — and therefore our consciousness — is trapped.
+            because that is where our matter, and therefore our consciousness, is trapped.
         `,
     },
 });
