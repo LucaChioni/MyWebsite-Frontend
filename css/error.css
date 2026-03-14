@@ -5,7 +5,3 @@
 .col:last-child {
     justify-content: flex-start;
 }
-
-.answers-smartphone {
-    display: none;
-}

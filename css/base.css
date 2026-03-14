@@ -120,16 +120,17 @@
         --lang-switcher-margin-top: 5px;
         --work-logo-size: 16px;
 
-        --interests-images-height: 294px;
-        --interests-images-width: 455px;
-        --interests-images-full-width: 700px;
-        --interests-to-the-moon-description-margin-top: -35px;
-        --interests-to-the-moon-description-margin-bottom: -24px;
-        --interests-matrix-description-margin-top: -130px;
+        --interests-images-height: 150px;
+        --interests-images-width: 100%;
+        --interests-images-full-width: 100%;
+        --interests-to-the-moon-description-margin-top: -15px;
+        --interests-to-the-moon-description-margin-bottom: -10px;
+        --interests-matrix-description-margin-top: -70px;
+        --interests-music-toggle-size: 70px;
     }
-    .lang-selection-text { display: none !important; }
-    .answers-desktop { display: none !important; }
-    .answers-smartphone { display: flex !important; }
+    .desktop-element { display: none !important; }
+    .smartphone-element { display: flex !important; }
+    .smartphone-element-block { display: block !important; }
     .game1-screen img { min-width: 262px !important; }
     .divider { z-index: 0 !important; }
 }
@@ -516,4 +517,12 @@ body.face-background::before {
 
 .lang-switcher.open .lang-menu {
     display: block;
+}
+
+.smartphone-element {
+    display: none;
+}
+
+.smartphone-element-block {
+    display: none;
 }
