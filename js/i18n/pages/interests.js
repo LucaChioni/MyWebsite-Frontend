@@ -4,9 +4,9 @@ window.i18nRegister({
     it: {
         interests_title: "I miei interessi",
         interests_intro: `
-            In questa sezione alla fine ho deciso di parlare dei videogiochi, libri e film / serie che mi hanno segnato di più e che considero
-            “i miei preferiti”. Volevo parlare di molte più cose, ma mettere sullo stesso piano certe opere e argomenti col fatto che mi piace la F1 o
-            giocare a tennis non mi sembrava molto sensato. Quindi ecco qua la lista delle cose più incredibili che abbia mai giocato / visto / letto:<br />
+            In questa sezione alla fine ho deciso di parlare dei videogiochi, libri e film che mi hanno segnato di più e che considero “i miei preferiti”.
+            Volevo parlare anche di altre cose, ma mettere sullo stesso piano certi argomenti col fatto che mi piace la F1 o giocare a tennis non mi
+            sembrava molto sensato. Quindi ecco qua una lista delle cose più incredibili che abbia mai giocato, visto e letto:<br />
         `,
         interests_the_last_of_us_title: `The Last of Us`,
         interests_the_last_of_us_description: `
@@ -68,7 +68,7 @@ window.i18nRegister({
             vedi, cambia. Mattia Pascal è un uomo che si sente schiacciato dalla propria vita per un matrimonio infelice e problemi economici. Per una
             serie di circostanze fugge da casa e, poco dopo, scopre che nel suo paese è stato ritrovato un cadavere scambiato per il suo. Tutti credono
             che Mattia sia morto.<br />
-            A quel punto decide di approfittarne: se è “morto”, può ricominciare da capo. Diventa “Adriano Meis”, cambia città, identità e anche il suo
+            A quel punto decide di approfittarne: se è “morto”, può ricominciare daccapo. Diventa “Adriano Meis”, cambia città, identità e anche il suo
             passato. È la libertà che sta cercando, ma quel che trova in quel “nuovo inizio”, è vuoto.<br />
             Viene fatta una bellissima riflessione sulla libertà: Adriano Meis decide di curare il suo strabismo, uno dei segni più “visibili” del suo
             passato da cancellare. Dopo l’operazione deve restare per giorni al buio, senza poter usare la vista. In quel buio forzato, quando elimini
@@ -137,7 +137,7 @@ window.i18nRegister({
             simile. È più logico pensare che siamo fatti di materia, e in particolare della specifica “configurazione” di materia che ci compone.
             E la materia che ci compone esiste solo ora che esistiamo.<br />
             L’unico momento in cui possiamo vivere è quello in cui esiste la nostra configurazione. L’unica esperienza possibile per noi è la vita
-            che stiamo vivendo. “La vita è un cerchio piatto” si sostiene nella serie, quando finisce, rinizia daccapo.<br />
+            che stiamo vivendo. “La vita è un cerchio piatto” si sostiene nella serie: quando finisce, rinizia daccapo.<br />
             Questo concetto si basa su una visione del tempo come una dimensione fisica reale. Il tempo esiste tutto insieme e “sempre”, come un
             unico blocco. Noi lo “leggiamo” vedendolo scorrere.<br />
             Se così fosse allora anche noi esisteremmo sempre, ma solo nei punti in cui è presente la nostra configurazione di materia. “La vita
@@ -148,9 +148,9 @@ window.i18nRegister({
     en: {
         interests_title: "My interests",
         interests_intro: `
-            In this section I decided to talk about the video games, books, and movies / series that marked me the most and that I consider
-            “my favorites”. I wanted to talk about many more things, but putting certain works and topics on the same level as the fact that I like F1 or
-            playing tennis didn’t seem to make sense to me. So here is the list of the most incredible things I have ever played / watched / read:<br />
+            In this section I decided to talk about the video games, books and movies that marked me the most and that I consider “my favorites”.
+            I wanted to talk about other things too, but putting certain topics on the same level as the fact that I like F1 or playing tennis didn’t
+            seem to make sense to me. So here is a list of the most incredible things I have ever played, watched and read:<br />
         `,
         interests_the_last_of_us_title: `The Last of Us`,
         interests_the_last_of_us_description: `
