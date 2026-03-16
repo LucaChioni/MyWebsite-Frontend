@@ -69,14 +69,14 @@ window.i18nRegister({
             serie di circostanze fugge da casa e, poco dopo, scopre che nel suo paese è stato ritrovato un cadavere scambiato per il suo. Tutti credono
             che Mattia sia morto.<br />
             A quel punto decide di approfittarne: se è “morto”, può ricominciare daccapo. Diventa “Adriano Meis”, cambia città, identità e anche il suo
-            passato. È la libertà che sta cercando, ma quel che trova in quel “nuovo inizio”, è vuoto.<br />
-            Viene fatta una bellissima riflessione sulla libertà: Adriano Meis decide di curare il suo strabismo, uno dei segni più “visibili” del suo
+            passato. È la libertà che sta cercando, ma quel che trova in quel nuovo inizio, è vuoto.<br />
+            Viene fatta una bellissima riflessione sulla libertà: Adriano Meis decide di curare il suo strabismo, uno dei segni più visibili del suo
             passato da cancellare. Dopo l’operazione deve restare per giorni al buio, senza poter usare la vista. In quel buio forzato, quando elimini
             gli stimoli esterni, quando nessuno ti guarda e nulla ti influenza, chi sei? Siamo sempre figli di un contesto, definiti dallo sguardo degli
             altri, ma nel buio, quando sei “te stesso” da solo senza influenze, rischi di non restare nessuno.<br />
             Assumiamo una forma e creiamo pensieri quando entriamo in contatto con ciò che sta fuori di noi. Se non avessimo mai percepito nulla di ciò
             che ci circonda, che pensieri potremmo produrre? Non siamo qualcosa che può esistere indipendentemente dal contesto, anzi, ne siamo parte,
-            non possiamo “liberarcene”.<br />
+            non possiamo liberarcene.<br />
             Alla fine, quando decide di tornare al suo paese scopre che il suo posto è stato preso e la moglie si è già rifatta una vita. E così resta
             sospeso: non più Mattia Pascal, non più Adriano Meis. Un individuo fuori dal suo contesto che viene definito per ciò che era un tempo, quando
             esisteva ancora: “il fu” Mattia Pascal.<br />
@@ -85,13 +85,13 @@ window.i18nRegister({
             <b><u><span class="content-subtitle">Solaris</span></u></b><br />
             Il racconto parla di un pianeta, Solaris, ricoperto da un immenso oceano che sembra essere senziente. L’oceano “risponde” agli esseri umani
             creando delle materializzazioni dei loro ricordi. Non semplici illusioni, ma presenze fisiche vere e proprie. La ricerca scientifica su
-            Solaris dura da decenni e nonostante gli studi, non si è mai riusciti capire o a categorizzare i comportamenti di questo “oceano”.<br />
+            Solaris dura da decenni e nonostante gli studi, non si è mai riusciti capire o a categorizzare i comportamenti di questo oceano.<br />
             Kris Kelvin è uno psicologo inviato sul pianeta Solaris per occuparsi dello studio del pianeta. Dopo qualche giorno Kelvin si ritrova
             davanti Harey, la donna che aveva amato e che si era suicidata anni prima. È una replica costruita da Solaris partendo dai suoi ricordi e
             dalle sue emozioni.<br />
             Il pianeta sembra trattare ricordi ed emozioni come se fossero oggetti fisici, qualcosa di materiale. Appartengono a una dimensione che noi,
             per come siamo fatti, non percepiamo direttamente, ma il pianeta riesce a leggerle e replicarle.<br />
-            Se qualcosa può essere replicato, significa che ha una struttura e quindi è “misurabile”. Ma che struttura ha un’emozione? Quale formula
+            Se qualcosa può essere replicato, significa che ha una struttura e quindi è misurabile. Ma che struttura ha un’emozione? Quale formula
             matematica può descriverla?<br />
             Gli scienziati cercano di capire Solaris, ma studiarlo significa studiare se stessi. Questo è il tema centrale del libro: andiamo nello spazio
             per conoscere e studiare “l’altro”, ma finiamo per studiare noi stessi e il modo in cui vediamo l’universo.<br />
@@ -103,7 +103,7 @@ window.i18nRegister({
             poligoni e cerchi.<br />
             Il protagonista è un Quadrato e vive normalmente finché una notte riceve la visita di una Sfera, un essere proveniente dal mondo a tre
             dimensioni, che prova a spiegargli la vera struttura dell’universo. All’inizio il Quadrato non riesce nemmeno a concepire l’idea della terza
-            dimensione, sembra un’assurdità, ma poi la Sfera lo porta “fuori” dal piano, gli mostra che il mondo non è piatto e che esiste molto di più
+            dimensione, sembra un’assurdità, ma poi la Sfera lo porta fuori dal piano, gli mostra che il mondo non è piatto e che esiste molto di più
             di quello ha sempre vissuto.<br />
             Il quadrato è completamente scioccato: tutto quello che considerava assoluto è solo una porzione limitata della realtà. Ma questo non gli
             basta, adesso aspira a conoscere il Regno della Quarta Dimensione e poi quello della Quinta e così via. La Sfera, adirata e quasi offesa,
@@ -113,20 +113,20 @@ window.i18nRegister({
         `,
         interests_matrix: `
             <b><u><span class="content-subtitle">Matrix</span></u></b><br />
-            Non è per niente banale distinguere la realtà dall’immaginazione. Sono quasi la stessa cosa perché si “creano” a vicenda. Siamo da qualche
+            Non è per niente banale distinguere la realtà dall’immaginazione. Sono quasi la stessa cosa perché si creano a vicenda. Siamo da qualche
             parte dentro il nostro cervello, “al buoi” dentro un cranio. Eppure vediamo quello che sta fuori, ma è il <i>come</i> che fa diventare tutto
             soggettivo.<br />
             I nostri occhi catturano la luce e poi la “convertono” in un qualche tipo di segnale nervoso che viene inviato al cervello. Quello che
             facciamo con quel segnale è ricostruire ciò che sta fuori.<br />
             Ci stiamo letteralmente immaginando ciò che sta fuori. Capire dove mettere il confine che separa queste immagini da quelle che ci
-            <i>immaginiamo</i> siano solo “dentro”, è una cosa possibile solo avendo a disposizione un punto di vista oggettivo che non abbiamo.
+            <i>immaginiamo</i> siano solo dentro, è una cosa possibile solo avendo a disposizione un punto di vista oggettivo che non abbiamo.
         `,
         interests_the_office: `
             <b><u><span class="content-subtitle">The Office</span></u></b><br />
             Una vita mediocre, un lavoro mediocre, con persone mediocri. L’aspettativa media di chi dovrebbe ritenersi felice.<br />
             L’azienda è sull’orlo del fallimento perché la tecnologia va avanti e ciò che serviva in passato tra poco non servirà più.
             Impegnarsi sembra inutile, non c’è alcun tipo prospettiva.<br />
-            Rappresenta bene diverse “personalità” che si sviluppano nelle dinamiche aziendali: chi, nonostante tutto, si crede “importante” e
+            Rappresenta bene diverse personalità che si sviluppano nelle dinamiche aziendali: chi, nonostante tutto, si crede “importante” e
             crede di star facendo un gran lavoro, anche se è palese che l’utilità del suo mestiere sta sparendo. Chi vuole essere ben voluto e
             rispettato da tutti ma è il primo a fregarsene e mancare di rispetto a chiunque.<br />
             E poi chi è consapevole di quanto sia ridicolo quello stile di vita, sa che ne sta diventando parte e se ne è rassegnato.
@@ -215,14 +215,14 @@ window.i18nRegister({
             series of circumstances he runs away from home and, shortly after, discovers that in his hometown a corpse has been found and mistaken for his.
             Everyone believes Mattia is dead.<br />
             At that point he decides to take advantage of it: if he is “dead”, he can start over. He becomes “Adriano Meis”, changes city, identity,
-            and even his past. It is the freedom he was looking for, but what he finds in that “new beginning” is emptiness.<br />
+            and even his past. It is the freedom he was looking for, but what he finds in that new beginning is emptiness.<br />
             A beautiful reflection on freedom is made: Adriano Meis decides to cure his strabismus, one of the most visible signs of his past
             he wants to erase. After the operation he must remain in darkness for days, unable to use his sight. In that forced darkness,
             when you remove external stimuli, when no one looks at you and nothing influences you, who are you? We are always children of a context,
             defined by the gaze of others. But in the darkness, when you are “yourself” alone without influences, you risk remaining no one.<br />
             We assume a form and create thoughts when we come into contact with what is outside of us. If we had never perceived anything
             around us, what thoughts could we produce? We are not something that can exist independently from context, rather, we are part of it.
-            We cannot “free” ourselves from it.<br />
+            We cannot free ourselves from it.<br />
             In the end, when he decides to return to his town he discovers that his place has been taken and his wife has already rebuilt her life.
             And so he remains suspended: no longer Mattia Pascal, no longer Adriano Meis. An individual outside his context who is defined by what
             he once was, when he still existed: “the late” Mattia Pascal.<br />
@@ -232,13 +232,13 @@ window.i18nRegister({
             The story tells of a planet, Solaris, covered by an immense ocean that seems to be sentient. The ocean “responds” to humans
             by creating materializations of their memories. Not simple illusions, but real physical presences. Scientific research on
             Solaris has lasted for decades, and despite all the studies no one has ever managed to understand or categorize the behavior
-            of this “ocean”.<br />
+            of this ocean.<br />
             Kris Kelvin is a psychologist sent to the planet Solaris to study it. After a few days Kelvin finds himself face to face with
             Harey, the woman he once loved who committed suicide years earlier. She is a replica constructed by Solaris from his memories
             and emotions.<br />
             The planet seems to treat memories and emotions as if they were physical objects, something material. They belong to a dimension
             that, given the way we are made, we cannot directly perceive, yet the planet can read and replicate them.<br />
-            If something can be replicated, it means it has a structure and therefore it is “measurable”. But what structure does an emotion have?
+            If something can be replicated, it means it has a structure and therefore it is measurable. But what structure does an emotion have?
             What mathematical formula could describe it?<br />
             Scientists try to understand Solaris, but studying it means studying themselves. This is the central theme of the book: we go into space
             to know and study “the other”, but we end up studying ourselves and the way we see the universe.<br />
@@ -250,7 +250,7 @@ window.i18nRegister({
             polygons and circles.<br />
             The protagonist is a Square who lives a normal life until one night he receives a visit from a Sphere, a being from the
             three-dimensional world, who tries to explain the true structure of the universe. At first the Square cannot even conceive
-            the idea of a third dimension, it seems absurd, but then the Sphere takes him “outside” the plane and shows him that the
+            the idea of a third dimension, it seems absurd, but then the Sphere takes him outside the plane and shows him that the
             world is not flat and that much more exists beyond what he has always experienced.<br />
             The Square is completely shocked: everything he considered absolute is only a limited portion of reality. But this is not enough
             for him, now he aspires to know the Realm of the Fourth Dimension and then the Fifth and so on. The Sphere, angered and almost offended,
@@ -260,19 +260,19 @@ window.i18nRegister({
         `,
         interests_matrix: `
             <b><u><span class="content-subtitle">Matrix</span></u></b><br />
-            It is not trivial at all to distinguish reality from imagination. They are almost the same thing because they “create” each other.
+            It is not trivial at all to distinguish reality from imagination. They are almost the same thing because they create each other.
             We are somewhere inside our brain, “in the dark” inside a skull. And yet we see what is outside, but it is the <i>how</i> that
             makes everything subjective.<br />
             Our eyes capture light and then “convert” it into some kind of nerve signal that is sent to the brain. What we do with that signal
             is reconstruct what is outside.<br />
             We are literally imagining what is outside. Understanding where to place the boundary between these images and those we
-            <i>imagine</i> to exist only “inside” is possible only if we had an objective point of view, which we do not have.
+            <i>imagine</i> to exist only inside is possible only if we had an objective point of view, which we do not have.
         `,
         interests_the_office: `
             <b><u><span class="content-subtitle">The Office</span></u></b><br />
             A mediocre life, a mediocre job, with mediocre people. The average expectation of someone who should consider themselves happy.<br />
             The company is on the verge of failure because technology keeps moving forward and what used to be necessary will soon no longer be.
-            It represents well several “personalities” that emerge within workplace dynamics: those who, despite everything, believe they are
+            It represents well several personalities that emerge within workplace dynamics: those who, despite everything, believe they are
             “important” and think they are doing a great job even though it is obvious their profession is slowly becoming useless.<br />
             Those who want to be liked and respected by everyone but are the first to disrespect others.<br />
             And then the one who is aware of how ridiculous that lifestyle is, knows he is becoming part of it, and has resigned himself to it.
@@ -283,7 +283,7 @@ window.i18nRegister({
             similar. It is more logical to think that we are made of matter, and specifically of the particular “configuration” of matter
             that composes us. And the matter that composes us exists only now that we exist.<br />
             The only moment in which we can live is the one in which our configuration exists. The only possible experience for us is the life
-            we are living. “Time is a flat circle,” the series claims: when it ends, it begins again.<br />
+            we are living. “Time is a flat circle”, the series claims: when it ends, it begins again.<br />
             This concept is based on a view of time as a real physical dimension. Time exists all at once and “forever”, like a single block.
             We simply “read” it as if it were flowing.<br />
             If that were true, then we would also exist forever, but only at the points where our configuration of matter is present.
