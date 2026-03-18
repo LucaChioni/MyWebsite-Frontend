@@ -41,8 +41,8 @@ window.i18nRegister({
         interests_soma_description_1: `
             Vesti i panni di un certo Simon, un uomo che, dopo una scansione cerebrale sperimentale nel 2015, si risveglia nell’anno 2104 su
             una stazione di ricerca sottomarina chiamata PATHOS-II. La Terra sopra l’oceano è diventata inabitabile dopo un disastro.<br />
-            Lo scopo è scoprire chi sei, dove sei, cosa stai facendo e perché. Inutile dire che di questi misteri esistenziali al massimo si
-            possono solo fare ipotesi.
+            Lo scopo è scoprire chi sei, dove sei, cosa stai facendo e perché. Domande che si traducono presto in misteri esistenziali
+            di cui al massimo si possono fare solo ipotesi.
         `,
         interests_soma_description_2: `
             Il gioco continua a “colpirti” con altre domande e dubbi, non risposte.<br />
@@ -185,14 +185,14 @@ window.i18nRegister({
         interests_soma_description_1: `
             You take on the role of Simon, a man who, after an experimental brain scan in 2015, wakes up in the year 2104 on
             an underwater research station called PATHOS-II. The Earth above the ocean has become uninhabitable after a disaster.<br />
-            The goal is to discover who you are, where you are, what you are doing, and why. Needless to say, the best you can do with
-            these existential mysteries is come up with hypotheses.
+            The goal is to discover who you are, where you are, what you are doing and why. Questions that soon turn into existential
+            mysteries, for which only hypotheses can be made.
         `,
         interests_soma_description_2: `
             The game keeps “hitting” you with more questions and doubts, not answers.<br />
             It belongs to the horror genre, but the disturbance and fear come not so much from the “monsters”
             as from the sense of disorientation and isolation born from constant reflections on consciousness,
-            identity, and what it means to be “human”.<br />
+            identity and what it means to be “human”.<br />
         `,
         interests_expedition_33_title: `Expedition 33`,
         interests_expedition_33_description: `
@@ -205,7 +205,7 @@ window.i18nRegister({
             You leave to stop her, but what you are trying to stop is an inevitable evolution, something that belongs to the very order of things.
             There are no real “villains”. The Paintress herself appears helpless, almost like a crying child. What you fight is not an external monster,
             but the awareness that you must accept change and leave behind what once made you happy.<br />
-            Facing his gaze at the moment you abandon him is the hardest thing.
+            Facing his gaze at the moment you abandon it is the hardest thing.
         `,
         interests_il_fu_mattia_pascal: `
             <b><u><span class="content-subtitle">The Late Mattia Pascal</span></u></b><br />
@@ -215,7 +215,7 @@ window.i18nRegister({
             series of circumstances he runs away from home and, shortly after, discovers that in his hometown a corpse has been found and mistaken for his.
             Everyone believes Mattia is dead.<br />
             At that point he decides to take advantage of it: if he is “dead”, he can start over. He becomes “Adriano Meis”, changes city, identity,
-            and even his past. It is the freedom he was looking for, but what he finds in that new beginning is emptiness.<br />
+            and even his past. It’s the freedom he was looking for, but what he finds in that new beginning is emptiness.<br />
             A beautiful reflection on freedom is made: Adriano Meis decides to cure his strabismus, one of the most visible signs of his past
             he wants to erase. After the operation he must remain in darkness for days, unable to use his sight. In that forced darkness,
             when you remove external stimuli, when no one looks at you and nothing influences you, who are you? We are always children of a context,
@@ -231,7 +231,7 @@ window.i18nRegister({
             <b><u><span class="content-subtitle">Solaris</span></u></b><br />
             The story tells of a planet, Solaris, covered by an immense ocean that seems to be sentient. The ocean “responds” to humans
             by creating materializations of their memories. Not simple illusions, but real physical presences. Scientific research on
-            Solaris has lasted for decades, and despite all the studies no one has ever managed to understand or categorize the behavior
+            Solaris has lasted for decades and despite all the studies no one has ever managed to understand or categorize the behavior
             of this ocean.<br />
             Kris Kelvin is a psychologist sent to the planet Solaris to study it. After a few days Kelvin finds himself face to face with
             Harey, the woman he once loved who committed suicide years earlier. She is a replica constructed by Solaris from his memories
@@ -260,7 +260,7 @@ window.i18nRegister({
         `,
         interests_matrix: `
             <b><u><span class="content-subtitle">Matrix</span></u></b><br />
-            It is not trivial at all to distinguish reality from imagination. They are almost the same thing because they create each other.
+            It’s not trivial at all to distinguish reality from imagination. They are almost the same thing because they create each other.
             We are somewhere inside our brain, “in the dark” inside a skull. And yet we see what is outside, but it is the <i>how</i> that
             makes everything subjective.<br />
             Our eyes capture light and then “convert” it into some kind of nerve signal that is sent to the brain. What we do with that signal
@@ -275,12 +275,12 @@ window.i18nRegister({
             It represents well several personalities that emerge within workplace dynamics: those who, despite everything, believe they are
             “important” and think they are doing a great job even though it is obvious their profession is slowly becoming useless.<br />
             Those who want to be liked and respected by everyone but are the first to disrespect others.<br />
-            And then the one who is aware of how ridiculous that lifestyle is, knows he is becoming part of it, and has resigned himself to it.
+            And then the one who is aware of how ridiculous that lifestyle is, knows he is becoming part of it and has resigned himself to it.
         `,
         interests_true_detective: `
             <b><u><span class="content-subtitle">True Detective</span></u></b><br />
-            It is difficult to believe that within us there is something supernatural and independent from matter, like a soul or something
-            similar. It is more logical to think that we are made of matter, and specifically of the particular “configuration” of matter
+            It’s difficult to believe that within us there is something supernatural and independent from matter, like a soul or something
+            similar. It’s more logical to think that we are made of matter, and specifically of the particular “configuration” of matter
             that composes us. And the matter that composes us exists only now that we exist.<br />
             The only moment in which we can live is the one in which our configuration exists. The only possible experience for us is the life
             we are living. “Time is a flat circle”, the series claims: when it ends, it begins again.<br />
