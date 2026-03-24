@@ -113,13 +113,14 @@ window.i18nRegister({
         `,
         interests_matrix: `
             <b><u><span class="content-subtitle">Matrix</span></u></b><br />
-            Non è per niente banale distinguere la realtà dall’immaginazione. Sono quasi la stessa cosa perché si creano a vicenda. Siamo da qualche
-            parte dentro il nostro cervello, “al buoi” dentro un cranio. Eppure vediamo quello che sta fuori, ma è il <i>come</i> che fa diventare tutto
-            soggettivo.<br />
+            Non è per niente banale distinguere la realtà dall’immaginazione. Sono quasi la stessa cosa perché si creano a vicenda.<br />
+            Siamo da qualche parte dentro il nostro cervello, “al buoi” dentro un cranio. Eppure vediamo quello che sta fuori, ma è il <i>come</i>
+            che fa diventare tutto soggettivo.<br />
             I nostri occhi catturano la luce e poi la “convertono” in un qualche tipo di segnale nervoso che viene inviato al cervello. Quello che
             facciamo con quel segnale è ricostruire ciò che sta fuori.<br />
             Ci stiamo letteralmente immaginando ciò che sta fuori. Capire dove mettere il confine che separa queste immagini da quelle che ci
-            <i>immaginiamo</i> siano solo dentro, è una cosa possibile solo avendo a disposizione un punto di vista oggettivo che non abbiamo.
+            <i>immaginiamo</i> siano solo dentro, sarebbe possibile solo avendo a disposizione un punto di vista oggettivo.<br />
+            Ma noi abbiamo solo il nostro. E non possiamo verificarne la veridicità.
         `,
         interests_the_office: `
             <b><u><span class="content-subtitle">The Office</span></u></b><br />
@@ -260,13 +261,14 @@ window.i18nRegister({
         `,
         interests_matrix: `
             <b><u><span class="content-subtitle">Matrix</span></u></b><br />
-            It’s not trivial at all to distinguish reality from imagination. They are almost the same thing because they create each other.
+            It’s not trivial at all to distinguish reality from imagination. They are almost the same thing, because they create each other.<br />
             We are somewhere inside our brain, “in the dark” inside a skull. And yet we see what is outside, but it is the <i>how</i> that
             makes everything subjective.<br />
             Our eyes capture light and then “convert” it into some kind of nerve signal that is sent to the brain. What we do with that signal
             is reconstruct what is outside.<br />
             We are literally imagining what is outside. Understanding where to place the boundary between these images and those we
-            <i>imagine</i> to exist only inside is possible only if we had an objective point of view, which we do not have.
+            <i>imagine</i> to exist only inside us would only be possible if we had access to an objective point of view.<br />
+            But we only have our own. And we cannot verify its truthfulness.
         `,
         interests_the_office: `
             <b><u><span class="content-subtitle">The Office</span></u></b><br />
