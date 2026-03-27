@@ -126,7 +126,7 @@ window.i18nRegister({
             <b><u><span class="content-subtitle">The Office</span></u></b><br />
             Una vita mediocre, un lavoro mediocre, con persone mediocri. L’aspettativa media di chi dovrebbe ritenersi felice.<br />
             L’azienda è sull’orlo del fallimento perché la tecnologia va avanti e ciò che serviva in passato tra poco non servirà più.
-            Impegnarsi sembra inutile, non c’è alcun tipo prospettiva.<br />
+            Impegnarsi sembra inutile, non c’è alcun tipo di prospettiva.<br />
             Rappresenta bene diverse personalità che si sviluppano nelle dinamiche aziendali: chi, nonostante tutto, si crede “importante” e
             crede di star facendo un gran lavoro, anche se è palese che l’utilità del suo mestiere sta sparendo. Chi vuole essere ben voluto e
             rispettato da tutti ma è il primo a fregarsene e mancare di rispetto a chiunque.<br />
