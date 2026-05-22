@@ -1,0 +1,10 @@
+name: CI workflow call
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  deploy:
+    uses: LucaChioni/MyWebsite-Infrastructure/.github/workflows/deploy.yml@master
+    secrets: inherit
