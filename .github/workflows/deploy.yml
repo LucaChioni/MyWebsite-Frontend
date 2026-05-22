@@ -7,4 +7,7 @@ on:
 jobs:
   deploy:
     uses: LucaChioni/MyWebsite-Infrastructure/.github/workflows/deploy.yml@master
-    secrets: inherit
+    secrets:
+      SERVER_HOST: ${{ secrets.SERVER_HOST }}
+      SERVER_USER: ${{ secrets.SERVER_USER }}
+      SERVER_SSH_KEY: ${{ secrets.SERVER_SSH_KEY }}
