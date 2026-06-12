@@ -54,10 +54,10 @@ window.i18nRegister({
             Ogni anno una misteriosa entità chiamata “Pittrice” dipinge un numero su un enorme monolite. Tutte le persone che hanno quell’età muoiono.
             Ora ha scritto 33. Tu farai parte della Spedizione 33: persone condannate a sparire entro l’anno che decidono di partire per fermarla e
             spezzare il ciclo.<br />
-            La Pittrice è presentata come il nemico, ma appare inerme, quasi una bambina che piange. Tutto ciò che fa è scrive un numero, e lo fa come
-            se stesse facendo qualcosa di inevitabile, seguendo una regola apparentemente banale, ma che lentamente sconvolge tutto.<br />
-            Non sai bene cosa aspettarti, pensi di non avere nulla da perdere, ma un cambiamento vuol dire anche lasciare indietro qualcosa.
-            Affrontarne lo sguardo nel momento in cui lo abbandoni è la cosa più difficile.
+            La Pittrice è presentata come il nemico, ma appare inerme, quasi una bambina che piange. Tutto ciò che fa è scrivere un numero, e lo fa come
+            se stesse facendo qualcosa di inevitabile, seguendo una regola apparentemente banale ma che lentamente sconvolge tutto.<br />
+            Tu parti, non sai bene cosa aspettarti. Pensi di non avere nulla da perdere, ma poi ti accorgi che un cambiamento vuol dire anche lasciare
+            indietro qualcosa. E affrontarne lo sguardo nel momento in cui lo abbandoni è la cosa più difficile.
         `,
         interests_il_fu_mattia_pascal: `
             <b><u><span class="content-subtitle">Il fu Mattia Pascal</span></u></b><br />
@@ -200,8 +200,8 @@ window.i18nRegister({
             and break the cycle.<br />
             The Paintress is presented as the enemy, but she appears helpless, almost like a crying child. All she does is write a number, and she
             does it as if she were doing something inevitable, following a seemingly banal rule that slowly turns everything upside down.<br />
-            You’re not sure what to expect, you think you have nothing to lose, but change also means leaving something behind.
-            Facing its gaze the moment you abandon it is the hardest thing.
+            You leave, not sure what to expect. You think you have nothing to lose, but then you realize that change also means leaving
+            something behind. And facing its gaze the moment you abandon it is the hardest thing.
         `,
         interests_il_fu_mattia_pascal: `
             <b><u><span class="content-subtitle">The Late Mattia Pascal</span></u></b><br />
