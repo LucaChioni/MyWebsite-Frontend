@@ -29,6 +29,33 @@ body.happy::before {
     z-index: -1;
 }
 
+.expedition-33-desktop-card {
+    background-image: url("/images/intrests/expedition_33.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 110%;
+    aspect-ratio: 1078/450;
+    margin-left: -5%;
+    display: flex;
+    align-items: center;
+}
+
+.expedition-33-desktop-text {
+    width: 42%;
+    margin: 0 0 0 4%;
+    padding: 0 0 0 8px;
+    color: rgba(var(--background-color-rgb));
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+.expedition-33-smartphone-image {
+    margin-top: 5px;
+}
+
 .margins-to-the-moon-description {
     margin-top: var(--interests-to-the-moon-description-margin-top);
     margin-bottom: var(--interests-to-the-moon-description-margin-bottom);

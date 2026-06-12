@@ -54,11 +54,9 @@ window.i18nRegister({
             Ogni anno una misteriosa entità chiamata “Pittrice” dipinge un numero su un enorme monolite. Tutte le persone che hanno quell’età muoiono.
             Ora ha scritto 33. Tu farai parte della Spedizione 33: persone condannate a sparire entro l’anno che decidono di partire per fermarla e
             spezzare il ciclo.<br />
-            La Pittrice è presentata come il nemico, ma non distrugge città, non invade territori, scrive solo un numero. E lo fa come se stesse
-            facendo qualcosa di inevitabile, come se stesse seguendo una regola che non ha scelto. Una regola che lentamente sconvolge tutto.<br />
-            Tu parti per fermarla, ma quel che stai cercando di fermare è un’evoluzione inevitabile, qualcosa che appartiene all’ordine stesso delle cose.
-            Non ci sono veri “cattivi”. La Pittrice stessa appare inerme, quasi una bambina che piange. Quello che combatti non è un mostro esterno,
-            ma è la consapevolezza di dover accettare un cambiamento e di dover lasciare indietro ciò che ti ha reso felice un tempo.<br />
+            La Pittrice è presentata come il nemico, ma appare inerme, quasi una bambina che piange. Tutto ciò che fa è scrive un numero, e lo fa come
+            se stesse facendo qualcosa di inevitabile, seguendo una regola apparentemente banale, ma che lentamente sconvolge tutto.<br />
+            Non sai bene cosa aspettarti, pensi di non avere nulla da perdere, ma un cambiamento vuol dire anche lasciare indietro qualcosa.
             Affrontarne lo sguardo nel momento in cui lo abbandoni è la cosa più difficile.
         `,
         interests_il_fu_mattia_pascal: `
@@ -197,16 +195,13 @@ window.i18nRegister({
         `,
         interests_expedition_33_title: `Expedition 33`,
         interests_expedition_33_description: `
-            Every year a mysterious entity called the “Paintress” paints a number on a huge monolith. Everyone who has reached that age dies.
-            Now she has written 33. You will be part of Expedition 33: people doomed to disappear within the year who decide to set out to stop her
+            Every year, a mysterious entity called "The Paintress" paints a number on a huge monolith. Everyone that age dies.
+            Now she’s written 33. You’ll be part of Expedition 33: people condemned to disappear within the year who decide to set out to stop her
             and break the cycle.<br />
-            The Paintress is presented as the enemy, but she does not destroy cities or invade territories, she simply writes a number.
-            And she does it as if she were carrying out something inevitable, as if she were following a rule she did not choose.
-            A rule that slowly disrupts everything.<br />
-            You leave to stop her, but what you are trying to stop is an inevitable evolution, something that belongs to the very order of things.
-            There are no real “villains”. The Paintress herself appears helpless, almost like a crying child. What you fight is not an external monster,
-            but the awareness that you must accept change and leave behind what once made you happy.<br />
-            Facing his gaze at the moment you abandon it is the hardest thing.
+            The Paintress is presented as the enemy, but she appears helpless, almost like a crying child. All she does is write a number, and she
+            does it as if she were doing something inevitable, following a seemingly banal rule that slowly turns everything upside down.<br />
+            You’re not sure what to expect, you think you have nothing to lose, but change also means leaving something behind.
+            Facing its gaze the moment you abandon it is the hardest thing.
         `,
         interests_il_fu_mattia_pascal: `
             <b><u><span class="content-subtitle">The Late Mattia Pascal</span></u></b><br />
