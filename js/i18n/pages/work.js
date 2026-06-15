@@ -6,9 +6,9 @@ window.i18nRegister({
         work_content: `
             Questa è una breve lista delle principali competenze sviluppate in ambito sviluppo web:<br />
             <ul style="margin: 0;">
-                <li>Linguaggi di programmazione usati con frequenza: Python, Node.js, JavaScript, TypeScript.</li>
+                <li>Linguaggi di programmazione usati con frequenza: Python, Node.js/TypeScript.</li>
                 <li>Linguaggi con conoscenza base / da rispolverare: Java, PHP, C++, C.</li>
-                <li>Linguaggi per lo sviluppo web: HTML, CSS, Vue.js.</li>
+                <li>Linguaggi e strumenti per lo sviluppo web front-end: JavaScript/TypeScript, HTML, CSS, Vue.js.</li>
                 <li>Gestione di database: sempre usato Postgres in ambito lavorativo, a scuola utilizzavamo MySQL.</li>
                 <li>Framework Odoo: sviluppo di moduli / creazione API.</li>
                 <li>DevOps & ambienti di lavoro: Docker (conoscenza base), sistemi Linux, controllo versione con Git.</li>
@@ -68,9 +68,9 @@ window.i18nRegister({
         work_content: `
             This is a short list of the main skills I have developed in the field of web development:<br />
             <ul style="margin: 0;">
-                <li>Programming languages used frequently: Python, Node.js, JavaScript, TypeScript</li>
+                <li>Programming languages used frequently: Python, Node.js/TypeScript</li>
                 <li>Languages with basic knowledge / to brush up on: Java, PHP, C++, C</li>
-                <li>Web development languages and tools: HTML, CSS, Vue.js</li>
+                <li>Front-end development languages and tools: HTML, CSS, JavaScript/TypeScript, Vue.js</li>
                 <li>Database management: always used Postgres in work environments, MySQL at school</li>
                 <li>Odoo framework: module development / API creation</li>
                 <li>DevOps & work environments: Docker (basic knowledge), Linux systems, version control with Git</li>
