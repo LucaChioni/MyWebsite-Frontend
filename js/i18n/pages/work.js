@@ -68,12 +68,12 @@ window.i18nRegister({
         work_content: `
             This is a short list of the main skills I have developed in the field of web development:<br />
             <ul style="margin: 0;">
-                <li>Programming languages used frequently: Python, Node.js/TypeScript</li>
-                <li>Languages with basic knowledge / to brush up on: Java, PHP, C++, C</li>
-                <li>Front-end development languages and tools: HTML, CSS, JavaScript/TypeScript, Vue.js</li>
-                <li>Database management: always used Postgres in work environments, MySQL at school</li>
-                <li>Odoo framework: module development / API creation</li>
-                <li>DevOps & work environments: Docker (basic knowledge), Linux systems, version control with Git</li>
+                <li>Programming languages used frequently: Python, Node.js/TypeScript.</li>
+                <li>Languages with basic knowledge / to brush up on: Java, PHP, C++, C.</li>
+                <li>Front-end development languages and tools: HTML, CSS, JavaScript/TypeScript, Vue.js.</li>
+                <li>Database management: always used Postgres in work environments, MySQL at school.</li>
+                <li>Odoo framework: module development / API creation.</li>
+                <li>DevOps & work environments: Docker (basic knowledge), Linux systems, version control with Git.</li>
             </ul><br />
             My work experiences are mainly two: <a href="https://www.bnova.it/" target="_blank" rel="noopener noreferrer">BNova</a> and <a href="https://sunlink.it/" target="_blank" rel="noopener noreferrer">Sunlink</a>.<br />
             Below is a brief description of both.<br />
