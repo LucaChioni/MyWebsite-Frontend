@@ -24,7 +24,7 @@ function applyLang(lang) {
 
     document.querySelectorAll("[data-i18n]").forEach((el) => {
         const key = el.getAttribute("data-i18n");
-        if (dict[key] != null) el.innerHTML = dict[key];
+        if (dict[key] != null) el.textContent = dict[key];
     });
 
     const currentBtn = document.querySelector("#langSwitcher .lang-current");

@@ -3,289 +3,130 @@ import "../core.js";
 window.i18nRegister({
     it: {
         interests_title: "I miei interessi",
-        interests_intro: `
-            In questa sezione alla fine ho deciso di parlare dei videogiochi, libri e film che mi hanno segnato di più e che considero “i miei preferiti”.
-            Volevo parlare anche di altre cose, ma mettere sullo stesso piano certi argomenti col fatto che mi piace la F1 o giocare a tennis non mi
-            sembrava molto sensato. Quindi ecco qua una lista delle cose più incredibili che abbia mai giocato, visto e letto:<br />
-        `,
-        interests_the_last_of_us_title: `The Last of Us`,
-        interests_the_last_of_us_description: `
-            In un’apocalisse zombie, Ellie ha nel suo DNA la cura per la salvezza dell’umanità. Joel è un contrabbandiere di armi. Ha perso sua
-            figlia anni prima e, con lei, qualunque tipo di speranza o ambizione per il futuro. Si ritrova a dover “contrabbandare” Ellie a un
-            gruppo di persone che sta studiando una cura.<br />
-            Il viaggio è lungo e “quando attraversi il paese con una persona” il tuo compito da contrabbandiere inizia a passare un po’ in
-            secondo piano. Non è più assolutamente necessario salvare l’umanità, anzi l’umanità diventa il nemico da cui proteggersi.<br />
-            Ellie è la salvezza, ma tua, non del mondo. E di ciò che vuole il mondo a te non importa più.
-        `,
-        interests_outer_wilds_title: `Outer Wilds`,
-        interests_outer_wilds_description: `
-            Sei un esploratore spaziale che parte in un viaggio alla scoperta dell’universo. Questo incipit crea delle aspettative enormi,
-            eppure lo svolgimento le supera tutte.<br />
-            È la curiosità che ti spinge ad andare avanti. Non combatti, non accumuli esperienza: impari. È un racconto sull’accettazione
-            dell’inevitabile, non puoi cambiare quello che succede, puoi solo capire perché succede.<br />
-            L’obiettivo del gioco è scoprire come funziona il gioco stesso. Non ci sono tutorial o spiegazioni, solo tu e l’universo da
-            esplorare.
-        `,
-        interests_to_the_moon_title: `To the Moon`,
-        interests_to_the_moon_description: `
-            Racconta la storia di due medici che, per lavoro, utilizzano una tecnologia capace di inserire ricordi artificiali nella mente delle
-            persone in fin di vita, così da realizzare “retroattivamente” il loro ultimo desiderio.<br />
-            Il paziente è un anziano che vorrebbe “andare sulla Luna”. Il problema è che non sa spiegare perché lo vuole. Questo complica un po’
-            il lavoro dei due medici che allora sono costretti ad entrare nei suoi ricordi, viaggiando a ritroso dalla vecchiaia all’infanzia per
-            ricostruire gli eventi della sua vita e capire l’origine di quel desiderio.<br />
-            È difficile spiegare a parole l’emozione che ti fa provare. Il gioco ti mostra la vita di un uomo, i suoi momenti di crescita, le sue
-            delusioni, i suoi rimpianti e i suoi momenti più belli e felici. La luna non è un posto a caso, è una promessa fatta, ma di cui si
-            era dimenticato. Alla fine una parte di lui se n’è ricordato e sta cercato in tutti i modi di rimediare.
-        `,
-        interests_soma_description: `Soma`,
-        interests_soma_description_1: `
-            Vesti i panni di un certo Simon, un uomo che, dopo una scansione cerebrale sperimentale nel 2015, si risveglia nell’anno 2104 su
-            una stazione di ricerca sottomarina chiamata PATHOS-II. La Terra sopra l’oceano è diventata inabitabile dopo un disastro.<br />
-            Lo scopo è scoprire chi sei, dove sei, cosa stai facendo e perché. Domande che si traducono presto in misteri esistenziali
-            di cui al massimo si possono fare solo ipotesi.
-        `,
-        interests_soma_description_2: `
-            Il gioco continua a “colpirti” con altre domande e dubbi, non risposte.<br />
-            Appartiene al genere horror, ma il turbamento e la paura non derivano tanto dai “mostri”, quanto dal senso di smarrimento e
-            isolamento che nascono dalle continue riflessioni su coscienza, identità e su cosa significhi essere “umani”.<br />
-        `,
-        interests_expedition_33_title: `Expedition 33`,
-        interests_expedition_33_description: `
-            Ogni anno una misteriosa entità chiamata “Pittrice” dipinge un numero su un enorme monolite. Tutte le persone che hanno quell’età muoiono.
-            Ora ha scritto 33. Tu farai parte della Spedizione 33: persone condannate a sparire entro l’anno che decidono di partire per fermarla e
-            spezzare il ciclo.<br />
-            La Pittrice è presentata come il nemico, ma appare inerme, quasi una bambina che piange. Tutto ciò che fa è scrivere un numero, e lo fa come
-            se stesse facendo qualcosa di inevitabile, seguendo una regola apparentemente banale ma che lentamente sconvolge tutto.<br />
-            Tu parti, non sai bene cosa aspettarti. Pensi di non avere nulla da perdere, ma poi ti accorgi che un cambiamento vuol dire anche lasciare
-            indietro qualcosa. E affrontarne lo sguardo nel momento in cui lo abbandoni è la cosa più difficile.
-        `,
-        interests_il_fu_mattia_pascal: `
-            <b><u><span class="content-subtitle">Il fu Mattia Pascal</span></u></b><br />
-            Uno di quei libri che sei obbligato a leggere quando vai a scuola. Spero sia ancora obbligatorio.<br />
-            Se non sai chi sei, guardati intorno, il contesto di cui ti circondi ti descrive meglio di qualunque riflessione. Se non ti piace quel che
-            vedi, cambia. Mattia Pascal è un uomo che si sente schiacciato dalla propria vita per un matrimonio infelice e problemi economici. Per una
-            serie di circostanze fugge da casa e, poco dopo, scopre che nel suo paese è stato ritrovato un cadavere scambiato per il suo. Tutti credono
-            che Mattia sia morto.<br />
-            A quel punto decide di approfittarne: se è “morto”, può ricominciare daccapo. Diventa “Adriano Meis”, cambia città, identità e anche il suo
-            passato. È la libertà che sta cercando, ma quel che trova in quel nuovo inizio, è vuoto.<br />
-            Viene fatta una bellissima riflessione sulla libertà: Adriano Meis decide di curare il suo strabismo, uno dei segni più visibili del suo
-            passato da cancellare. Dopo l’operazione deve restare per giorni al buio, senza poter usare la vista. In quel buio forzato, quando elimini
-            gli stimoli esterni, quando nessuno ti guarda e nulla ti influenza, chi sei? Siamo sempre figli di un contesto, definiti dallo sguardo degli
-            altri, ma nel buio, quando sei “te stesso” da solo senza influenze, rischi di non restare nessuno.<br />
-            Assumiamo una forma e creiamo pensieri quando entriamo in contatto con ciò che sta fuori di noi. Se non avessimo mai percepito nulla di ciò
-            che ci circonda, che pensieri potremmo produrre? Non siamo qualcosa che può esistere indipendentemente dal contesto, anzi, ne siamo parte,
-            non possiamo liberarcene.<br />
-            Alla fine, quando decide di tornare al suo paese scopre che il suo posto è stato preso e la moglie si è già rifatta una vita. E così resta
-            sospeso: non più Mattia Pascal, non più Adriano Meis. Un individuo fuori dal suo contesto che viene definito per ciò che era un tempo, quando
-            esisteva ancora: “il fu” Mattia Pascal.<br />
-        `,
-        interests_solaris: `
-            <b><u><span class="content-subtitle">Solaris</span></u></b><br />
-            Il racconto parla di un pianeta, Solaris, ricoperto da un immenso oceano che sembra essere senziente. L’oceano “risponde” agli esseri umani
-            creando delle materializzazioni dei loro ricordi. Non semplici illusioni, ma presenze fisiche vere e proprie. La ricerca scientifica su
-            Solaris dura da decenni e nonostante gli studi, non si è mai riusciti capire o a categorizzare i comportamenti di questo oceano.<br />
-            Kris Kelvin è uno psicologo inviato sul pianeta Solaris per occuparsi dello studio del pianeta. Dopo qualche giorno Kelvin si ritrova
-            davanti Harey, la donna che aveva amato e che si era suicidata anni prima. È una replica costruita da Solaris partendo dai suoi ricordi e
-            dalle sue emozioni.<br />
-            Il pianeta sembra trattare ricordi ed emozioni come se fossero oggetti fisici, qualcosa di materiale. Appartengono a una dimensione che noi,
-            per come siamo fatti, non percepiamo direttamente, ma il pianeta riesce a leggerle e replicarle.<br />
-            Se qualcosa può essere replicato, significa che ha una struttura e quindi è misurabile. Ma che struttura ha un’emozione? Quale formula
-            matematica può descriverla?<br />
-            Gli scienziati cercano di capire Solaris, ma studiarlo significa studiare se stessi. Questo è il tema centrale del libro: andiamo nello spazio
-            per conoscere e studiare “l’altro”, ma finiamo per studiare noi stessi e il modo in cui vediamo l’universo.<br />
-        `,
-        interests_flatlandia: `
-            <b><u><span class="content-subtitle">Flatlandia</span></u></b><br />
-            La storia è raccontata in prima persona da un abitante di un mondo a due dimensioni: Flatlandia.<br />
-            In questo mondo esistono solo lunghezza e larghezza, non l’altezza. Gli abitanti sono figure geometriche: linee, triangoli, quadrati,
-            poligoni e cerchi.<br />
-            Il protagonista è un Quadrato e vive normalmente finché una notte riceve la visita di una Sfera, un essere proveniente dal mondo a tre
-            dimensioni, che prova a spiegargli la vera struttura dell’universo. All’inizio il Quadrato non riesce nemmeno a concepire l’idea della terza
-            dimensione, sembra un’assurdità, ma poi la Sfera lo porta fuori dal piano, gli mostra che il mondo non è piatto e che esiste molto di più
-            di quello ha sempre vissuto.<br />
-            Il quadrato è completamente scioccato: tutto quello che considerava assoluto è solo una porzione limitata della realtà. Ma questo non gli
-            basta, adesso aspira a conoscere il Regno della Quarta Dimensione e poi quello della Quinta e così via. La Sfera, adirata e quasi offesa,
-            lo riporta bruscamente a casa e sparisce.<br />
-            Il Quadrato ha avuto la prova davanti ai suoi occhi di essere un’entità limitata, la Sfera no. La Sfera, non avendo ancora visto la quarta
-            dimensione, pensa ancora che sia un’assurdità e si rifiuta anche solo di ipotizzarla.<br />
-        `,
-        interests_matrix: `
-            <b><u><span class="content-subtitle">Matrix</span></u></b><br />
-            Non è per niente banale distinguere la realtà dall’immaginazione. Sono quasi la stessa cosa perché si creano a vicenda.<br />
-            Siamo da qualche parte dentro il nostro cervello, “al buoi” dentro un cranio. Eppure vediamo quello che sta fuori, ma è il <i>come</i>
-            che fa diventare tutto soggettivo.<br />
-            I nostri occhi catturano la luce e poi la “convertono” in un qualche tipo di segnale nervoso che viene inviato al cervello. Quello che
-            facciamo con quel segnale è ricostruire ciò che sta fuori.<br />
-            Ci stiamo letteralmente immaginando ciò che sta fuori. Capire dove mettere il confine che separa queste immagini da quelle che ci
-            <i>immaginiamo</i> siano solo dentro, sarebbe possibile solo avendo a disposizione un punto di vista oggettivo.<br />
-            Ma noi abbiamo solo il nostro. E non possiamo verificarne la veridicità.
-        `,
-        interests_the_office: `
-            <b><u><span class="content-subtitle">The Office</span></u></b><br />
-            Una vita mediocre, un lavoro mediocre, con persone mediocri. L’aspettativa media di chi dovrebbe ritenersi felice.<br />
-            L’azienda è sull’orlo del fallimento perché la tecnologia va avanti e ciò che serviva in passato tra poco non servirà più.
-            Impegnarsi sembra inutile, non c’è alcun tipo di prospettiva.<br />
-            Rappresenta bene diverse personalità che si sviluppano nelle dinamiche aziendali: chi, nonostante tutto, si crede “importante” e
-            crede di star facendo un gran lavoro, anche se è palese che l’utilità del suo mestiere sta sparendo. Chi vuole essere ben voluto e
-            rispettato da tutti ma è il primo a fregarsene e mancare di rispetto a chiunque.<br />
-            E poi chi è consapevole di quanto sia ridicolo quello stile di vita, sa che ne sta diventando parte e se ne è rassegnato.
-        `,
-        interests_true_detective: `
-            <b><u><span class="content-subtitle">True Detective</span></u></b><br />
-            È difficile credere che dentro di noi ci sia qualcosa di sovrannaturale e indipendente dalla materia, come un’anima o una cosa
-            simile. È più logico pensare che siamo fatti di materia, e in particolare della specifica “configurazione” di materia che ci compone.
-            E la materia che ci compone esiste solo ora che esistiamo.<br />
-            L’unico momento in cui possiamo vivere è quello in cui esiste la nostra configurazione. L’unica esperienza possibile per noi è la vita
-            che stiamo vivendo. “La vita è un cerchio piatto” si sostiene nella serie: quando finisce, rinizia daccapo.<br />
-            Questo concetto si basa su una visione del tempo come una dimensione fisica reale. Il tempo esiste tutto insieme e “sempre”, come un
-            unico blocco. Noi lo “leggiamo” vedendolo scorrere.<br />
-            Se così fosse allora anche noi esisteremmo sempre, ma solo nei punti in cui è presente la nostra configurazione di materia. “La vita
-            è un cerchio piatto” significa che la nostra vita è l’unica che possiamo vivere ed è destinata a ripetersi all’infinito, perché è lì
-            che la nostra materia, e quindi anche la nostra coscienza, è incastrata.
-        `,
+        interests_intro_1: "In questa sezione alla fine ho deciso di parlare dei videogiochi, libri e film che mi hanno segnato di più e che considero “i miei preferiti”. Volevo parlare anche di altre cose, ma mettere sullo stesso piano certi argomenti col fatto che mi piace la F1 o giocare a tennis non mi sembrava molto sensato. Quindi ecco qua una lista delle cose più incredibili che abbia mai giocato, visto e letto:",
+        interests_the_last_of_us_title: "The Last of Us",
+        interests_the_last_of_us_description_1: "In un’apocalisse zombie, Ellie ha nel suo DNA la cura per la salvezza dell’umanità. Joel è un contrabbandiere di armi. Ha perso sua figlia anni prima e, con lei, qualunque tipo di speranza o ambizione per il futuro. Si ritrova a dover “contrabbandare” Ellie a un gruppo di persone che sta studiando una cura.",
+        interests_the_last_of_us_description_2: "Il viaggio è lungo e “quando attraversi il paese con una persona” il tuo compito da contrabbandiere inizia a passare un po’ in secondo piano. Non è più assolutamente necessario salvare l’umanità, anzi l’umanità diventa il nemico da cui proteggersi.",
+        interests_the_last_of_us_description_3: "Ellie è la salvezza, ma tua, non del mondo. E di ciò che vuole il mondo a te non importa più.",
+        interests_outer_wilds_title: "Outer Wilds",
+        interests_outer_wilds_description_1: "Sei un esploratore spaziale che parte in un viaggio alla scoperta dell’universo. Questo incipit crea delle aspettative enormi, eppure lo svolgimento le supera tutte.",
+        interests_outer_wilds_description_2: "È la curiosità che ti spinge ad andare avanti. Non combatti, non accumuli esperienza: impari. È un racconto sull’accettazione dell’inevitabile, non puoi cambiare quello che succede, puoi solo capire perché succede.",
+        interests_outer_wilds_description_3: "L’obiettivo del gioco è scoprire come funziona il gioco stesso. Non ci sono tutorial o spiegazioni, solo tu e l’universo da esplorare.",
+        interests_to_the_moon_title: "To the Moon",
+        interests_to_the_moon_description_1: "Racconta la storia di due medici che, per lavoro, utilizzano una tecnologia capace di inserire ricordi artificiali nella mente delle persone in fin di vita, così da realizzare “retroattivamente” il loro ultimo desiderio.",
+        interests_to_the_moon_description_2: "Il paziente è un anziano che vorrebbe “andare sulla Luna”. Il problema è che non sa spiegare perché lo vuole. Questo complica un po’ il lavoro dei due medici che allora sono costretti ad entrare nei suoi ricordi, viaggiando a ritroso dalla vecchiaia all’infanzia per ricostruire gli eventi della sua vita e capire l’origine di quel desiderio.",
+        interests_to_the_moon_description_3: "È difficile spiegare a parole l’emozione che ti fa provare. Il gioco ti mostra la vita di un uomo, i suoi momenti di crescita, le sue delusioni, i suoi rimpianti e i suoi momenti più belli e felici. La luna non è un posto a caso, è una promessa fatta, ma di cui si era dimenticato. Alla fine una parte di lui se n’è ricordato e sta cercato in tutti i modi di rimediare.",
+        interests_soma_description: "Soma",
+        interests_soma_description_1_1: "Vesti i panni di un certo Simon, un uomo che, dopo una scansione cerebrale sperimentale nel 2015, si risveglia nell’anno 2104 su una stazione di ricerca sottomarina chiamata PATHOS-II. La Terra sopra l’oceano è diventata inabitabile dopo un disastro.",
+        interests_soma_description_1_2: "Lo scopo è scoprire chi sei, dove sei, cosa stai facendo e perché. Domande che si traducono presto in misteri esistenziali di cui al massimo si possono fare solo ipotesi.",
+        interests_soma_description_2_1: "Il gioco continua a “colpirti” con altre domande e dubbi, non risposte.",
+        interests_soma_description_2_2: "Appartiene al genere horror, ma il turbamento e la paura non derivano tanto dai “mostri”, quanto dal senso di smarrimento e isolamento che nascono dalle continue riflessioni su coscienza, identità e su cosa significhi essere “umani”.",
+        interests_expedition_33_title: "Expedition 33",
+        interests_expedition_33_description_1: "Ogni anno una misteriosa entità chiamata “Pittrice” dipinge un numero su un enorme monolite. Tutte le persone che hanno quell’età muoiono. Ora ha scritto 33. Tu farai parte della Spedizione 33: persone condannate a sparire entro l’anno che decidono di partire per fermarla e spezzare il ciclo.",
+        interests_expedition_33_description_2: "La Pittrice è presentata come il nemico, ma appare inerme, quasi una bambina che piange. Tutto ciò che fa è scrivere un numero, e lo fa come se stesse facendo qualcosa di inevitabile, seguendo una regola apparentemente banale ma che lentamente sconvolge tutto.",
+        interests_expedition_33_description_3: "Tu parti, non sai bene cosa aspettarti. Pensi di non avere nulla da perdere, ma poi ti accorgi che un cambiamento vuol dire anche lasciare indietro qualcosa. E affrontarne lo sguardo nel momento in cui lo abbandoni è la cosa più difficile.",
+        interests_il_fu_mattia_pascal_1: "Il fu Mattia Pascal",
+        interests_il_fu_mattia_pascal_2: "Uno di quei libri che sei obbligato a leggere quando vai a scuola. Spero sia ancora obbligatorio.",
+        interests_il_fu_mattia_pascal_3: "Se non sai chi sei, guardati intorno, il contesto di cui ti circondi ti descrive meglio di qualunque riflessione. Se non ti piace quel che vedi, cambia. Mattia Pascal è un uomo che si sente schiacciato dalla propria vita per un matrimonio infelice e problemi economici. Per una serie di circostanze fugge da casa e, poco dopo, scopre che nel suo paese è stato ritrovato un cadavere scambiato per il suo. Tutti credono che Mattia sia morto.",
+        interests_il_fu_mattia_pascal_4: "A quel punto decide di approfittarne: se è “morto”, può ricominciare daccapo. Diventa “Adriano Meis”, cambia città, identità e anche il suo passato. È la libertà che sta cercando, ma quel che trova in quel nuovo inizio, è vuoto.",
+        interests_il_fu_mattia_pascal_5: "Viene fatta una bellissima riflessione sulla libertà: Adriano Meis decide di curare il suo strabismo, uno dei segni più visibili del suo passato da cancellare. Dopo l’operazione deve restare per giorni al buio, senza poter usare la vista. In quel buio forzato, quando elimini gli stimoli esterni, quando nessuno ti guarda e nulla ti influenza, chi sei? Siamo sempre figli di un contesto, definiti dallo sguardo degli altri, ma nel buio, quando sei “te stesso” da solo senza influenze, rischi di non restare nessuno.",
+        interests_il_fu_mattia_pascal_6: "Assumiamo una forma e creiamo pensieri quando entriamo in contatto con ciò che sta fuori di noi. Se non avessimo mai percepito nulla di ciò che ci circonda, che pensieri potremmo produrre? Non siamo qualcosa che può esistere indipendentemente dal contesto, anzi, ne siamo parte, non possiamo liberarcene.",
+        interests_il_fu_mattia_pascal_7: "Alla fine, quando decide di tornare al suo paese scopre che il suo posto è stato preso e la moglie si è già rifatta una vita. E così resta sospeso: non più Mattia Pascal, non più Adriano Meis. Un individuo fuori dal suo contesto che viene definito per ciò che era un tempo, quando esisteva ancora: “il fu” Mattia Pascal.",
+        interests_solaris_1: "Solaris",
+        interests_solaris_2: "Il racconto parla di un pianeta, Solaris, ricoperto da un immenso oceano che sembra essere senziente. L’oceano “risponde” agli esseri umani creando delle materializzazioni dei loro ricordi. Non semplici illusioni, ma presenze fisiche vere e proprie. La ricerca scientifica su Solaris dura da decenni e nonostante gli studi, non si è mai riusciti capire o a categorizzare i comportamenti di questo oceano.",
+        interests_solaris_3: "Kris Kelvin è uno psicologo inviato sul pianeta Solaris per occuparsi dello studio del pianeta. Dopo qualche giorno Kelvin si ritrova davanti Harey, la donna che aveva amato e che si era suicidata anni prima. È una replica costruita da Solaris partendo dai suoi ricordi e dalle sue emozioni.",
+        interests_solaris_4: "Il pianeta sembra trattare ricordi ed emozioni come se fossero oggetti fisici, qualcosa di materiale. Appartengono a una dimensione che noi, per come siamo fatti, non percepiamo direttamente, ma il pianeta riesce a leggerle e replicarle.",
+        interests_solaris_5: "Se qualcosa può essere replicato, significa che ha una struttura e quindi è misurabile. Ma che struttura ha un’emozione? Quale formula matematica può descriverla?",
+        interests_solaris_6: "Gli scienziati cercano di capire Solaris, ma studiarlo significa studiare se stessi. Questo è il tema centrale del libro: andiamo nello spazio per conoscere e studiare “l’altro”, ma finiamo per studiare noi stessi e il modo in cui vediamo l’universo.",
+        interests_flatlandia_1: "Flatlandia",
+        interests_flatlandia_2: "La storia è raccontata in prima persona da un abitante di un mondo a due dimensioni: Flatlandia.",
+        interests_flatlandia_3: "In questo mondo esistono solo lunghezza e larghezza, non l’altezza. Gli abitanti sono figure geometriche: linee, triangoli, quadrati, poligoni e cerchi.",
+        interests_flatlandia_4: "Il protagonista è un Quadrato e vive normalmente finché una notte riceve la visita di una Sfera, un essere proveniente dal mondo a tre dimensioni, che prova a spiegargli la vera struttura dell’universo. All’inizio il Quadrato non riesce nemmeno a concepire l’idea della terza dimensione, sembra un’assurdità, ma poi la Sfera lo porta fuori dal piano, gli mostra che il mondo non è piatto e che esiste molto di più di quello ha sempre vissuto.",
+        interests_flatlandia_5: "Il quadrato è completamente scioccato: tutto quello che considerava assoluto è solo una porzione limitata della realtà. Ma questo non gli basta, adesso aspira a conoscere il Regno della Quarta Dimensione e poi quello della Quinta e così via. La Sfera, adirata e quasi offesa, lo riporta bruscamente a casa e sparisce.",
+        interests_flatlandia_6: "Il Quadrato ha avuto la prova davanti ai suoi occhi di essere un’entità limitata, la Sfera no. La Sfera, non avendo ancora visto la quarta dimensione, pensa ancora che sia un’assurdità e si rifiuta anche solo di ipotizzarla.",
+        interests_matrix_1: "Matrix",
+        interests_matrix_2: "Non è per niente banale distinguere la realtà dall’immaginazione. Sono quasi la stessa cosa perché si creano a vicenda.",
+        interests_matrix_3: "Siamo da qualche parte dentro il nostro cervello, “al buoi” dentro un cranio. Eppure vediamo quello che sta fuori, ma è il",
+        interests_matrix_4: "come",
+        interests_matrix_5: "che fa diventare tutto soggettivo.",
+        interests_matrix_6: "I nostri occhi catturano la luce e poi la “convertono” in un qualche tipo di segnale nervoso che viene inviato al cervello. Quello che facciamo con quel segnale è ricostruire ciò che sta fuori.",
+        interests_matrix_7: "Ci stiamo letteralmente immaginando ciò che sta fuori. Capire dove mettere il confine che separa queste immagini da quelle che ci",
+        interests_matrix_8: "immaginiamo",
+        interests_matrix_9: "siano solo dentro, sarebbe possibile solo avendo a disposizione un punto di vista oggettivo.",
+        interests_matrix_10: "Ma noi abbiamo solo il nostro. E non possiamo verificarne la veridicità.",
+        interests_the_office_1: "The Office",
+        interests_the_office_2: "Una vita mediocre, un lavoro mediocre, con persone mediocri. L’aspettativa media di chi dovrebbe ritenersi felice.",
+        interests_the_office_3: "L’azienda è sull’orlo del fallimento perché la tecnologia va avanti e ciò che serviva in passato tra poco non servirà più. Impegnarsi sembra inutile, non c’è alcun tipo di prospettiva.",
+        interests_the_office_4: "Rappresenta bene diverse personalità che si sviluppano nelle dinamiche aziendali: chi, nonostante tutto, si crede “importante” e crede di star facendo un gran lavoro, anche se è palese che l’utilità del suo mestiere sta sparendo. Chi vuole essere ben voluto e rispettato da tutti ma è il primo a fregarsene e mancare di rispetto a chiunque.",
+        interests_the_office_5: "E poi chi è consapevole di quanto sia ridicolo quello stile di vita, sa che ne sta diventando parte e se ne è rassegnato.",
+        interests_true_detective_1: "True Detective",
+        interests_true_detective_2: "È difficile credere che dentro di noi ci sia qualcosa di sovrannaturale e indipendente dalla materia, come un’anima o una cosa simile. È più logico pensare che siamo fatti di materia, e in particolare della specifica “configurazione” di materia che ci compone. E la materia che ci compone esiste solo ora che esistiamo.",
+        interests_true_detective_3: "L’unico momento in cui possiamo vivere è quello in cui esiste la nostra configurazione. L’unica esperienza possibile per noi è la vita che stiamo vivendo. “La vita è un cerchio piatto” si sostiene nella serie: quando finisce, rinizia daccapo.",
+        interests_true_detective_4: "Questo concetto si basa su una visione del tempo come una dimensione fisica reale. Il tempo esiste tutto insieme e “sempre”, come un unico blocco. Noi lo “leggiamo” vedendolo scorrere.",
+        interests_true_detective_5: "Se così fosse allora anche noi esisteremmo sempre, ma solo nei punti in cui è presente la nostra configurazione di materia. “La vita è un cerchio piatto” significa che la nostra vita è l’unica che possiamo vivere ed è destinata a ripetersi all’infinito, perché è lì che la nostra materia, e quindi anche la nostra coscienza, è incastrata.",
     },
     en: {
         interests_title: "My interests",
-        interests_intro: `
-            In this section I decided to talk about the video games, books and movies that marked me the most and that I consider “my favorites”.
-            I wanted to talk about other things too, but putting certain topics on the same level as the fact that I like F1 or playing tennis didn’t
-            seem to make sense to me. So here is a list of the most incredible things I have ever played, watched and read:<br />
-        `,
-        interests_the_last_of_us_title: `The Last of Us`,
-        interests_the_last_of_us_description: `
-            In a zombie apocalypse, Ellie carries in her DNA the cure for humanity’s salvation. Joel is a weapons smuggler. Years earlier he lost his
-            daughter and, with her, any kind of hope or ambition for the future. He ends up having to “smuggle” Ellie to a
-            group of people who are studying a cure.<br />
-            The journey is long and “when you cross the country with someone”, your job as a smuggler slowly starts to take a back seat.
-            Saving humanity is no longer necessary, in fact, humanity itself becomes the enemy you need to protect yourself from.<br />
-            Ellie is the salvation, but yours, not the world’s. And what the world wants no longer matters to you.
-        `,
-        interests_outer_wilds_title: `Outer Wilds`,
-        interests_outer_wilds_description: `
-            You are a space explorer setting out on a journey to discover the universe. This premise creates enormous expectations,
-            yet the experience surpasses them all.<br />
-            Curiosity is what drives you forward. You don’t fight, you don’t gain experience: you learn. It’s a story about accepting
-            the inevitable. You cannot change what happens, you can only understand why it happens.<br />
-            The goal of the game is to discover how the game itself works. There are no tutorials or explanations, only you and the universe to
-            explore.
-        `,
-        interests_to_the_moon_title: `To the Moon`,
-        interests_to_the_moon_description: `
-            It tells the story of two doctors who, as part of their job, use a technology capable of inserting artificial memories into the minds of
-            people at the end of their lives, allowing them to “retroactively” fulfill their final wish.<br />
-            The patient is an elderly man who wants to “go to the Moon”. The problem is that he cannot explain why he wants it. This complicates the
-            work of the two doctors, who are forced to enter his memories, traveling backwards from old age to childhood in order
-            to reconstruct the events of his life and understand the origin of that desire.<br />
-            It’s difficult to explain in words the emotion it makes you feel. The game shows you the life of a man: his moments of growth, his
-            disappointments, his regrets, and his happiest moments. The Moon is not a random place, it is a promise that had been made,
-            but forgotten. In the end, a part of him remembers and is trying in every possible way to make up for it.
-        `,
-        interests_soma_description: `Soma`,
-        interests_soma_description_1: `
-            You take on the role of Simon, a man who, after an experimental brain scan in 2015, wakes up in the year 2104 on
-            an underwater research station called PATHOS-II. The Earth above the ocean has become uninhabitable after a disaster.<br />
-            The goal is to discover who you are, where you are, what you are doing and why. Questions that soon turn into existential
-            mysteries, for which only hypotheses can be made.
-        `,
-        interests_soma_description_2: `
-            The game keeps “hitting” you with more questions and doubts, not answers.<br />
-            It belongs to the horror genre, but the disturbance and fear come not so much from the “monsters”
-            as from the sense of disorientation and isolation born from constant reflections on consciousness,
-            identity and what it means to be “human”.<br />
-        `,
-        interests_expedition_33_title: `Expedition 33`,
-        interests_expedition_33_description: `
-            Every year, a mysterious entity called "The Paintress" paints a number on a huge monolith. Everyone that age dies.
-            Now she’s written 33. You’ll be part of Expedition 33: people condemned to disappear within the year who decide to set out to stop her
-            and break the cycle.<br />
-            The Paintress is presented as the enemy, but she appears helpless, almost like a crying child. All she does is write a number, and she
-            does it as if she were doing something inevitable, following a seemingly banal rule that slowly turns everything upside down.<br />
-            You leave, not sure what to expect. You think you have nothing to lose, but then you realize that change also means leaving
-            something behind. And facing its gaze the moment you abandon it is the hardest thing.
-        `,
-        interests_il_fu_mattia_pascal: `
-            <b><u><span class="content-subtitle">The Late Mattia Pascal</span></u></b><br />
-            One of those books you are forced to read when you go to school. I hope it’s still mandatory.<br />
-            If you don’t know who you are, look around you: the context you live in describes you better than any reflection. If you don’t like what
-            you see, change it. Mattia Pascal is a man who feels crushed by his life because of an unhappy marriage and financial problems. Due to a
-            series of circumstances he runs away from home and, shortly after, discovers that in his hometown a corpse has been found and mistaken for his.
-            Everyone believes Mattia is dead.<br />
-            At that point he decides to take advantage of it: if he is “dead”, he can start over. He becomes “Adriano Meis”, changes city, identity,
-            and even his past. It’s the freedom he was looking for, but what he finds in that new beginning is emptiness.<br />
-            A beautiful reflection on freedom is made: Adriano Meis decides to cure his strabismus, one of the most visible signs of his past
-            he wants to erase. After the operation he must remain in darkness for days, unable to use his sight. In that forced darkness,
-            when you remove external stimuli, when no one looks at you and nothing influences you, who are you? We are always children of a context,
-            defined by the gaze of others. But in the darkness, when you are “yourself” alone without influences, you risk remaining no one.<br />
-            We assume a form and create thoughts when we come into contact with what is outside of us. If we had never perceived anything
-            around us, what thoughts could we produce? We are not something that can exist independently from context, rather, we are part of it.
-            We cannot free ourselves from it.<br />
-            In the end, when he decides to return to his town he discovers that his place has been taken and his wife has already rebuilt her life.
-            And so he remains suspended: no longer Mattia Pascal, no longer Adriano Meis. An individual outside his context who is defined by what
-            he once was, when he still existed: “the late” Mattia Pascal.<br />
-        `,
-        interests_solaris: `
-            <b><u><span class="content-subtitle">Solaris</span></u></b><br />
-            The story tells of a planet, Solaris, covered by an immense ocean that seems to be sentient. The ocean “responds” to humans
-            by creating materializations of their memories. Not simple illusions, but real physical presences. Scientific research on
-            Solaris has lasted for decades and despite all the studies no one has ever managed to understand or categorize the behavior
-            of this ocean.<br />
-            Kris Kelvin is a psychologist sent to the planet Solaris to study it. After a few days Kelvin finds himself face to face with
-            Harey, the woman he once loved who committed suicide years earlier. She is a replica constructed by Solaris from his memories
-            and emotions.<br />
-            The planet seems to treat memories and emotions as if they were physical objects, something material. They belong to a dimension
-            that, given the way we are made, we cannot directly perceive, yet the planet can read and replicate them.<br />
-            If something can be replicated, it means it has a structure and therefore it is measurable. But what structure does an emotion have?
-            What mathematical formula could describe it?<br />
-            Scientists try to understand Solaris, but studying it means studying themselves. This is the central theme of the book: we go into space
-            to know and study “the other”, but we end up studying ourselves and the way we see the universe.<br />
-        `,
-        interests_flatlandia: `
-            <b><u><span class="content-subtitle">Flatland</span></u></b><br />
-            The story is told in the first person by a resident of a two-dimensional world: Flatland.<br />
-            In this world there are only length and width, not height. The inhabitants are geometric figures: lines, triangles, squares,
-            polygons and circles.<br />
-            The protagonist is a Square who lives a normal life until one night he receives a visit from a Sphere, a being from the
-            three-dimensional world, who tries to explain the true structure of the universe. At first the Square cannot even conceive
-            the idea of a third dimension, it seems absurd, but then the Sphere takes him outside the plane and shows him that the
-            world is not flat and that much more exists beyond what he has always experienced.<br />
-            The Square is completely shocked: everything he considered absolute is only a limited portion of reality. But this is not enough
-            for him, now he aspires to know the Realm of the Fourth Dimension and then the Fifth and so on. The Sphere, angered and almost offended,
-            abruptly sends him back home and disappears.<br />
-            The Square has seen proof with his own eyes that he is a limited entity, the Sphere has not. The Sphere, having never seen the
-            fourth dimension, still believes it is absurd and refuses even to imagine it.<br />
-        `,
-        interests_matrix: `
-            <b><u><span class="content-subtitle">Matrix</span></u></b><br />
-            It’s not trivial at all to distinguish reality from imagination. They are almost the same thing, because they create each other.<br />
-            We are somewhere inside our brain, “in the dark” inside a skull. And yet we see what is outside, but it is the <i>how</i> that
-            makes everything subjective.<br />
-            Our eyes capture light and then “convert” it into some kind of nerve signal that is sent to the brain. What we do with that signal
-            is reconstruct what is outside.<br />
-            We are literally imagining what is outside. Understanding where to place the boundary between these images and those we
-            <i>imagine</i> to exist only inside us would only be possible if we had access to an objective point of view.<br />
-            But we only have our own. And we cannot verify its truthfulness.
-        `,
-        interests_the_office: `
-            <b><u><span class="content-subtitle">The Office</span></u></b><br />
-            A mediocre life, a mediocre job, with mediocre people. The average expectation of someone who should consider themselves happy.<br />
-            The company is on the verge of failure because technology keeps moving forward and what used to be necessary will soon no longer be.
-            It represents well several personalities that emerge within workplace dynamics: those who, despite everything, believe they are
-            “important” and think they are doing a great job even though it is obvious their profession is slowly becoming useless.<br />
-            Those who want to be liked and respected by everyone but are the first to disrespect others.<br />
-            And then the one who is aware of how ridiculous that lifestyle is, knows he is becoming part of it and has resigned himself to it.
-        `,
-        interests_true_detective: `
-            <b><u><span class="content-subtitle">True Detective</span></u></b><br />
-            It’s difficult to believe that within us there is something supernatural and independent from matter, like a soul or something
-            similar. It’s more logical to think that we are made of matter, and specifically of the particular “configuration” of matter
-            that composes us. And the matter that composes us exists only now that we exist.<br />
-            The only moment in which we can live is the one in which our configuration exists. The only possible experience for us is the life
-            we are living. “Time is a flat circle”, the series claims: when it ends, it begins again.<br />
-            This concept is based on a view of time as a real physical dimension. Time exists all at once and “forever”, like a single block.
-            We simply “read” it as if it were flowing.<br />
-            If that were true, then we would also exist forever, but only at the points where our configuration of matter is present.
-            “Time is a flat circle” means that our life is the only one we can live and it is destined to repeat infinitely,
-            because that is where our matter, and therefore our consciousness, is trapped.
-        `,
+        interests_intro_1: "In this section I decided to talk about the video games, books and movies that marked me the most and that I consider “my favorites”. I wanted to talk about other things too, but putting certain topics on the same level as the fact that I like F1 or playing tennis didn’t seem to make sense to me. So here is a list of the most incredible things I have ever played, watched and read:",
+        interests_the_last_of_us_title: "The Last of Us",
+        interests_the_last_of_us_description_1: "In a zombie apocalypse, Ellie carries in her DNA the cure for humanity’s salvation. Joel is a weapons smuggler. Years earlier he lost his daughter and, with her, any kind of hope or ambition for the future. He ends up having to “smuggle” Ellie to a group of people who are studying a cure.",
+        interests_the_last_of_us_description_2: "The journey is long and “when you cross the country with someone”, your job as a smuggler slowly starts to take a back seat. Saving humanity is no longer necessary, in fact, humanity itself becomes the enemy you need to protect yourself from.",
+        interests_the_last_of_us_description_3: "Ellie is the salvation, but yours, not the world’s. And what the world wants no longer matters to you.",
+        interests_outer_wilds_title: "Outer Wilds",
+        interests_outer_wilds_description_1: "You are a space explorer setting out on a journey to discover the universe. This premise creates enormous expectations, yet the experience surpasses them all.",
+        interests_outer_wilds_description_2: "Curiosity is what drives you forward. You don’t fight, you don’t gain experience: you learn. It’s a story about accepting the inevitable. You cannot change what happens, you can only understand why it happens.",
+        interests_outer_wilds_description_3: "The goal of the game is to discover how the game itself works. There are no tutorials or explanations, only you and the universe to explore.",
+        interests_to_the_moon_title: "To the Moon",
+        interests_to_the_moon_description_1: "It tells the story of two doctors who, as part of their job, use a technology capable of inserting artificial memories into the minds of people at the end of their lives, allowing them to “retroactively” fulfill their final wish.",
+        interests_to_the_moon_description_2: "The patient is an elderly man who wants to “go to the Moon”. The problem is that he cannot explain why he wants it. This complicates the work of the two doctors, who are forced to enter his memories, traveling backwards from old age to childhood in order to reconstruct the events of his life and understand the origin of that desire.",
+        interests_to_the_moon_description_3: "It’s difficult to explain in words the emotion it makes you feel. The game shows you the life of a man: his moments of growth, his disappointments, his regrets, and his happiest moments. The Moon is not a random place, it is a promise that had been made, but forgotten. In the end, a part of him remembers and is trying in every possible way to make up for it.",
+        interests_soma_description: "Soma",
+        interests_soma_description_1_1: "You take on the role of Simon, a man who, after an experimental brain scan in 2015, wakes up in the year 2104 on an underwater research station called PATHOS-II. The Earth above the ocean has become uninhabitable after a disaster.",
+        interests_soma_description_1_2: "The goal is to discover who you are, where you are, what you are doing and why. Questions that soon turn into existential mysteries, for which only hypotheses can be made.",
+        interests_soma_description_2_1: "The game keeps “hitting” you with more questions and doubts, not answers.",
+        interests_soma_description_2_2: "It belongs to the horror genre, but the disturbance and fear come not so much from the “monsters” as from the sense of disorientation and isolation born from constant reflections on consciousness, identity and what it means to be “human”.",
+        interests_expedition_33_title: "Expedition 33",
+        interests_expedition_33_description_1: "Every year, a mysterious entity called \"The Paintress\" paints a number on a huge monolith. Everyone that age dies. Now she’s written 33. You’ll be part of Expedition 33: people condemned to disappear within the year who decide to set out to stop her and break the cycle.",
+        interests_expedition_33_description_2: "The Paintress is presented as the enemy, but she appears helpless, almost like a crying child. All she does is write a number, and she does it as if she were doing something inevitable, following a seemingly banal rule that slowly turns everything upside down.",
+        interests_expedition_33_description_3: "You leave, not sure what to expect. You think you have nothing to lose, but then you realize that change also means leaving something behind. And facing its gaze the moment you abandon it is the hardest thing.",
+        interests_il_fu_mattia_pascal_1: "The Late Mattia Pascal",
+        interests_il_fu_mattia_pascal_2: "One of those books you are forced to read when you go to school. I hope it’s still mandatory.",
+        interests_il_fu_mattia_pascal_3: "If you don’t know who you are, look around you: the context you live in describes you better than any reflection. If you don’t like what you see, change it. Mattia Pascal is a man who feels crushed by his life because of an unhappy marriage and financial problems. Due to a series of circumstances he runs away from home and, shortly after, discovers that in his hometown a corpse has been found and mistaken for his. Everyone believes Mattia is dead.",
+        interests_il_fu_mattia_pascal_4: "At that point he decides to take advantage of it: if he is “dead”, he can start over. He becomes “Adriano Meis”, changes city, identity, and even his past. It’s the freedom he was looking for, but what he finds in that new beginning is emptiness.",
+        interests_il_fu_mattia_pascal_5: "A beautiful reflection on freedom is made: Adriano Meis decides to cure his strabismus, one of the most visible signs of his past he wants to erase. After the operation he must remain in darkness for days, unable to use his sight. In that forced darkness, when you remove external stimuli, when no one looks at you and nothing influences you, who are you? We are always children of a context, defined by the gaze of others. But in the darkness, when you are “yourself” alone without influences, you risk remaining no one.",
+        interests_il_fu_mattia_pascal_6: "We assume a form and create thoughts when we come into contact with what is outside of us. If we had never perceived anything around us, what thoughts could we produce? We are not something that can exist independently from context, rather, we are part of it. We cannot free ourselves from it.",
+        interests_il_fu_mattia_pascal_7: "In the end, when he decides to return to his town he discovers that his place has been taken and his wife has already rebuilt her life. And so he remains suspended: no longer Mattia Pascal, no longer Adriano Meis. An individual outside his context who is defined by what he once was, when he still existed: “the late” Mattia Pascal.",
+        interests_solaris_1: "Solaris",
+        interests_solaris_2: "The story tells of a planet, Solaris, covered by an immense ocean that seems to be sentient. The ocean “responds” to humans by creating materializations of their memories. Not simple illusions, but real physical presences. Scientific research on Solaris has lasted for decades and despite all the studies no one has ever managed to understand or categorize the behavior of this ocean.",
+        interests_solaris_3: "Kris Kelvin is a psychologist sent to the planet Solaris to study it. After a few days Kelvin finds himself face to face with Harey, the woman he once loved who committed suicide years earlier. She is a replica constructed by Solaris from his memories and emotions.",
+        interests_solaris_4: "The planet seems to treat memories and emotions as if they were physical objects, something material. They belong to a dimension that, given the way we are made, we cannot directly perceive, yet the planet can read and replicate them.",
+        interests_solaris_5: "If something can be replicated, it means it has a structure and therefore it is measurable. But what structure does an emotion have? What mathematical formula could describe it?",
+        interests_solaris_6: "Scientists try to understand Solaris, but studying it means studying themselves. This is the central theme of the book: we go into space to know and study “the other”, but we end up studying ourselves and the way we see the universe.",
+        interests_flatlandia_1: "Flatland",
+        interests_flatlandia_2: "The story is told in the first person by a resident of a two-dimensional world: Flatland.",
+        interests_flatlandia_3: "In this world there are only length and width, not height. The inhabitants are geometric figures: lines, triangles, squares, polygons and circles.",
+        interests_flatlandia_4: "The protagonist is a Square who lives a normal life until one night he receives a visit from a Sphere, a being from the three-dimensional world, who tries to explain the true structure of the universe. At first the Square cannot even conceive the idea of a third dimension, it seems absurd, but then the Sphere takes him outside the plane and shows him that the world is not flat and that much more exists beyond what he has always experienced.",
+        interests_flatlandia_5: "The Square is completely shocked: everything he considered absolute is only a limited portion of reality. But this is not enough for him, now he aspires to know the Realm of the Fourth Dimension and then the Fifth and so on. The Sphere, angered and almost offended, abruptly sends him back home and disappears.",
+        interests_flatlandia_6: "The Square has seen proof with his own eyes that he is a limited entity, the Sphere has not. The Sphere, having never seen the fourth dimension, still believes it is absurd and refuses even to imagine it.",
+        interests_matrix_1: "Matrix",
+        interests_matrix_2: "It’s not trivial at all to distinguish reality from imagination. They are almost the same thing, because they create each other.",
+        interests_matrix_3: "We are somewhere inside our brain, “in the dark” inside a skull. And yet we see what is outside, but it is the",
+        interests_matrix_4: "how",
+        interests_matrix_5: "that makes everything subjective.",
+        interests_matrix_6: "Our eyes capture light and then “convert” it into some kind of nerve signal that is sent to the brain. What we do with that signal is reconstruct what is outside.",
+        interests_matrix_7: "We are literally imagining what is outside. Understanding where to place the boundary between these images and those we",
+        interests_matrix_8: "imagine",
+        interests_matrix_9: "to exist only inside us would only be possible if we had access to an objective point of view.",
+        interests_matrix_10: "But we only have our own. And we cannot verify its truthfulness.",
+        interests_the_office_1: "The Office",
+        interests_the_office_2: "A mediocre life, a mediocre job, with mediocre people. The average expectation of someone who should consider themselves happy.",
+        interests_the_office_3: "The company is on the verge of failure because technology keeps moving forward and what used to be necessary will soon no longer be. It represents well several personalities that emerge within workplace dynamics: those who, despite everything, believe they are “important” and think they are doing a great job even though it is obvious their profession is slowly becoming useless.",
+        interests_the_office_4: "Those who want to be liked and respected by everyone but are the first to disrespect others.",
+        interests_the_office_5: "And then the one who is aware of how ridiculous that lifestyle is, knows he is becoming part of it and has resigned himself to it.",
+        interests_true_detective_1: "True Detective",
+        interests_true_detective_2: "It’s difficult to believe that within us there is something supernatural and independent from matter, like a soul or something similar. It’s more logical to think that we are made of matter, and specifically of the particular “configuration” of matter that composes us. And the matter that composes us exists only now that we exist.",
+        interests_true_detective_3: "The only moment in which we can live is the one in which our configuration exists. The only possible experience for us is the life we are living. “Time is a flat circle”, the series claims: when it ends, it begins again.",
+        interests_true_detective_4: "This concept is based on a view of time as a real physical dimension. Time exists all at once and “forever”, like a single block. We simply “read” it as if it were flowing.",
+        interests_true_detective_5: "If that were true, then we would also exist forever, but only at the points where our configuration of matter is present. “Time is a flat circle” means that our life is the only one we can live and it is destined to repeat infinitely, because that is where our matter, and therefore our consciousness, is trapped.",
     },
 });

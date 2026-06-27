@@ -3,119 +3,72 @@ import "../core.js";
 window.i18nRegister({
     it: {
         school_title: "Il mio percorso scolastico",
-        school_content: `
-            <section class="bg-trigger" data-bg="bg-high-disappointment"></section>
-            Se riecsi a leggere quetsa farse sezna porbelmi sei diselsscio.<br />
-            Oppure leggi tanto e sei abituato a completare le parole senza focalizzarti sulle singole lettere.
-            Io non leggo molto, eppure ci potrei leggere un libro in quel modo.
-            È una specie si super potere, quindi sono incredibile adesso, ma prima di acquisirlo ho avuto qualche piccolo problema.
-            Poi quei piccoli problemi sono diventati piano piano enormi.
-            Soprattutto quando la spiegazione di tutte le mie difficoltà veniva attribuita al classico "è bravo, ma non si applica".<br />
-            <br />
-            Il mio percorso scolastico non è niente di incredibile, si incasina un po’ a un certo punto, ma poi si aggiusta sul finale.<br />
-            Non ho fatto l’università, quindi l’unica cosa che ha senso raccontare credo siano le superiori.<br />
-            <br />
-            <b><a href="https://www.liceofermimassa.edu.it/" target="_blank" rel="noopener noreferrer"><span class="content-subtitle">Liceo Scientifico Statale "Enrico Fermi"</span></a></b><br />
-            Ho frequentato questa scuola fino alla classe quarta, anno in cui sono stato bocciato.
-            Poi ho cambiato il corso di studi partendo dalla classe terza di un istituto tecnico di cui parlerò dopo.
-            Con questa piccola mossa ho perso in totale due anni, che si potrebbero ridurre a uno in "termini assoluti" dato che ho
-            iniziato la scuola con un anno di anticipo (grazie mamma).<br />
-            Qualcuno potrebbe chiedersi "Ma scusa, perché hai scelto un liceo? Allora non sei solo dislessico, sei anche stupido".<br />
-            Sì.<br />
-            Comunque, nel corso di studi è prevista una formazione scientifica tradizionale. Non mi ricordo granché del programma.
-            Mi ricordo che mi piaceva un sacco filosofia e mi perdevo spesso a pensare a ciò che scoprivo studiandola.<br />
-            Nell’anno in cui sono stato bocciato le uniche materie in cui andavo bene erano matematica e scienze. Il resto insufficiente.<br />
-            <br />
-            <b><a href="https://iismeuccimassa.edu.it/" target="_blank" rel="noopener noreferrer"><span class="content-subtitle">Istituto di Istruzione Superiore A. Meucci</span></a></b><br />
-            In questo istituto ho affrontato il corso a indirizzo informatico.<br />
-            Ho bellissimi ricordi di questo periodo. Di sicuro era una scuola più facile rispetto al liceo. All’improvviso ero diventato di nuovo "bravo a scuola".
-            Ho continuato a studiare con lo stesso impegno e continuità che avevo al liceo. Mi "applicavo" allo stesso modo, però i voti erano più alti.
-            Alla fine sono uscito con un bel 100/100 di cui sono stato molto soddisfatto.<br />
-            Di seguito metto un breve elenco dei principali argomenti di studio delle materie d’indirizzo.<br />
-            Programmazione informatica:
-            <ul style="margin: 0;">
-                <li>Principi della programmazione.</li>
-                <li>Programmazione procedurale/strutturata con C++.</li>
-                <li>Programmazione ad oggetti con Java.</li>
-                <li>Creazione di siti web (lato client) con HTML e CSS.</li>
-                <li>Programmazione lato client di siti web con JavaScript.</li>
-                <li>Programmazione lato server di siti web con PHP.</li>
-                <li>Gestione di database relazionali e linguaggio SQL (usando MySql).</li>
-            </ul>
-            Sistemi e Reti:
-            <ul style="margin: 0;">
-                <li>Componenti del computer e le loro funzioni.</li>
-                <li>Sistemi di numerazione.</li>
-                <li>Gestione dei processi, della memoria e del file system.</li>
-                <li>Programmazione con linguaggio a basso livello (Assembly).</li>
-                <li>Gestione dei processi e programmazione parallela (utilizzando il C).</li>
-                <li>Architettura e protocolli di rete.</li>
-                <li>Progettazione di reti.</li>
-                <li>Generalità sulla sicurezza e crittografia.</li>
-            </ul>
-            Durante questi anni ci sono state anche diverse attività di alternanza scuola-lavoro, come uno stage di due settimane presso il CNR di Pisa
-            e visite a qualche azienda informatica della zona. Una di queste è stata BNova, la prima azienda in cui ho lavorato subito dopo il diploma.
-            <section class="bg-trigger" data-bg="bg-malinconic"></section>
-        `,
+        school_content_1: "Se riesci a leggere quetsa farse sezna probelmi sei dislessico.",
+        school_content_2: "Oppure leggi tanto e sei abituato a completare le parole senza focalizzarti sulle singole lettere. Io non leggo molto, eppure ci potrei leggere un libro in quel modo. È una specie si super potere, quindi sono incredibile adesso, ma prima di acquisirlo ho avuto qualche piccolo problema. Poi quei piccoli problemi sono diventati piano piano enormi. Soprattutto quando la spiegazione di tutte le mie difficoltà veniva attribuita al classico \"è bravo, ma non si applica\".",
+        school_content_3: "Il mio percorso scolastico non è niente di incredibile, si incasina un po’ a un certo punto, ma poi si aggiusta alla fine.",
+        school_content_4: "Non ho fatto l’università, quindi l’unica cosa che ha senso raccontare credo siano le superiori.",
+        school_content_5: "Liceo Scientifico Statale \"Enrico Fermi\"",
+        school_content_6: "Ho frequentato questa scuola fino alla classe quarta, anno in cui sono stato bocciato. Poi ho cambiato il corso di studi partendo dalla classe terza di un istituto tecnico di cui parlerò dopo. Con questa piccola mossa ho perso in totale due anni, che si potrebbero ridurre a uno in \"termini assoluti\" dato che ho iniziato la scuola con un anno di anticipo (grazie mamma).",
+        school_content_7: "Qualcuno potrebbe chiedersi \"Ma scusa, perché hai scelto un liceo? Allora non sei solo dislessico, sei anche stupido\".",
+        school_content_8: "Sì.",
+        school_content_9: "Comunque, nel corso di studi è prevista una formazione scientifica tradizionale. Non mi ricordo granché del programma. Mi ricordo che mi piaceva un sacco filosofia e mi perdevo spesso a pensare a ciò che scoprivo studiandola.",
+        school_content_10: "Nell’anno in cui sono stato bocciato le uniche materie in cui andavo bene erano matematica e scienze. Il resto insufficiente.",
+        school_content_11: "Istituto di Istruzione Superiore A. Meucci",
+        school_content_12: "In questo istituto ho affrontato il corso a indirizzo informatico.",
+        school_content_13: "Ho bellissimi ricordi di questo periodo. Di sicuro era una scuola più facile rispetto al liceo. All’improvviso ero diventato di nuovo \"bravo a scuola\". Ho continuato a studiare con lo stesso impegno e continuità che avevo al liceo. Mi \"applicavo\" allo stesso modo, però i voti erano più alti. Alla fine sono uscito con un bel 100/100 di cui sono stato molto soddisfatto.",
+        school_content_14: "Di seguito metto un breve elenco dei principali argomenti di studio delle materie d’indirizzo.",
+        school_content_15: "Programmazione informatica:",
+        school_content_16: "Principi della programmazione.",
+        school_content_17: "Programmazione procedurale/strutturata con C++.",
+        school_content_18: "Programmazione ad oggetti con Java.",
+        school_content_19: "Creazione di siti web (lato client) con HTML e CSS.",
+        school_content_20: "Programmazione lato client di siti web con JavaScript.",
+        school_content_21: "Programmazione lato server di siti web con PHP.",
+        school_content_22: "Gestione di database relazionali e linguaggio SQL (usando MySql).",
+        school_content_23: "Sistemi e Reti:",
+        school_content_24: "Componenti del computer e le loro funzioni.",
+        school_content_25: "Sistemi di numerazione.",
+        school_content_26: "Gestione dei processi, della memoria e del file system.",
+        school_content_27: "Programmazione con linguaggio a basso livello (Assembly).",
+        school_content_28: "Gestione dei processi e programmazione parallela (utilizzando il C).",
+        school_content_29: "Architettura e protocolli di rete.",
+        school_content_30: "Progettazione di reti.",
+        school_content_31: "Generalità sulla sicurezza e crittografia.",
+        school_content_32: "Durante questi anni ci sono state anche diverse attività di alternanza scuola-lavoro, come uno stage di due settimane presso il CNR di Pisa e visite a qualche azienda informatica della zona. Una di queste è stata BNova, la prima azienda in cui ho lavorato subito dopo il diploma.",
     },
     en: {
         school_title: "My educational journey",
-        school_content: `
-            <section class="bg-trigger" data-bg="bg-high-disappointment"></section>
-            If you can raed this sentnece whtiout any porbelms you are dyxsleic.<br />
-            Or maybe you just read a lot and you’re used to completing words without focusing on individual letters.
-            I don’t read much, yet I could probably read an entire book written like this.
-            It’s kind of a superpower, so I’m amazing now, but before acquiring it I had some small issues.
-            Then those small issues slowly turned into huge ones.
-            Especially when the explanation for all my difficulties was reduced to the classic "he’s smart, but doesn’t apply himself".<br />
-            <br />
-            My school career is anything special, it gets a bit messy at some point, but then it sort of fixes itself in the end.<br />
-            I didn’t go to university, so the only thing that really makes sense to talk about is high school.<br />
-            <br />
-            <b><a href="https://www.liceofermimassa.edu.it/" target="_blank" rel="noopener noreferrer"><span class="content-subtitle">Liceo Scientifico Statale "Enrico Fermi"</span></a></b><br />
-            I attended this school up to the 4th year, which is when I was held back.
-            I then changed my course of study, starting again from the 3rd year at a technical institute, which I’ll talk about later.
-            With this small move, I lost a total of two years, which could be considered just one in "absolute terms", since I
-            started school one year early (thanks mom).<br />
-            Someone might ask, "Wait, why did you choose a scientific high school then? So you’re not just dyslexic, you’re also stupid".<br />
-            Yes.<br />
-            Anyway, the program included a traditional scientific education. I don’t remember much of the school program.
-            What I do remember is that I really loved philosophy and often got lost thinking about what I discovered while studying it.<br />
-            In the year I was held back, the only subjects I did well in were math and science. Everything else was insufficient.<br />
-            <br />
-            <b><a href="https://iismeuccimassa.edu.it/" target="_blank" rel="noopener noreferrer"><span class="content-subtitle">Istituto di Istruzione Superiore A. Meucci</span></a></b><br />
-            At this institute I followed a computer science-oriented program.<br />
-            I have very fond memories of this period. It was definitely an easier school compared to the scientific high school.
-            All of a sudden, I was "good at school" again.
-            I continued studying with the same commitment and consistency I had before.
-            I "applied myself" in exactly the same way, but my grades were higher.
-            I eventually graduated with a solid 100/100, which I was very proud of.<br />
-            Below is a short list of the main topics covered in the specialized subjects.<br />
-            Computer programming:
-            <ul style="margin: 0;">
-                <li>Principles of programming.</li>
-                <li>Procedural/structured programming with C++.</li>
-                <li>Object-oriented programming with Java.</li>
-                <li>Client-side website creation with HTML and CSS.</li>
-                <li>Client-side website programming with JavaScript.</li>
-                <li>Server-side website programming with PHP.</li>
-                <li>Relational database management and SQL language (using MySQL).</li>
-            </ul>
-            Systems and Networks:
-            <ul style="margin: 0;">
-                <li>Computer components and their functions.</li>
-                <li>Number systems.</li>
-                <li>Process, memory and file system management.</li>
-                <li>Low-level programming (Assembly).</li>
-                <li>Process management and parallel programming (using C).</li>
-                <li>Network architectures and protocols.</li>
-                <li>Network design.</li>
-                <li>Basic concepts of security and cryptography.</li>
-            </ul>
-            During these years there were also several school-work alternation activities,
-            such as a two-week internship at the CNR in Pisa and visits to some local IT companies.
-            One of these was BNova, the first company I worked for right after graduating.
-            <section class="bg-trigger" data-bg="bg-malinconic"></section>
-        `,
+        school_content_1: "If you can raed this sentnece without any probelms you are dyxsleic.",
+        school_content_2: "Or maybe you just read a lot and you’re used to completing words without focusing on individual letters. I don’t read much, yet I could probably read an entire book written like this. It’s kind of a superpower, so I’m amazing now, but before acquiring it I had some small issues. Then those small issues slowly turned into huge ones. Especially when the explanation for all my difficulties was reduced to the classic \"he’s smart, but doesn’t apply himself\".",
+        school_content_3: "My school career is anything special, it gets a bit messy at some point, but then it sort of fixes itself in the end.",
+        school_content_4: "I didn’t go to university, so the only thing that really makes sense to talk about is high school.",
+        school_content_5: "Liceo Scientifico Statale \"Enrico Fermi\"",
+        school_content_6: "I attended this school up to the 4th year, which is when I was held back. I then changed my course of study, starting again from the 3rd year at a technical institute, which I’ll talk about later. With this small move, I lost a total of two years, which could be considered just one in \"absolute terms\", since I started school one year early (thanks mom).",
+        school_content_7: "Someone might ask, \"Wait, why did you choose a scientific high school then? So you’re not just dyslexic, you’re also stupid\".",
+        school_content_8: "Yes.",
+        school_content_9: "Anyway, the program included a traditional scientific education. I don’t remember much of the school program. What I do remember is that I really loved philosophy and often got lost thinking about what I discovered while studying it.",
+        school_content_10: "In the year I was held back, the only subjects I did well in were math and science. Everything else was insufficient.",
+        school_content_11: "Istituto di Istruzione Superiore A. Meucci",
+        school_content_12: "At this institute I followed a computer science-oriented program.",
+        school_content_13: "I have very fond memories of this period. It was definitely an easier school compared to the scientific high school. All of a sudden, I was \"good at school\" again. I continued studying with the same commitment and consistency I had before. I \"applied myself\" in exactly the same way, but my grades were higher. I eventually graduated with a solid 100/100, which I was very proud of.",
+        school_content_14: "Below is a short list of the main topics covered in the specialized subjects.",
+        school_content_15: "Computer programming:",
+        school_content_16: "Principles of programming.",
+        school_content_17: "Procedural/structured programming with C++.",
+        school_content_18: "Object-oriented programming with Java.",
+        school_content_19: "Client-side website creation with HTML and CSS.",
+        school_content_20: "Client-side website programming with JavaScript.",
+        school_content_21: "Server-side website programming with PHP.",
+        school_content_22: "Relational database management and SQL language (using MySQL).",
+        school_content_23: "Systems and Networks:",
+        school_content_24: "Computer components and their functions.",
+        school_content_25: "Number systems.",
+        school_content_26: "Process, memory and file system management.",
+        school_content_27: "Low-level programming (Assembly).",
+        school_content_28: "Process management and parallel programming (using C).",
+        school_content_29: "Network architectures and protocols.",
+        school_content_30: "Network design.",
+        school_content_31: "Basic concepts of security and cryptography.",
+        school_content_32: "During these years there were also several school-work alternation activities, such as a two-week internship at the CNR in Pisa and visits to some local IT companies. One of these was BNova, the first company I worked for right after graduating.",
     },
 });
