@@ -29,7 +29,10 @@ function applyLang(lang) {
 
     const currentBtn = document.querySelector("#langSwitcher .lang-current");
     const selected = document.querySelector(`#langSwitcher [data-lang="${lang}"]`);
-    if (currentBtn && selected) currentBtn.innerHTML = selected.innerHTML;
+    if (currentBtn && selected) {
+        currentBtn.innerHTML = selected.innerHTML;
+        currentBtn.setAttribute("aria-label", lang === "it" ? "Cambia lingua" : "Change language");
+    }
 }
 
 window.setLang = function setLang(lang) {

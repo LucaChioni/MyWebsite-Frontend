@@ -141,6 +141,7 @@
     src: url("/fonts/PatrickHand-Regular.woff2") format("woff2");
     font-style: normal;
     font-weight: 400;
+    font-display: swap;
 }
 
 /* ===== Body ===== */
@@ -262,6 +263,7 @@ body.page-leave {
 
 .tooltip-info-icon {
     width: var(--tooltip-info-icon-size);
+    height: var(--tooltip-info-icon-size);
 }
 
 .tooltip {
