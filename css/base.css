@@ -40,6 +40,11 @@
     --base-interests-to-the-moon-description-margin-bottom: -35px;
     --base-interests-matrix-description-margin-top: -220px;
     --base-interests-music-toggle-size: 100px;
+    --base-chat-input-width: 840px;
+    --base-chat-input-line-height: 26px;
+    --base-chat-send-size: 24px;
+    --base-chat-send-margin: 6px;
+    --base-thought-margin-bottom: -15px;
 
     --ui-scale: 1;
 
@@ -79,6 +84,11 @@
     --interests-to-the-moon-description-margin-bottom: calc(var(--base-interests-to-the-moon-description-margin-bottom) * var(--ui-scale));
     --interests-matrix-description-margin-top: calc(var(--base-interests-matrix-description-margin-top) * var(--ui-scale));
     --interests-music-toggle-size: calc(var(--base-interests-music-toggle-size) * var(--ui-scale));
+    --chat-input-width: calc(var(--base-chat-input-width) * var(--ui-scale));
+    --chat-input-line-height: calc(var(--base-chat-input-line-height) * var(--ui-scale));
+    --chat-send-size: calc(var(--base-chat-send-size) * var(--ui-scale));
+    --chat-send-margin: calc(var(--base-chat-send-margin) * var(--ui-scale));
+    --thought-margin-bottom: calc(var(--base-thought-margin-bottom) * var(--ui-scale));
 }
 
 @media (min-aspect-ratio: 1/1) and (max-height: 750px) {
@@ -127,6 +137,11 @@
         --interests-to-the-moon-description-margin-bottom: -10px;
         --interests-matrix-description-margin-top: -70px;
         --interests-music-toggle-size: 70px;
+        --chat-input-width: 600px;
+        --chat-input-line-height: 18px;
+        --chat-send-size: 20px;
+        --chat-send-margin: 4px;
+        --thought-margin-bottom: -8px;
     }
     .desktop-element { display: none !important; }
     .smartphone-element { display: flex !important; }
@@ -182,6 +197,7 @@ body.page-leave {
     min-height: 10dvh;
     position: sticky;
     top: 0;
+    z-index: 2; /* above page content that scrolls underneath it */
     background-color: rgba(var(--background-color-rgb));
 }
 

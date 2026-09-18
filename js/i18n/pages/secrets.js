@@ -2,7 +2,7 @@ import "../core.js";
 
 window.i18nRegister({
     it: {
-        secrets_title: "Cose personali",
+        secrets_title: "Obiettivi e idee",
         secrets_subtitle: "Questa zona è accessibile solo tramite password",
         secrets_send: "Accedi",
         secrets_error_answer: "Richiesta non riuscita",
@@ -10,7 +10,7 @@ window.i18nRegister({
         secrets_access_denied: "Accesso negato, la password è segreta",
     },
     en: {
-        secrets_title: "Personal things",
+        secrets_title: "Goals and ideas",
         secrets_subtitle: "This area is only accessible via password",
         secrets_send: "Enter",
         secrets_error_answer: "Request failed",

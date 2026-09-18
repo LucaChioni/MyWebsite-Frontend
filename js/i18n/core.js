@@ -26,6 +26,10 @@ function applyLang(lang) {
         const key = el.getAttribute("data-i18n");
         if (dict[key] != null) el.textContent = dict[key];
     });
+    document.querySelectorAll("[data-i18n-placeholder]").forEach((el) => {
+        const key = el.getAttribute("data-i18n-placeholder");
+        if (dict[key] != null) el.placeholder = dict[key];
+    });
 
     const currentBtn = document.querySelector("#langSwitcher .lang-current");
     const selected = document.querySelector(`#langSwitcher [data-lang="${lang}"]`);
