@@ -1,4 +1,4 @@
-import "../core.js?v=20260919175025";
+import "../core.js?v=20260919185555";
 
 window.i18nRegister({
     it: {

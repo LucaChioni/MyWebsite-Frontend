@@ -1,4 +1,4 @@
-import "./core.js?v=20260919175025";
+import "./core.js?v=20260919185555";
 
 window.i18nRegister({
     it: {
@@ -17,7 +17,6 @@ window.i18nRegister({
             "So che è difficile da credere, ma questa qua non è una mia foto reale. È solo un autoritratto.",
             "Puoi chiedermi qualcosa, ma non aspettarti risposte troppo profonde.",
             "Una volta ho lasciato il lavoro per fare un videogioco. È andata come ti aspetti.",
-            "Sto valutando se uscire di casa. Domani, forse.",
             "Chiedimi pure qualcosa, tanto sono un’IA che finge di essere me.",
             "Se riesci a leggere quetsa farse sezna probelmi sei diselssico anche tu.",
             "Ho degli amici. Credo. Non ho controllato di recente.",
@@ -58,7 +57,6 @@ window.i18nRegister({
             "I know it's hard to believe, but this is not a real photo of me. It’s just a self-portrait.",
             "You can ask me something, but don’t expect too deep answers.",
             "Once I quit my job to make a video game. It went as you expect.",
-            "I’m considering leaving the house. Tomorrow, maybe.",
             "Ask me something, I’m an AI pretending to be me anyway.",
             "If you can raed this sentnece without probelms, you are dyxsleic too.",
             "I have some friends. I think. I haven’t checked recently.",

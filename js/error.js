@@ -1,6 +1,6 @@
-import "./base.js?v=20260919175025";
-import { setFace } from "./base.js?v=20260919175025";
-import "./i18n/error.js?v=20260919175025";
+import "./base.js?v=20260919185555";
+import { setFace } from "./base.js?v=20260919185555";
+import "./i18n/error.js?v=20260919185555";
 
 const SUSPICIOUS_FACE = "/images/speaker/suspicious.png";
 const APATIC_FACE = "/images/speaker/apatic.png";
