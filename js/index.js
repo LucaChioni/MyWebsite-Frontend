@@ -7,7 +7,7 @@ const NEUTRAL_FACE = "/images/speaker/neutral.png";
 const GENERIC_TOPIC = "generic";
 const THOUGHT_INTERVAL = 5 * 1000; // how long a thought stays fully written before the next one
 const TYPE_DELAY = 50; // ms per character
-const DOTS_MIN_DELAY = 500; // ms the loading dots stay visible before a message is typed
+const DOTS_MIN_DELAY = 800; // ms the loading dots stay visible before a message is typed
 const MAX_HISTORY = 10; // messages sent to the backend (5 exchanges)
 
 const wheel = document.getElementById("wheel");
