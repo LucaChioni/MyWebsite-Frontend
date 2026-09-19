@@ -27,7 +27,7 @@ window.i18nRegister({
             "Qua ci sono le cose più incredibili dell'universo!",
         ],
         home_thoughts_school: [
-            "Odio e amore. Odio studiare, ma amo essere ancora in tempo per capire che fare nella vita.",
+            "Odio e amore. Odio la scuola, ma amo essere ancora in tempo per capire che fare nella vita.",
         ],
         home_thoughts_work: [
             "Python, Node, Postgres, Docker... e tanto caffè.",
@@ -68,7 +68,7 @@ window.i18nRegister({
             "Here are the most incredible things in the universe!",
         ],
         home_thoughts_school: [
-            "Hate and love. I hate studying, but I love being still in time to figure out what to do in life.",
+            "Hate and love. I hate school, but I love being still in time to figure out what to do in life.",
         ],
         home_thoughts_work: [
             "Python, Node, Postgres, Docker... and a lot of coffee.",
