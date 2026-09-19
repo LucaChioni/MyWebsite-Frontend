@@ -61,16 +61,22 @@ let answered = false;
 let thoughtTimer = null;
 const thoughtIndex = {}; // per-topic position in the list
 
-function pickThought(forTopic) {
+function thoughtList(forTopic) {
     const list = t(`home_thoughts_${forTopic}`);
-    if (!Array.isArray(list) || list.length === 0) return "";
+    return Array.isArray(list) ? list : [];
+}
+
+function pickThought(forTopic) {
+    const list = thoughtList(forTopic);
+    if (list.length === 0) return "";
     return list[(thoughtIndex[forTopic] ?? 0) % list.length];
 }
 
 async function renderThought() {
     if (answered) return;
     const done = await showMessage(pickThought(topic));
-    if (done && !answered) thoughtTimer = setTimeout(nextThought, THOUGHT_INTERVAL);
+    // rotate only when the topic has more than one thought
+    if (done && !answered && thoughtList(topic).length > 1) thoughtTimer = setTimeout(nextThought, THOUGHT_INTERVAL);
 }
 
 function nextThought() {
