@@ -33,7 +33,7 @@ window.i18nRegister({
             "Python, Node, Postgres, Docker... e tanto caffè.",
         ],
         home_thoughts_game_dev: [
-            "Dove mi sento libero di fare quello che voglio.",
+            "Qua è dove mi sento libero di fare quello che voglio.",
         ],
         home_thoughts_secrets: [
             "Questa sezione è protetta da password. Se la sapessi te la direi. Forse.",
@@ -74,7 +74,7 @@ window.i18nRegister({
             "Python, Node, Postgres, Docker... and a lot of coffee.",
         ],
         home_thoughts_game_dev: [
-            "Where I feel free to do whatever I want.",
+            "This is where I feel free to do whatever I want.",
         ],
         home_thoughts_secrets: [
             "This section is password-protected. If I knew it, I would tell you. Maybe.",
