@@ -5,7 +5,7 @@
 
 .wheel {
     position: relative;
-    width: min(var(--wheel-size), 92vw);
+    width: min(var(--wheel-size), 98vw);
     aspect-ratio: 1 / 1;
     overflow: visible;
     font-size: var(--font-size-text);
@@ -27,7 +27,7 @@
     transform:
     translate(-50%, -50%)
     rotate(calc(var(--wheel-offset) + var(--i) * (360deg / var(--n))))
-    translateX(calc((min(var(--wheel-size), 92vw) / 2) - var(--wheel-menu-items-distance)))
+    translateX(calc((min(var(--wheel-size), 100vw) / 2) - var(--wheel-menu-items-distance)))
     rotate(calc(-1 * (var(--wheel-offset) + var(--i) * (360deg / var(--n)))));
     transform-origin: center;
 }
@@ -146,7 +146,7 @@
 
 .thought {
     text-align: center;
-    width: min(var(--wheel-size), 92vw); /* same width as the wheel below */
+    width: min(var(--wheel-size), 98vw); /* same width as the wheel below */
     /* fixed height (~3 lines), text centred vertically, scrolls when longer */
     line-height: 1.3;
     /* at least 4.5 lines, plus all the free vertical space of the page; scrolls when the text is longer */
