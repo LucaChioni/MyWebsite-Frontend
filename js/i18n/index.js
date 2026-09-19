@@ -14,7 +14,7 @@ window.i18nRegister({
         home_chat_too_many: "Troppe domande tutte insieme, dammi un minuto.",
         home_thoughts_generic: [
             "Benvenuto nel mio sito web!",
-            "So che non ci crederai, ma questa qua non è una mia foto reale. È solo un autoritratto.",
+            "So che è difficile da credere, ma questa qua non è una mia foto reale. È solo un autoritratto.",
             "Puoi chiedermi qualcosa, ma non aspettarti risposte troppo profonde.",
             "Una volta ho lasciato il lavoro per fare un videogioco. È andata come ti aspetti.",
             "Sto valutando se uscire di casa. Domani, forse.",
@@ -55,7 +55,7 @@ window.i18nRegister({
         home_chat_too_many: "Too many questions at once, give me a minute.",
         home_thoughts_generic: [
             "Welcome to my website!",
-            "I know you won’t believe me, but this is not a real photo of me. It’s just a self-portrait.",
+            "I know it's hard to believe, but this is not a real photo of me. It’s just a self-portrait.",
             "You can ask me something, but don’t expect too deep answers.",
             "Once I quit my job to make a video game. It went as you expect.",
             "I’m considering leaving the house. Tomorrow, maybe.",
