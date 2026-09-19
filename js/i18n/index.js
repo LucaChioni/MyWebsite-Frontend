@@ -1,8 +1,8 @@
-import "./core.js?v=20260919173321";
+import "./core.js?v=20260919173828";
 
 window.i18nRegister({
     it: {
-        home_title: "Ciao, sono Luca - test cache",
+        home_title: "Ciao, sono Luca",
         home_wheel_interests: "I miei interessi",
         home_wheel_school: "Percorso scolastico",
         home_wheel_game_dev: "Sviluppo videogiochi",

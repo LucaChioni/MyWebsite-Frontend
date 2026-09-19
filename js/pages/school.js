@@ -1,5 +1,5 @@
-import "../base.js?v=20260919173321";
-import "../i18n/pages/school.js?v=20260919173321";
+import "../base.js?v=20260919173828";
+import "../i18n/pages/school.js?v=20260919173828";
 
 function setBgClass(bgClass) {
     document.body.classList.forEach(c => {

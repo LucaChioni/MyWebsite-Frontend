@@ -1,5 +1,5 @@
-import "../base.js?v=20260919173321";
-import "../i18n/pages/interests.js?v=20260919173321";
+import "../base.js?v=20260919173828";
+import "../i18n/pages/interests.js?v=20260919173828";
 
 
 const imgMusicOff = "/images/icons/music_off.png";
