@@ -4,7 +4,7 @@ window.i18nRegister({
     it: {
         school_title: "Il mio percorso scolastico",
         school_content_1: "Il mio percorso scolastico non è niente di incredibile, si incasina un po’ a un certo punto, ma poi si aggiusta alla fine.",
-        school_content_2: "La fonte dei miei problemi penso sia la dislessia, ma non ho fatto nessun test, quindi non posso dirlo con certezza. Ciò che so per certo è che la mia vita scolastica mi è sempre parsa più complicata rispetto a quella degli altri. Ma alla fine è una cosa che si risolve da sola col tempo.",
+        school_content_2: "La fonte dei miei problemi penso sia la dislessia, ma non ho fatto nessun test, quindi non posso dirlo con certezza. Ciò che so per certo è che la mia vita scolastica mi è sempre parsa più complicata rispetto a quella degli altri. Ma alla fine è una cosa che si è risolta da sola col tempo.",
         school_content_3: "Il problema è soprattutto all'inizio, quando la spiegazione di tutto viene attribuita al classico \"è bravo, ma non si applica\". Quindi tutto quello che dovevo fare era semplicemnte \"applicarmi di più\". Ma certo! Ma perché non ci avevo pensato prima?! L'ho fatto ovviamente e il risultato è stato senza dubbio soddisfacente: notti insonni passate sui libri e un odio profondo per il sistema scolastico, per la vita e per tutto quanto.",
         school_content_4: "Qua sotto metto un breve riassunto delle scuole che ho frequentato. Non ho fatto l’università, quindi l’unica cosa che ha senso raccontare credo siano le superiori.",
         school_content_5: "Liceo Scientifico Statale \"Enrico Fermi\"",
@@ -39,7 +39,7 @@ window.i18nRegister({
     en: {
         school_title: "My educational journey",
         school_content_1: "My educational journey is nothing incredible, it gets a bit messy at some point, but then it gets fixed in the end.",
-        school_content_2: "I think the source of my problems is dyslexia, but I haven’t taken any tests, so I can’t say for sure. What I do know for sure is that my school life has always seemed more complicated to me compared to others. But in the end, it’s something that resolves itself over time.",
+        school_content_2: "I think the source of my problems is dyslexia, but I haven’t taken any tests, so I can’t say for sure. What I do know for sure is that my school life has always seemed more complicated to me compared to others. But in the end, it’s something that resolved itself over time.",
         school_content_3: "The problem is especially at the beginning, when the explanation for everything is attributed to the classic \"he’s smart, but he doesn’t apply himself\". So all I had to do was simply \"apply myself more\". Sure! Why didn’t I think of that before?! Of course, I did it and the result was undoubtedly satisfying: sleepless nights spent on books and a deep hatred for the school system, for life, and for everything.",
         school_content_4: "Below is a brief summary of the schools I attended. I didn’t go to university, so the only thing that makes sense to talk about is high school.",
         school_content_5: "Liceo Scientifico Statale \"Enrico Fermi\"",
