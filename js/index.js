@@ -26,6 +26,13 @@ let dotsShownAt = null; // timestamp when the dots appeared, null when they are 
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
+// While a message is typed the box follows the newest line. Scrolling up hands the control to the
+// user; scrolling back down to the end re-enables the automatic scrolling.
+let autoScroll = true;
+thoughtBox.addEventListener("scroll", () => {
+    autoScroll = thoughtBox.scrollTop + thoughtBox.clientHeight >= thoughtBox.scrollHeight - 2;
+});
+
 function showDots() {
     generation++;
     clearTimeout(thoughtTimer);
@@ -43,9 +50,10 @@ async function showMessage(text) {
 
     dotsShownAt = null;
     thought.textContent = "";
+    autoScroll = true;
     for (const char of text) {
         thought.textContent += char;
-        thoughtBox.scrollTop = thoughtBox.scrollHeight; // keep the newest text in view when it overflows
+        if (autoScroll) thoughtBox.scrollTop = thoughtBox.scrollHeight; // keep the newest line in view
         await sleep(TYPE_DELAY);
         if (current !== generation) return false;
     }
