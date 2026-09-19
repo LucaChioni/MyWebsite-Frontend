@@ -1,7 +1,7 @@
-import "./base.js?v=20260919173828";
-import { setFace } from "./base.js?v=20260919173828";
-import "./i18n/index.js?v=20260919173828";
-import { t } from "./i18n/core.js?v=20260919173828";
+import "./base.js?v=20260919175025";
+import { setFace } from "./base.js?v=20260919175025";
+import "./i18n/index.js?v=20260919175025";
+import { t } from "./i18n/core.js?v=20260919175025";
 
 const NEUTRAL_FACE = "/images/speaker/neutral.png";
 const GENERIC_TOPIC = "generic";

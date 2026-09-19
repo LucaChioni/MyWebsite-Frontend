@@ -1,6 +1,6 @@
-import "../base.js?v=20260919173828";
-import "../i18n/pages/secrets.js?v=20260919173828";
-import { t } from "../i18n/core.js?v=20260919173828";
+import "../base.js?v=20260919175025";
+import "../i18n/pages/secrets.js?v=20260919175025";
+import { t } from "../i18n/core.js?v=20260919175025";
 
 const TIMEOUT = 500
 const form = document.getElementById("secret-form");
