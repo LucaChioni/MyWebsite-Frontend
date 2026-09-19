@@ -5,19 +5,57 @@ import { t } from "./i18n/core.js";
 
 const NEUTRAL_FACE = "/images/speaker/neutral.png";
 const GENERIC_TOPIC = "generic";
-const THOUGHT_INTERVAL = 10 * 1000;
+const THOUGHT_INTERVAL = 5 * 1000; // how long a thought stays fully written before the next one
+const TYPE_DELAY = 50; // ms per character
+const DOTS_MIN_DELAY = 500; // ms the loading dots stay visible before a message is typed
 const MAX_HISTORY = 10; // messages sent to the backend (5 exchanges)
 
 const wheel = document.getElementById("wheel");
 const thought = document.getElementById("thought");
+const thoughtBox = thought.parentElement; // the scrolling container
 const chatForm = document.getElementById("chat-form");
 const chatInput = document.getElementById("chat-input");
 const chatSend = document.getElementById("chat-send");
 
+// ===== Message display =====
+// Every message (thoughts, chat replies, errors) goes through showMessage: the loading dots
+// are shown for at least DOTS_MIN_DELAY, then the text is typed one character at a time.
+// A new message cancels whatever is being typed.
+let generation = 0; // bumped whenever a new message starts, so an older typing loop stops
+let dotsShownAt = null; // timestamp when the dots appeared, null when they are not visible
+
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+function showDots() {
+    generation++;
+    clearTimeout(thoughtTimer);
+    if (dotsShownAt !== null) return; // already visible, keep the original timestamp
+    dotsShownAt = Date.now();
+    thought.innerHTML = '<span class="loading-dots"><span>.</span><span>.</span><span>.</span></span>';
+}
+
+// returns false if another message interrupted this one
+async function showMessage(text) {
+    showDots();
+    const current = generation;
+    await sleep(Math.max(0, dotsShownAt + DOTS_MIN_DELAY - Date.now()));
+    if (current !== generation) return false;
+
+    dotsShownAt = null;
+    thought.textContent = "";
+    for (const char of text) {
+        thought.textContent += char;
+        thoughtBox.scrollTop = thoughtBox.scrollHeight; // keep the newest text in view when it overflows
+        await sleep(TYPE_DELAY);
+        if (current !== generation) return false;
+    }
+    return true;
+}
+
 // ===== Thoughts =====
 // The text under the speaker always shows a thought about the last hovered topic
-// (or a generic one), rotating every 10 seconds in list order. Once a prompt has been sent, the
-// answer stays there until the page changes.
+// (or a generic one), rotating in list order THOUGHT_INTERVAL after each one is fully written.
+// Once a prompt has been sent, the answer stays there until the page changes.
 let topic = GENERIC_TOPIC;
 let answered = false;
 let thoughtTimer = null;
@@ -29,11 +67,10 @@ function pickThought(forTopic) {
     return list[(thoughtIndex[forTopic] ?? 0) % list.length];
 }
 
-function renderThought() {
+async function renderThought() {
     if (answered) return;
-    thought.textContent = pickThought(topic);
-    clearTimeout(thoughtTimer);
-    thoughtTimer = setTimeout(nextThought, THOUGHT_INTERVAL);
+    const done = await showMessage(pickThought(topic));
+    if (done && !answered) thoughtTimer = setTimeout(nextThought, THOUGHT_INTERVAL);
 }
 
 function nextThought() {
@@ -47,10 +84,11 @@ function setTopic(newTopic) {
     renderThought();
 }
 
-// re-render the current thought when the language changes
+// changing the language always goes back to the preset thoughts, even if a chat answer was shown
 const originalSetLang = window.setLang;
 window.setLang = (lang) => {
     originalSetLang(lang);
+    answered = false;
     renderThought();
 };
 
@@ -111,7 +149,6 @@ chatForm.addEventListener("submit", async (event) => {
     chatInput.disabled = true;
     updateSendButton();
     answered = true;
-    clearTimeout(thoughtTimer);
     setFace(NEUTRAL_FACE);
 
     // keep the last exchanges only (the backend accepts at most MAX_HISTORY messages)
@@ -120,7 +157,7 @@ chatForm.addEventListener("submit", async (event) => {
     chatInput.value = "";
     resizeInput();
     updateSendButton();
-    thought.innerHTML = '<span class="loading-dots"><span>.</span><span>.</span><span>.</span></span>';
+    showDots(); // stays visible while waiting for the backend
     try {
         const response = await fetch("/api/chat", {
             method: "POST",
@@ -134,7 +171,8 @@ chatForm.addEventListener("submit", async (event) => {
         const reply = String(data.reply ?? "").trim();
         if (!reply) throw new Error("Empty answer");
 
-        thought.textContent = reply;
+        answered = true; // set again: the language may have changed while waiting
+        showMessage(reply);
         history.push({ role: "assistant", content: reply });
         conversationId = data.conversation_id ?? conversationId;
     } catch (error) {
@@ -142,7 +180,8 @@ chatForm.addEventListener("submit", async (event) => {
         history.pop();
         chatInput.value = text; // give the question back so it can be retried
         resizeInput();
-        thought.textContent = t(error.message === "too_many" ? "home_chat_too_many" : "home_chat_error");
+        answered = true;
+        showMessage(t(error.message === "too_many" ? "home_chat_too_many" : "home_chat_error"));
     } finally {
         sending = false;
         chatInput.disabled = false;

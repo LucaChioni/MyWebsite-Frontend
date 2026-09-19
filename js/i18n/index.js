@@ -15,7 +15,7 @@ window.i18nRegister({
         home_thoughts_generic: [
             "Benvenuto nel mio sito web!",
             "Chiedimi pure qualcosa, tanto sono un’IA che finge di essere me.",
-            "Questa qua non è una mia foto reale.",
+            "Questo qua è solo un autoritratto, non è una mia foto reale.",
             "Sto pensando a cosa mangiare stasera.",
             "Puoi chiedermi qualcosa, ma non aspettarti risposte troppo profonde.",
         ],
