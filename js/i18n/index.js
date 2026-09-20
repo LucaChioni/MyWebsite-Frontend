@@ -1,4 +1,4 @@
-import "./core.js?v=20260919185555";
+import "./core.js?v=20260920103946";
 
 window.i18nRegister({
     it: {
@@ -14,7 +14,7 @@ window.i18nRegister({
         home_chat_too_many: "Troppe domande tutte insieme, dammi un minuto.",
         home_thoughts_generic: [
             "Benvenuto nel mio sito web!",
-            "So che è difficile da credere, ma questa qua non è una mia foto reale. È solo un autoritratto.",
+            "So che è difficile da credere, ma questa qua non è una mia foto reale.",
             "Puoi chiedermi qualcosa, ma non aspettarti risposte troppo profonde.",
             "Una volta ho lasciato il lavoro per fare un videogioco. È andata come ti aspetti.",
             "Chiedimi pure qualcosa, tanto sono un’IA che finge di essere me.",
@@ -54,7 +54,7 @@ window.i18nRegister({
         home_chat_too_many: "Too many questions at once, give me a minute.",
         home_thoughts_generic: [
             "Welcome to my website!",
-            "I know it's hard to believe, but this is not a real photo of me. It’s just a self-portrait.",
+            "I know it's hard to believe, but this is not a real photo of me.",
             "You can ask me something, but don’t expect too deep answers.",
             "Once I quit my job to make a video game. It went as you expect.",
             "Ask me something, I’m an AI pretending to be me anyway.",
