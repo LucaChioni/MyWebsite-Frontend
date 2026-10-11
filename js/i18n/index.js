@@ -20,7 +20,7 @@ window.i18nRegister({
             "Chiedimi pure qualcosa, tanto sono un’IA che finge di essere me.",
             "Se riesci a leggere quetsa farse sezna probelmi sei diselssico anche tu.",
             "Ho degli amici. Credo. Non ho controllato di recente.",
-            "Off to Sleep è su Steam. L'ho fatto tutto da solo: codice, musica, grafica. Lo so, si vede.",
+            "Off to Sleep è su Steam. L'ho fatto tutto da solo: codice, musica, grafica... Lo so, si vede...",
         ],
         home_thoughts_interests: [
             "Qua ci sono le cose più incredibili dell'universo!",
@@ -60,7 +60,7 @@ window.i18nRegister({
             "Ask me something, I’m an AI pretending to be me anyway.",
             "If you can raed this sentnece without probelms, you are dyxsleic too.",
             "I have some friends. I think. I haven’t checked recently.",
-            "Off to Sleep is on Steam. I made it all by myself: code, music, graphics. I know, it shows.",
+            "Off to Sleep is on Steam. I made it all by myself: code, music, graphics... I know, it shows...",
         ],
         home_thoughts_interests: [
             "Here are the most incredible things in the universe!",
