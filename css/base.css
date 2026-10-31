@@ -31,7 +31,7 @@
     --base-secret-input-border-radius: 2px;
     --base-secret-input-padding-top-bottom: 2px;
     --base-secret-input-padding-left-right: 8px;
-    --base-work-logo-size: 20px;
+    --base-work-logo-size: 35px;
     --base-game-dev-impo-image-size: 50px;
     --base-interests-images-height: 430px;
     --base-interests-images-width: 650px;
@@ -128,7 +128,7 @@
         --font-size-tooltip: 13px;
         --tooltip-margin-top: 6px;
         --lang-switcher-margin-top: 5px;
-        --work-logo-size: 16px;
+        --work-logo-size: 25px;
 
         --interests-images-height: 150px;
         --interests-images-width: 100%;
